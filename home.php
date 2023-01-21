@@ -5,127 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi">
 	<meta charset="UTF-8">
 	<title>LayerSlider The most advanced Animation Builder for WordPress with Smart Slider Solutions</title>
-	<link rel="preload" as="style" href="css?family=Roboto%3A300%2C400%2C500%2C700%7CLato%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CMontserrat%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CPermanent%20Marker%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CFlow%20Block%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i&#038;display=swap">
-	<link rel="stylesheet" href="css?family=Roboto%3A300%2C400%2C500%2C700%7CLato%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CMontserrat%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CPermanent%20Marker%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CFlow%20Block%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i&#038;display=swap" media="print" onload="this.media='all'">
-	<link rel="stylesheet" href="css?family=Roboto%3A300%2C400%2C500%2C700%7CLato%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CMontserrat%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CPermanent%20Marker%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CFlow%20Block%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRoboto%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i&#038;display=swap">
-	<link rel="preload" as="style" href="css2?family=Montserrat:wght@200;300;400;500;600&#038;family=Leckerli+One&#038;family=Permanent+Marker&#038;family=Poppins:wght@300;400;500;600;700;800;900&#038;display=swap">
-	<link rel="stylesheet" href="css2?family=Montserrat:wght@200;300;400;500;600&#038;family=Leckerli+One&#038;family=Permanent+Marker&#038;family=Poppins:wght@300;400;500;600;700;800;900&#038;display=swap" media="print" onload="this.media='all'">
-	<link rel="stylesheet" href="css2?family=Montserrat:wght@200;300;400;500;600&#038;family=Leckerli+One&#038;family=Permanent+Marker&#038;family=Poppins:wght@300;400;500;600;700;800;900&#038;display=swap">
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-	<link rel="manifest" href="site.webmanifest">
-	<meta property="fb:app_id" content="211785875510930">
-	<meta property="og:image" content="https://layerslider.com/media/layerslider-7.png">
-	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "Organization",
-			"name": "Kreatura",
-			"url": "https://layerslider.com",
-			// TODO: 112px x 112px image
-			"logo": "https://layerslider.com/android-chrome-512x512.png",
-			"sameAs": [
-				"https://facebook.com/kreaturamedia/",
-				"https://twitter.com/kreaturamedia",
-				"https://www.youtube.com/channel/UCduItJ7Cr84lrts7I8Usygw",
-				"https://codecanyon.net/user/kreatura"
-			]
-		}
-	</script>
-	<script type="application/ld+json">
-		{
-			"@context": "http://schema.org",
-			"@type": "Product",
-			"category": "Sliders",
-			"url": "http://layerslider.com",
-			"description": "LayerSlider is a premium multi-purpose animation platform. Slideshows & image galleries with mind-blowing effects, gorgeously animated landing pages & page blocks, or even a full website can be created using LayerSlider. Every website can benefit from the capabilities of this plugin. The drag and drop visual editor makes it really easy for everyone to get started using LayerSlider. No coding or technical skills required. The ever growing selection of importable templates are an ideal starting point for new projects and they cover every common use case from personal to corporate business. They are carefully crafted, aesthetically pleasing and can be easily customize to fit for any needs. Great support and frequent updates ensure to m",
-			"name": "LayerSlider Responsive Slider Plugin",
-			"image": [
-				"https://layerslider.com/media/LayerSlider_1x1.jpg",
-				"https://layerslider.com/media/LayerSlider_4x3.jpg",
-				"https://layerslider.com/media/LayerSlider_16x9.jpg"
-			],
-			"offers": {
-				"@type": "AggregateOffer",
-				"availability": "http://schema.org/InStock",
-				"lowPrice": "25.00",
-				"priceCurrency": "USD",
-				"url": "https://layerslider.com"
-			},
-			"aggregateRating": {
-				"@type": "AggregateRating",
-				"ratingValue": "4.75",
-				"reviewCount": "3112"
-			}
-		}
-	</script>
-	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
-
-	<meta name="description" content="Easily create breathtaking animations, sliders, or even websites with LayerSlider’s visual editor. Join millions of users and discover our template library and smart slider solutions.">
-	<link rel="canonical" href="index.htm">
-	<meta property="og:locale" content="en_US">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="LayerSlider The most advanced Animation Builder for WordPress with Smart Slider Solutions">
-	<meta property="og:description" content="Easily create breathtaking animations, sliders, or even websites with LayerSlider’s visual editor. Join millions of users and discover our template library and smart slider solutions.">
-	<meta property="og:url" content="https://layerslider.com/">
-	<meta property="og:site_name" content="LayerSlider">
-	<meta property="article:modified_time" content="2022-11-17T20:52:23+00:00">
-	<meta name="twitter:card" content="summary_large_image">
-	<script type="application/ld+json" class="yoast-schema-graph">
-		{
-			"@context": "https://schema.org",
-			"@graph": [{
-				"@type": "WebPage",
-				"@id": "https://layerslider.com/",
-				"url": "https://layerslider.com/",
-				"name": "LayerSlider – The most advanced Animation Builder for WordPress with Smart Slider Solutions",
-				"isPartOf": {
-					"@id": "https://layerslider.com/#website"
-				},
-				"datePublished": "2016-10-21T14:02:01+00:00",
-				"dateModified": "2022-11-17T20:52:23+00:00",
-				"description": "Easily create breathtaking animations, sliders, or even websites with LayerSlider’s visual editor. Join millions of users and discover our template library and smart slider solutions.",
-				"breadcrumb": {
-					"@id": "https://layerslider.com/#breadcrumb"
-				},
-				"inLanguage": "en-US",
-				"potentialAction": [{
-					"@type": "ReadAction",
-					"target": ["https://layerslider.com/"]
-				}]
-			}, {
-				"@type": "BreadcrumbList",
-				"@id": "https://layerslider.com/#breadcrumb",
-				"itemListElement": [{
-					"@type": "ListItem",
-					"position": 1,
-					"name": "Home"
-				}]
-			}, {
-				"@type": "WebSite",
-				"@id": "https://layerslider.com/#website",
-				"url": "https://layerslider.com/",
-				"name": "LayerSlider",
-				"description": "Responsive WordPress Slider Plugin by Kreatura Media",
-				"potentialAction": [{
-					"@type": "SearchAction",
-					"target": {
-						"@type": "EntryPoint",
-						"urlTemplate": "https://layerslider.com/?s={search_term_string}"
-					},
-					"query-input": "required name=search_term_string"
-				}],
-				"inLanguage": "en-US"
-			}]
-		}
-	</script>
-
-	<link rel='dns-prefetch' href='//fonts.googleapis.com'>
-	<link href='https://fonts.gstatic.com' crossorigin="" rel='preconnect'>
 	<link rel='stylesheet' id='layerslider-css' href='wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.6.7' type='text/css' media='all'>
 	<link rel='stylesheet' id='ls-user-css' href='wp-content/uploads/layerslider.custom.css?ver=7.6.7' type='text/css' media='all'>
 	<link rel='stylesheet' id='classic-theme-styles-css' href='wp-includes/css/classic-themes.min.css?ver=1' type='text/css' media='all'>
@@ -463,22 +343,12 @@
 		}
 	</style>
 	<link rel='stylesheet' id='theme-css-css' href='wp-content/themes/layerslider/css/page.css?ver=121' type='text/css' media='all'>
+	<link rel='stylesheet' id='theme-css-css' href='wp-content/themes/layerslider/css/font.css?ver=121' type='text/css' media='all'>
 	<link rel='stylesheet' id='fontawesome-css' href='wp-content/themes/layerslider/css/fontawesome.all.min.css?ver=121' type='text/css' media='all'>
 	<link rel='stylesheet' id='kmw-css' href='wp-content/themes/layerslider/css/kmw.css?ver=121' type='text/css' media='all'>
 	<script type='text/javascript' src='wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
 	<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
 	<meta name="generator" content="Powered by LayerSlider 7.6.7 - Build Heros, Sliders, and Popups. Create Animations and Beautiful, Rich Web Content as Easy as Never Before on WordPress.">
-
-	<link rel="https://api.w.org/" href="wp-json/index.htm">
-	<link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/5">
-	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://layerslider.com/xmlrpc.php?rsd">
-	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml">
-	<meta name="generator" content="WordPress 6.1.1">
-	<link rel='shortlink' href='index.htm'>
-	<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed?url=https%3A%2F%2Flayerslider.com%2F">
-	<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed-1?url=https%3A%2F%2Flayerslider.com%2F&#038;format=xml">
-
-	<script async="" src="gtag/js?id=G-1GY5RDH7HK"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 
@@ -804,7 +674,7 @@
 							for creating beautifully designed<br>
 							and animated web content.</ls-layer><ls-layer style="font-size:80px;font-style:normal;text-decoration:none;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:normal;overflow:visible;font-family:Montserrat;top:603px;left:44px;font-weight:600;text-transform:uppercase;color:#ffd4fc;-webkit-background-clip:border-box;" class="ls-l ls-hide-phone ls-html-layer" data-ls="offsetyin:150;durationin:2000;easingin:easeOutQuint;skipViewport:opening;pinned:true;">LayerSlider</ls-layer><ls-layer style="font-size:130px;text-align:left;font-style:normal;text-decoration:none;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:normal;overflow:visible;font-family:Montserrat;top:58%;left:49.97%;font-weight:500;text-transform:uppercase;color:#ffd4fc;-webkit-background-clip:border-box;" class="ls-l ls-hide-desktop ls-hide-tablet ls-html-layer" data-ls="offsetyin:150;durationin:2000;easingin:easeOutQuint;skipViewport:opening;pinned:true;">LayerSlider</ls-layer><ls-layer style="font-size:40px;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:normal;overflow:visible;top:742px;left:910px;cursor:pointer;color:#8022b2;-webkit-background-clip:border-box;" class="ls-l ls-hide-phone ls-icon-layer" data-ls="offsetyin:-100lh;durationin:1500;delayin:1500;easingin:linear;loop:true;loopoffsety:16;loopduration:1500;loopstartat:transitioninstart + 0;loopeasing:easeInQuint;loopcount:-1;loopyoyo:true;hover:true;hoverdurationin:200;hovereasingin:easeOutQuint;hoverscalex:1.1;hoverscaley:1.1;scroll:true;scrollduration:100;scrollscalex:-20;scrollscalexmin:0;scrollscaley:-20;scrollscaleymin:0;skipViewport:opening;pinned:true;" data-ls-actions='[{"action":"scrollBelowProject","trigger":"click","delay":0,"duration":1000,"easing":"easeInOutQuart","offset":0}]'><svg data-name="arrow-down" viewbox="0 0 384 512">
 								<path xmlns="http://www.w3.org/2000/svg" d="m374.6 310.6-160 160c-6.2 6.3-14.4 9.4-22.6 9.4s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l105.37 105.425v-306.8c0-17.69 14.33-31.1 31.1-31.1s32.9 13.41 32.9 31.1v306.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.45 32.7-.05 45.2z"></path>
-							</svg></ls-layer><a style="" class="ls-l ls-hide-phone" href="pricing/index.htm" target="_self" data-ls="offsetyin:bottom;durationin:2000;delayin:100;easingin:easeOutQuint;hover:true;hoverdurationin:300;hovereasingin:easeOutQuint;hoverbgcolor:#7700ff;position:fixedy;minresponsiveratio:1;"><ls-layer style="font-size:18px;text-align:center;text-transform:uppercase;font-weight:600;mix-blend-mode:normal;padding-top:1em;padding-bottom:1em;padding-right:1.85em;padding-left:1.85em;font-family:Montserrat;border-radius:10em;cursor:pointer;left:50%;top:90%;background-color:#ff006a;color:#ffffff;" class="ls-button-layer">Let&rsquo;s Make Your Dream Website a Reality</ls-layer></a></div>
+							</svg></ls-layer><a class="ls-l ls-hide-phone" href="pricing/index.htm" target="_self" data-ls="offsetyin:bottom;durationin:2000;delayin:100;easingin:easeOutQuint;hover:true;hoverdurationin:300;hovereasingin:easeOutQuint;hoverbgcolor:#7700ff;position:fixedy;minresponsiveratio:1;"><ls-layer style="font-size:18px;text-align:center;text-transform:uppercase;font-weight:600;mix-blend-mode:normal;padding-top:1em;padding-bottom:1em;padding-right:1.85em;padding-left:1.85em;font-family:Montserrat;border-radius:10em;cursor:pointer;left:50%;top:90%;background-color:#ff006a;color:#ffffff;" class="ls-button-layer">Let&rsquo;s Make Your Dream Website a Reality</ls-layer></a></div>
 				</div>
 			</ls-block>
 
@@ -833,11 +703,9 @@
 				<ls-slider-wrapper>
 					<div id="layerslider_512_a71q6ni5r2qn" class="ls-wp-container fitvidsignore" style="width:1650px;height:1032px;max-width:100%;margin:0 auto;">
 						<div class="ls-slide" data-ls="overflow:true;kenburnsscale:1.2;"><ls-layer style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;top:0px;left:0px;width:100%;height:100%;background-color:#5d647d;border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" class="ls-l ls-html-layer" data-ls="durationin:0;easingin:linear;fadein:false;skipViewport:opening;"></ls-layer><img width="2074" height="1296" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty.jpg 2074w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty-300x187.jpg 300w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty-1024x640.jpg 1024w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty-768x480.jpg 768w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty-1536x960.jpg 1536w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty-2048x1280.jpg 2048w" sizes="(max-width: 2074px) 100vw, 2074px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:0px;top:0px;width:1649px;height:1032px;border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="durationin:0;easingin:linear;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopopacity:0.5;loopcount:1;skipViewport:opening;">
-							<div style="background: rgb(61,217,203);
-background: linear-gradient(132deg, rgba(61,217,203,1) 20%, rgba(112,211,245,1) 80%);top:141px;left:451px;background-size:inherit;background-position:inherit;font-size:18px;width:749px;height:749px;box-shadow:0px 20px 20px 0px rgba(0, 0, 0, 0.2);border-radius:8px 8px 8px 8px;" class="ls-l ls-html-layer" data-ls="easingin:easeOutCubic;easingout:easeInQuint;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.1;loopscaley:1.1;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:0.5;position:fixed;"></div>
-							<div style='box-shadow: 0 20px 40px rgba(0,0,0,.35);top:96px;left:855px;background-size:cover;width:301px;font-size:25px;border-radius:8px 8px 8px 8px;background-color:#e5ebeb;height:674px;background-position:50% 50%;background-repeat:repeat;box-shadow:0px 30px 20px 0px rgba(0, 0, 0, 0.3);background-image:url("wp-content/uploads/layerslider/People/photo-of-woman-in-blue-denim-jacket-wearing-black-sunglasses-3766391.jpg");' class="ls-l ls-html-layer" data-ls="easingin:easeOutCubic;offsetyout:top;easingout:easeOutQuad;fadeout:false;scalexout:1.2;scaleyout:1.2;transformoriginout:50% 50%;loop:true;loopoffsetx:30;loopoffsety:-50;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:1;position:relative;"></div>
-							<div style='box-shadow: 0 50px 100px rgba(0,0,0,.5);
-;top:261px;left:496px;background-size:cover;background-position:50% 50%;font-size:25px;border-radius:8px 8px 8px 8px;background-color:#e5ebeb;width:301px;height:674px;background-repeat:repeat;box-shadow:0px 30px 20px 0px rgba(0, 0, 0, 0.3);background-image:url("wp-content/uploads/layerslider/People/charles-etoroma-95UF6LXe-Lo-unsplash-scaled.jpg");' class="ls-l ls-html-layer" data-ls="easingin:easeOutCubic;offsetyout:bottom;easingout:easeOutQuad;fadeout:false;scalexout:1.2;scaleyout:1.2;transformoriginout:50% 50%;loop:true;loopoffsetx:-50;loopoffsety:30;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:2;position:relative;"></div><img width="360" height="584" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-layers-list.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-layers-list.jpg 360w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-layers-list-185x300.jpg 185w" sizes="(max-width: 360px) 100vw, 360px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:0px;top:54px;width:287px;height:466px;box-shadow:0px 30px 20px 0px rgba(0, 0, 0, 0.3);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="easingin:easeOutCubic;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:0.5;"><img width="360" height="221" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-layer-settings.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-layer-settings.jpg 360w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-layer-settings-300x184.jpg 300w" sizes="(max-width: 360px) 100vw, 360px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1363px;top:54px;width:287px;height:175px;box-shadow:0px 30px 20px 0px rgba(0, 0, 0, 0.3);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="easingin:easeOutCubic;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.1;loopscaley:1.1;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:0.5;"><img width="360" height="664" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-transformation.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-transformation.jpg 360w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-transformation-163x300.jpg 163w" sizes="(max-width: 360px) 100vw, 360px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1363px;top:229px;width:287px;height:528px;box-shadow:0px 40px 20px 0px rgba(0, 0, 0, 0.25);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="easingin:easeOutCubic;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:2;"><img width="360" height="68" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-slide-layers.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-slide-layers.jpg 360w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-slide-layers-300x57.jpg 300w" sizes="(max-width: 360px) 100vw, 360px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1363px;top:0px;width:287px;height:54px;box-shadow:0px 40px 20px 0px rgba(0, 0, 0, 0.25);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="easingin:easeOutCubic;loop:true;loopoffsety:-20;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:1;"><img width="421" height="580" data-src="https://layerslider.com/wp-content/uploads/2022/12/project-editor-smart-help-new.png" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/12/project-editor-smart-help-new.png 421w, https://layerslider.com/wp-content/uploads/2022/12/project-editor-smart-help-new-218x300.png 218w" sizes="(max-width: 421px) 100vw, 421px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1029px;top:313px;width:335px;height:463px;box-shadow:0px 40px 20px 0px rgba(0, 0, 0, 0.25);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="durationin:0;easingin:easeOutCubic;loop:true;loopoffsetx:-30;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.3;loopscaley:1.3;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:3;"><ls-layer style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1045px;top:362px;border-radius:8px 8px 8px 8px;filter:brightness(104%);height:83px;width:287px;-webkit-background-clip:border-box;" class="ls-l ls-media-layer" data-ls="autoplay:enabled;showinfo:disabled;controls:disabled;volume:0;muted:enabled;loopmedia:enabled;durationin:0;easingin:linear;loop:true;loopoffsetx:-30;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.3;loopscaley:1.3;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:3;"><video width="640" height="360" preload="metadata" controls="">
+							<div style="background: rgb(61,217,203); background: linear-gradient(132deg, rgba(61,217,203,1) 20%, rgba(112,211,245,1) 80%);top:141px;left:451px;background-size:inherit;background-position:inherit;font-size:18px;width:749px;height:749px;box-shadow:0px 20px 20px 0px rgba(0, 0, 0, 0.2);border-radius:8px 8px 8px 8px;" class="ls-l ls-html-layer" data-ls="easingin:easeOutCubic;easingout:easeInQuint;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.1;loopscaley:1.1;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:0.5;position:fixed;"></div>
+							<div style='box-shadow: 0 20px 40px rgba(0,0,0,.35); top:96px;left:855px;background-size:cover;width:301px;font-size:25px;border-radius:8px 8px 8px 8px;background-color:#e5ebeb;height:674px;background-position:50% 50%;background-repeat:repeat;box-shadow:0px 30px 20px 0px rgba(0, 0, 0, 0.3);background-image:url("wp-content/uploads/layerslider/People/photo-of-woman-in-blue-denim-jacket-wearing-black-sunglasses-3766391.jpg");' class="ls-l ls-html-layer" data-ls="easingin:easeOutCubic;offsetyout:top;easingout:easeOutQuad;fadeout:false;scalexout:1.2;scaleyout:1.2;transformoriginout:50% 50%;loop:true;loopoffsetx:30;loopoffsety:-50;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:1;position:relative;"></div>
+							<div style='box-shadow: 0 50px 100px rgba(0,0,0,.5); top:261px;left:496px;background-size:cover;background-position:50% 50%;font-size:25px;border-radius:8px 8px 8px 8px;background-color:#e5ebeb;width:301px;height:674px;background-repeat:repeat;box-shadow:0px 30px 20px 0px rgba(0, 0, 0, 0.3);background-image:url("wp-content/uploads/layerslider/People/charles-etoroma-95UF6LXe-Lo-unsplash-scaled.jpg");' class="ls-l ls-html-layer" data-ls="easingin:easeOutCubic;offsetyout:bottom;easingout:easeOutQuad;fadeout:false;scalexout:1.2;scaleyout:1.2;transformoriginout:50% 50%;loop:true;loopoffsetx:-50;loopoffsety:30;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:2;position:relative;"></div><img width="360" height="584" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-layers-list.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-layers-list.jpg 360w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-layers-list-185x300.jpg 185w" sizes="(max-width: 360px) 100vw, 360px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:0px;top:54px;width:287px;height:466px;box-shadow:0px 30px 20px 0px rgba(0, 0, 0, 0.3);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="easingin:easeOutCubic;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:0.5;"><img width="360" height="221" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-layer-settings.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-layer-settings.jpg 360w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-layer-settings-300x184.jpg 300w" sizes="(max-width: 360px) 100vw, 360px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1363px;top:54px;width:287px;height:175px;box-shadow:0px 30px 20px 0px rgba(0, 0, 0, 0.3);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="easingin:easeOutCubic;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.1;loopscaley:1.1;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:0.5;"><img width="360" height="664" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-transformation.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-transformation.jpg 360w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-transformation-163x300.jpg 163w" sizes="(max-width: 360px) 100vw, 360px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1363px;top:229px;width:287px;height:528px;box-shadow:0px 40px 20px 0px rgba(0, 0, 0, 0.25);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="easingin:easeOutCubic;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:2;"><img width="360" height="68" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-slide-layers.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-slide-layers.jpg 360w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-slide-layers-300x57.jpg 300w" sizes="(max-width: 360px) 100vw, 360px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1363px;top:0px;width:287px;height:54px;box-shadow:0px 40px 20px 0px rgba(0, 0, 0, 0.25);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="easingin:easeOutCubic;loop:true;loopoffsety:-20;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:1;"><img width="421" height="580" data-src="https://layerslider.com/wp-content/uploads/2022/12/project-editor-smart-help-new.png" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/12/project-editor-smart-help-new.png 421w, https://layerslider.com/wp-content/uploads/2022/12/project-editor-smart-help-new-218x300.png 218w" sizes="(max-width: 421px) 100vw, 421px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1029px;top:313px;width:335px;height:463px;box-shadow:0px 40px 20px 0px rgba(0, 0, 0, 0.25);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="durationin:0;easingin:easeOutCubic;loop:true;loopoffsetx:-30;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.3;loopscaley:1.3;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:3;"><ls-layer style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1045px;top:362px;border-radius:8px 8px 8px 8px;filter:brightness(104%);height:83px;width:287px;-webkit-background-clip:border-box;" class="ls-l ls-media-layer" data-ls="autoplay:enabled;showinfo:disabled;controls:disabled;volume:0;muted:enabled;loopmedia:enabled;durationin:0;easingin:linear;loop:true;loopoffsetx:-30;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.3;loopscaley:1.3;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:3;"><video width="640" height="360" preload="metadata" controls="">
 									<source src="wp-content/uploads/2022/12/layerslider-smart-help-rotation.mp4" type="video/mp4">
 								</video></ls-layer>
 						</div>
@@ -851,28 +719,28 @@ background: linear-gradient(132deg, rgba(61,217,203,1) 20%, rgba(112,211,245,1) 
 				<h3 class="text-center mt-0">Featured On</h3>
 				<ls-block id="ls-press-logos">
 					<a class="size-large" target="_blank" href="https://medium.com/@web_design_articles/best-top-10-black-friday-deals-for-web-designers-in-2019-e524002e07c1">
-						<img src="media/press/medium.png?v=2" alt="medium.com">
+						<img src="wp-content/uploads/media/press/medium.png?v=2" alt="medium.com">
 					</a>
 					<a class="size-small" target="_blank" href="https://envato.com/">
-						<img src="media/press/envato.png" alt="envato.com">
+						<img src="wp-content/uploads/media/press/envato.png" alt="envato.com">
 					</a>
 					<a class="size-medium" target="_blank" href="https://www.sitepoint.com/15-easy-to-use-tools-services-to-improve-your-workflow/">
-						<img src="media/press/sitepoint.png" alt="sitepoint.com">
+						<img src="wp-content/uploads/media/press/sitepoint.png" alt="sitepoint.com">
 					</a>
 					<a class="size-medium" target="_blank" href="https://www.templatemonster.com/blog/useful-web-development-design-resources/">
-						<img src="media/press/templatemonster.png" alt="templatemonster.com">
+						<img src="wp-content/uploads/media/press/templatemonster.png" alt="templatemonster.com">
 					</a>
 					<a class="size-small" target="_blank" href="https://www.creativebloq.com/features/27-time-saving-web-design-resources">
-						<img src="media/press/creativebloq.png" alt="creativebloq.com">
+						<img src="wp-content/uploads/media/press/creativebloq.png" alt="creativebloq.com">
 					</a>
 					<a class="size-tiny" target="_blank" href="https://www.hongkiat.com/blog/15-tools-services-you-need-and-their-services/">
-						<img src="media/press/hongkiat.png" alt="hongkiat.com">
+						<img src="wp-content/uploads/media/press/hongkiat.png" alt="hongkiat.com">
 					</a>
 					<a class="size-small" target="_blank" href="https://designmodo.com/wordpress-plugins-improve-websites/">
-						<img src="media/press/designmodo.png" alt="designmodo.com">
+						<img src="wp-content/uploads/media/press/designmodo.png" alt="designmodo.com">
 					</a>
 					<a class="size-medium" target="_blank" href="https://speckyboy.com/great-tools-resources-designers/">
-						<img src="media/press/speckyboy.png" alt="speckyboy.com">
+						<img src="wp-content/uploads/media/press/speckyboy.png" alt="speckyboy.com">
 					</a>
 				</ls-block>
 				<ls-block>
@@ -1557,10 +1425,10 @@ background: linear-gradient(132deg, rgba(61,217,203,1) 20%, rgba(112,211,245,1) 
 				<div style="top:50%;left:50%;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;mix-blend-mode:normal;width:440px;height:440px;border-top:15px solid #f02222;border-bottom:15px solid #f02222;border-radius:40px;border-right:15px solid transparent;border-left:15px solid transparent;" class="ls-l ls-html-layer" data-ls="showinfo:disabled;controls:disabled;delayin:300;easingin:easeInOutCubic;rotatein:-45;scalexin:1.4;scaleyin:1.4;rotation:-45;position:relative;"></div>
 				<div style="top:50%;left:80px;text-align:initial;font-weight:900;font-style:normal;text-decoration:none;mix-blend-mode:normal;width:560px;height:540px;border-radius:100%;background-color:#000000;" class="ls-l ls-html-layer" data-ls="showinfo:disabled;controls:disabled;durationin:0;easingin:easeInOutQuad;fadein:false;loop:true;loopduration:11000;loopstartat:transitioninstart + 0;loopeasing:easeInOutSine;looprotate:360;loopcount:-1;position:relative;"></div>
 				<div style="background: linear-gradient(135deg, rgba(48,52,63,1) 0%,rgba(21,22,28,1) 100%);top:50%;left:50%;text-align:initial;font-weight:900;font-style:normal;text-decoration:none;mix-blend-mode:normal;width:540px;height:540px;border-radius:50%;" class="ls-l ls-html-layer" data-ls="showinfo:disabled;controls:disabled;durationin:0;easingin:easeInOutQuad;fadein:false;loop:true;loopduration:4000;loopstartat:transitioninend + 800;loopeasing:easeInOutSine;loopscalex:1.05;loopscaley:1.05;loopcount:-1;loopyoyo:true;position:relative;"></div>
-				<div style="top:50%;left:50%;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;mix-blend-mode:normal;width:440px;height:440px;border-right:15px solid #f02222;border-left:15px solid #f02222;border-radius:40px;border-top:15px solid transparent;border-bottom:15px solid transparent;" class="ls-l ls-html-layer" data-ls="showinfo:disabled;controls:disabled;delayin:300;easingin:easeInOutCubic;rotatein:-45;scalexin:1.4;scaleyin:1.4;rotation:-45;position:relative;"></div><a style="" class="ls-l" href="popups/index.htm" target="_blank" data-ls="durationin:500;delayin:1200;easingin:easeInOutQuad;hover:true;hoverdurationin:250;hovereasingin:easeOutQuint;hoverbgcolor:#f02222;position:relative;"><span style="border: 2px solid #f02222;top:448px;left:50%;text-align:center;font-weight:500;font-style:normal;text-decoration:none;mix-blend-mode:normal;font-family:Roboto;font-size:20px;color:rgba(255, 255, 255, 0.95);letter-spacing:3.5px;line-height:30px;padding-right:10px;padding-left:10px;padding-top:5px;padding-bottom:5px;border-radius:10px;" class="ls-button-layer">BUILT-IN FEATURE<br>IN LAYERSLIDER</span></a>
+				<div style="top:50%;left:50%;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;mix-blend-mode:normal;width:440px;height:440px;border-right:15px solid #f02222;border-left:15px solid #f02222;border-radius:40px;border-top:15px solid transparent;border-bottom:15px solid transparent;" class="ls-l ls-html-layer" data-ls="showinfo:disabled;controls:disabled;delayin:300;easingin:easeInOutCubic;rotatein:-45;scalexin:1.4;scaleyin:1.4;rotation:-45;position:relative;"></div><a class="ls-l" href="popups/index.htm" target="_blank" data-ls="durationin:500;delayin:1200;easingin:easeInOutQuad;hover:true;hoverdurationin:250;hovereasingin:easeOutQuint;hoverbgcolor:#f02222;position:relative;"><span style="border: 2px solid #f02222;top:448px;left:50%;text-align:center;font-weight:500;font-style:normal;text-decoration:none;mix-blend-mode:normal;font-family:Roboto;font-size:20px;color:rgba(255, 255, 255, 0.95);letter-spacing:3.5px;line-height:30px;padding-right:10px;padding-left:10px;padding-top:5px;padding-bottom:5px;border-radius:10px;" class="ls-button-layer">BUILT-IN FEATURE<br>IN LAYERSLIDER</span></a>
 				<p style="top:362px;left:50%;text-align:center;font-weight:300;font-style:normal;text-decoration:none;mix-blend-mode:normal;font-family:Roboto;font-size:28px;color:rgba(255, 255, 255, 0.79);letter-spacing:3.5px;" class="ls-l ls-text-layer" data-ls="durationin:500;delayin:1000;easingin:easeInOutQuad;position:relative;">CREATE POPUPS<br>LIKE NEVER BEFORE!</p>
 				<p style="top:190px;left:50%;text-align:center;font-weight:300;font-style:normal;text-decoration:none;mix-blend-mode:normal;font-family:Roboto;font-size:80px;color:#ffffff;line-height:80px;width:300px;letter-spacing:4.5px;white-space:normal;" class="ls-l ls-text-layer" data-ls="durationin:500;delayin:800;easingin:easeInOutQuad;position:relative;">I AM A<br>POPUP</p>
-				<p style="top:155px;left:50%;text-align:center;font-weight:300;font-style:normal;text-decoration:none;mix-blend-mode:normal;font-family:Roboto;font-size:24px;color:rgba(255, 255, 255, 0.79);letter-spacing:3.5px;" class="ls-l ls-text-layer" data-ls="durationin:500;delayin:600;easingin:easeInOutQuad;position:relative;">HELLO!</p><a style="" class="ls-l" href="#closePopup" target="_self" data-ls="delayin:1000;easingin:easeOutQuint;rotatein:720;hover:true;hovereasingin:easeOutQuint;hoverrotate:90;hoverscalex:1.1;hoverscaley:1.1;position:relative;">
+				<p style="top:155px;left:50%;text-align:center;font-weight:300;font-style:normal;text-decoration:none;mix-blend-mode:normal;font-family:Roboto;font-size:24px;color:rgba(255, 255, 255, 0.79);letter-spacing:3.5px;" class="ls-l ls-text-layer" data-ls="durationin:500;delayin:600;easingin:easeInOutQuad;position:relative;">HELLO!</p><a class="ls-l" href="#closePopup" target="_self" data-ls="delayin:1000;easingin:easeOutQuint;rotatein:720;hover:true;hovereasingin:easeOutQuint;hoverrotate:90;hoverscalex:1.1;hoverscaley:1.1;position:relative;">
 					<div style="top:50px;left:610px;background-size:inherit;background-position:inherit;width:40px;height:40px;color:#f02222;" class="ls-html-layer"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve" fill="currentColor">
 							<g>
 								<path d="M500,10C229.4,10,10,229.4,10,500c0,270.6,219.4,490,490,490c270.6,0,490-219.4,490-490C990,229.4,770.6,10,500,10z M748.8,689.2l-59.7,59.7c-10.9,10.9-28.9,10.9-39.8,0L500,599.6L350.7,748.8c-10.9,10.9-28.8,10.9-39.7-0.1l-59.9-59.6c-10.8-11.1-10.8-28.9,0-39.9l149.3-149.2L251.2,350.8c-10.9-11-10.9-28.8,0-39.7l59.8-59.8c10.9-11,28.8-11,39.7,0L500,400.5l149.2-149.3c10.9-11,28.9-11,39.7,0l59.8,59.7c10.9,11,10.9,28.9,0.1,39.8L599.6,500.1l149.3,149.2C759.7,660.3,759.7,678.1,748.8,689.2z"></path>
@@ -1982,7 +1850,7 @@ background: linear-gradient(132deg, rgba(61,217,203,1) 20%, rgba(112,211,245,1) 
 	<script type='text/javascript' src='wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.6.7' id='layerslider-transitions-js'></script>
 	<script type='text/javascript' src='wp-content/uploads/layerslider.custom.transitions.js?ver=7.6.7' id='ls-user-transitions-js'></script>
 	<script type='text/javascript' src='wp-content/plugins/LayerSlider/assets/static/layerslider/plugins/popup/layerslider.popup.js?ver=7.6.7' id='layerslider-popup-js'></script>
-	<script defer="" src="beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"78d13a271f06d671","token":"fe2fafe9262c4ea3865f8e731d864aab","version":"2022.11.3","si":100}' crossorigin="anonymous"></script>
+	<!-- <script defer="" src="beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"78d13a271f06d671","token":"fe2fafe9262c4ea3865f8e731d864aab","version":"2022.11.3","si":100}' crossorigin="anonymous"></script> -->
 </body>
 
 </html>
