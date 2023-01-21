@@ -1,5 +1,4 @@
 <?php
-require 'vendor/autoload.php';
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
  * wp-blog-header.php which does and tells WordPress to load the theme.
@@ -13,8 +12,6 @@ require 'vendor/autoload.php';
  * @var bool
  */
 define( 'WP_USE_THEMES', true );
-
-dump($_SERVER);
 
 /** Loads the WordPress Environment and Template */
 require __DIR__ . '/wp-blog-header.php';
