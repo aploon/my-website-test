@@ -353,9 +353,10 @@
 			bottom: 15px;
 			right: 15px;
 			background-color: #260236;
-			transition: color .2s ease;
+			transition: opacity .5s ease;
 			border-radius: 0.475rem;
 			text-align: center;
+			opacity: 0;
 		}
 
 		html {
@@ -1441,13 +1442,66 @@
 	</footer>
 
 	<!--begin::Scrolltop-->
-	<a class="scrolltop" href="#home">
+	<div class="scrolltop">
 		<svg style="margin-top: 7px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" stroke="#fff" stroke-width="1.5" class="bi bi-chevron-up" viewBox="0 0 16 16">
 			<path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" fill="white"></path>
 		</svg>
-	</a>
+	</div>
 	<!--end::Scrolltop-->
 
+	<script>
+		// For the sticky nav
+
+		// const navLinks = [...document.querySelectorAll("nav a")]
+		// const sections = [...document.querySelectorAll("section")]
+
+		// let sectionsPosition;
+
+		// function positionCalculation(){
+		// sectionsPosition = sections.map(section => section.offsetTop)
+		// }
+		// positionCalculation()
+		// console.log(sectionsPosition);
+
+		// navLinks.forEach(link => link.addEventListener("click", addScrollSmooth))
+
+		// function addScrollSmooth(e){
+		// 	const linkIndex = navLinks.indexOf(e.target);
+		// 	window.scrollTo({
+		// 		top: sectionsPosition[linkIndex],
+		// 		behavior: "smooth"
+		// 	})
+		// }
+		// window.addEventListener("resize", positionCalculation)
+
+		// For the scroll to top button
+
+		const scrollToTop = document.querySelector(".scrolltop")
+
+		homePosition = document.querySelector("#home").offsetTop
+		scrollToTop.addEventListener("click", addScrollSmooth)
+
+		function addScrollSmooth(e){
+			window.scrollTo({
+				top: homePosition,
+				behavior: "smooth"
+			})
+		}
+
+		// Dont show scroll button on top
+
+		window.addEventListener("scroll", function(){
+			if(window.scrollY > 750){
+				scrollToTop.style.opacity = "0.7"
+			}else{
+				scrollToTop.style.opacity = "0"
+			}
+		})
+
+
+
+		
+	</script>
 	<script type='text/javascript' id='rocket-browser-checker-js-after'>
 		"use strict";
 		var _createClass = function() {
