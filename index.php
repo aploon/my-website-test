@@ -2,7 +2,7 @@
 <html lang="en-US" id="layerslider6home">
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	<title>Apwebstore, votre agence web</title>
 
@@ -341,13 +341,32 @@
 			font-size: 1.5em;
 			line-height: 1.6;
 		}
+
+		.scrolltop {
+			position: fixed;
+			cursor: pointer;
+			z-index: 105;
+			justify-content: center;
+			align-items: center;
+			width: 36px;
+			height: 36px;
+			bottom: 15px;
+			right: 15px;
+			background-color: #260236;
+			transition: color .2s ease;
+			border-radius: 0.475rem;
+			text-align: center;
+		}
+
+		html {
+			scroll-behavior: smooth;
+		}
 	</style>
 	<link rel='stylesheet' id='theme-css-css' href='assets/themes/layerslider/css/page.css?ver=121' type='text/css' media='all'>
 	<link rel='stylesheet' id='theme-css-css' href='assets/themes/layerslider/css/font.css?ver=121' type='text/css' media='all'>
 	<link rel='stylesheet' id='fontawesome-css' href='assets/themes/layerslider/css/fontawesome.all.min.css?ver=121' type='text/css' media='all'>
 	<link rel='stylesheet' id='kmw-css' href='assets/themes/layerslider/css/kmw.css?ver=121' type='text/css' media='all'>
-	<script type='text/javascript' src='assets/scripts/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
-	<script type='text/javascript' src='assets/scripts/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+	<script type='text/javascript' src='assets/scripts/js/jquery/jquery.min.js'></script>
 	<meta name="generator" content="Powered by Apwebstore">
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -362,6 +381,7 @@
 </head>
 
 <body class="home page-template page-template-page-home page-template-page-home-php page page-id-5  nav-main-transparent" data-nav-scheme="transparent">
+	<div id="home"></div>
 	<div class="change-nav-scheme nav-scheme-scroll" data-nav-scheme="transparent"></div>
 	<nav id="main">
 		<div class="gap-wrapper">
@@ -663,7 +683,7 @@
 	<div id="main-wrapper" class="custom-styles-wrapper">
 
 		<ls-section id="welcome-hero">
-			<ls-block id="main">
+			<ls-block id="main-block">
 				<div id="layerslider_519_1ldlm4471kcvw" class="ls-wp-container fitvidsignore" style="width:1000px;height:100vh;margin:0 auto;">
 					<div class="ls-slide" data-ls="duration:750;kenburnsscale:1.2;"><ls-layer style='font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:50% 50%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;width:100%;height:100%;left:0px;top:0px;background-size:100% 100%;background-image:url("assets/uploads/layerslider/projects/LayerSlider-7.6-Hero/hero-gradient.png");-webkit-background-clip:border-box;' class="ls-l ls-html-layer" data-ls="durationin:0;easingin:linear;skipViewport:opening;position:fixed;"></ls-layer><ls-layer style="font-size:300px;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:overlay;overflow:visible;font-family:Lato;left:31px;top:324px;font-weight:300;color:#ffffff;-webkit-background-clip:border-box;" class="ls-l ls-hide-phone ls-html-layer" data-ls="offsetyin:100;durationin:2000;easingin:easeOutQuint;transitionout:false;scroll:true;scrollduration:100;scrolloffsety:6;scrolloffsetyresponsive:false;scrollscalex:3;scrollscaley:3;skipViewport:opening;pinned:true;">7.6</ls-layer><ls-layer style='font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:50% 50%;background-repeat:no-repeat;background-clip:border-box;overflow:hidden;width:360px;height:200px;border-radius:6px 6px 6px 6px;top:491px;left:879px;background-size:cover;background-image:url("assets/uploads/layerslider/projects/LayerSlider-7.6-Hero/t7.jpg");-webkit-background-clip:border-box;' class="ls-l ls-hide-phone ls-html-layer" data-ls="autoplay:enabled;showinfo:disabled;controls:disabled;muted:enabled;loopmedia:enabled;offsetyin:100;durationin:2000;delayin:525;easingin:easeOutQuint;rotatein:=;skewxin:=;loop:true;loopduration:1500;loopstartat:transitioninend + 0;loopeasing:easeOutExpo;looptransformorigin:slidercenter slidermiddle;loopcount:1;rotation:25;skewX:-15;pinned:true;"></ls-layer><ls-layer style='font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:50% 50%;background-repeat:no-repeat;background-clip:border-box;overflow:hidden;width:360px;height:200px;border-radius:6px 6px 6px 6px;top:331px;left:539px;background-size:cover;mix-blend-mode:screen;background-image:url("assets/uploads/layerslider/projects/LayerSlider-7.6-Hero/template-candies.jpg");-webkit-background-clip:border-box;' class="ls-l ls-hide-phone ls-media-layer" data-ls="autoplay:enabled;showinfo:disabled;controls:disabled;muted:enabled;loopmedia:enabled;offsetyin:100;durationin:2000;delayin:450;easingin:easeOutQuint;rotatein:=;skewxin:=;loop:true;loopduration:1500;loopstartat:transitioninend + 0;loopeasing:easeOutExpo;looptransformorigin:slidercenter slidermiddle;loopcount:1;rotation:25;skewX:-15;pinned:true;"><video width="640" height="360" preload="metadata" controls="">
 								<source src="assets/uploads/2022/11/layerslider-template-sweet-candies.mp4" type="video/mp4">
@@ -1419,26 +1439,15 @@
 			</div>
 		</nav>
 	</footer>
-	<div class="ls-popup">
-		<div id="layerslider_437_wi00juf2ofq" class="ls-wp-container fitvidsignore" style="width:700px;height:700px;margin:0 auto;margin-bottom: 0px;">
-			<div class="ls-slide" data-ls="overflow:true;kenburnsscale:1.2;parallaxtype:3d;parallaxrotate:40;"><img width="800" height="478" data-src="https://layerslider.com/wp-content/uploads/layerslider/LS-2020-Popup-Sample-API/black-friday-2.jpg" class="ls-tn" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/layerslider/LS-2020-Popup-Sample-API/black-friday-2.jpg 800w, https://layerslider.com/wp-content/uploads/layerslider/LS-2020-Popup-Sample-API/black-friday-2-300x179.jpg 300w, https://layerslider.com/wp-content/uploads/layerslider/LS-2020-Popup-Sample-API/black-friday-2-768x459.jpg 768w" sizes="(max-width: 800px) 100vw, 800px">
-				<div style="top:50%;left:50%;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;mix-blend-mode:normal;width:440px;height:440px;border-top:15px solid #f02222;border-bottom:15px solid #f02222;border-radius:40px;border-right:15px solid transparent;border-left:15px solid transparent;" class="ls-l ls-html-layer" data-ls="showinfo:disabled;controls:disabled;delayin:300;easingin:easeInOutCubic;rotatein:-45;scalexin:1.4;scaleyin:1.4;rotation:-45;position:relative;"></div>
-				<div style="top:50%;left:80px;text-align:initial;font-weight:900;font-style:normal;text-decoration:none;mix-blend-mode:normal;width:560px;height:540px;border-radius:100%;background-color:#000000;" class="ls-l ls-html-layer" data-ls="showinfo:disabled;controls:disabled;durationin:0;easingin:easeInOutQuad;fadein:false;loop:true;loopduration:11000;loopstartat:transitioninstart + 0;loopeasing:easeInOutSine;looprotate:360;loopcount:-1;position:relative;"></div>
-				<div style="background: linear-gradient(135deg, rgba(48,52,63,1) 0%,rgba(21,22,28,1) 100%);top:50%;left:50%;text-align:initial;font-weight:900;font-style:normal;text-decoration:none;mix-blend-mode:normal;width:540px;height:540px;border-radius:50%;" class="ls-l ls-html-layer" data-ls="showinfo:disabled;controls:disabled;durationin:0;easingin:easeInOutQuad;fadein:false;loop:true;loopduration:4000;loopstartat:transitioninend + 800;loopeasing:easeInOutSine;loopscalex:1.05;loopscaley:1.05;loopcount:-1;loopyoyo:true;position:relative;"></div>
-				<div style="top:50%;left:50%;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;mix-blend-mode:normal;width:440px;height:440px;border-right:15px solid #f02222;border-left:15px solid #f02222;border-radius:40px;border-top:15px solid transparent;border-bottom:15px solid transparent;" class="ls-l ls-html-layer" data-ls="showinfo:disabled;controls:disabled;delayin:300;easingin:easeInOutCubic;rotatein:-45;scalexin:1.4;scaleyin:1.4;rotation:-45;position:relative;"></div><a class="ls-l" href="popups/index.htm" target="_blank" data-ls="durationin:500;delayin:1200;easingin:easeInOutQuad;hover:true;hoverdurationin:250;hovereasingin:easeOutQuint;hoverbgcolor:#f02222;position:relative;"><span style="border: 2px solid #f02222;top:448px;left:50%;text-align:center;font-weight:500;font-style:normal;text-decoration:none;mix-blend-mode:normal;font-family:Roboto;font-size:20px;color:rgba(255, 255, 255, 0.95);letter-spacing:3.5px;line-height:30px;padding-right:10px;padding-left:10px;padding-top:5px;padding-bottom:5px;border-radius:10px;" class="ls-button-layer">BUILT-IN FEATURE<br>IN APWEBSTORE</span></a>
-				<p style="top:362px;left:50%;text-align:center;font-weight:300;font-style:normal;text-decoration:none;mix-blend-mode:normal;font-family:Roboto;font-size:28px;color:rgba(255, 255, 255, 0.79);letter-spacing:3.5px;" class="ls-l ls-text-layer" data-ls="durationin:500;delayin:1000;easingin:easeInOutQuad;position:relative;">CREATE POPUPS<br>LIKE NEVER BEFORE!</p>
-				<p style="top:190px;left:50%;text-align:center;font-weight:300;font-style:normal;text-decoration:none;mix-blend-mode:normal;font-family:Roboto;font-size:80px;color:#ffffff;line-height:80px;width:300px;letter-spacing:4.5px;white-space:normal;" class="ls-l ls-text-layer" data-ls="durationin:500;delayin:800;easingin:easeInOutQuad;position:relative;">I AM A<br>POPUP</p>
-				<p style="top:155px;left:50%;text-align:center;font-weight:300;font-style:normal;text-decoration:none;mix-blend-mode:normal;font-family:Roboto;font-size:24px;color:rgba(255, 255, 255, 0.79);letter-spacing:3.5px;" class="ls-l ls-text-layer" data-ls="durationin:500;delayin:600;easingin:easeInOutQuad;position:relative;">HELLO!</p><a class="ls-l" href="#closePopup" target="_self" data-ls="delayin:1000;easingin:easeOutQuint;rotatein:720;hover:true;hovereasingin:easeOutQuint;hoverrotate:90;hoverscalex:1.1;hoverscaley:1.1;position:relative;">
-					<div style="top:50px;left:610px;background-size:inherit;background-position:inherit;width:40px;height:40px;color:#f02222;" class="ls-html-layer"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve" fill="currentColor">
-							<g>
-								<path d="M500,10C229.4,10,10,229.4,10,500c0,270.6,219.4,490,490,490c270.6,0,490-219.4,490-490C990,229.4,770.6,10,500,10z M748.8,689.2l-59.7,59.7c-10.9,10.9-28.9,10.9-39.8,0L500,599.6L350.7,748.8c-10.9,10.9-28.8,10.9-39.7-0.1l-59.9-59.6c-10.8-11.1-10.8-28.9,0-39.9l149.3-149.2L251.2,350.8c-10.9-11-10.9-28.8,0-39.7l59.8-59.8c10.9-11,28.8-11,39.7,0L500,400.5l149.2-149.3c10.9-11,28.9-11,39.7,0l59.8,59.7c10.9,11,10.9,28.9,0.1,39.8L599.6,500.1l149.3,149.2C759.7,660.3,759.7,678.1,748.8,689.2z"></path>
-							</g>
-						</svg></div>
-				</a><a href="#closepopup" class="ls-link"></a>
-			</div>
-		</div>
-	</div>
-	<link rel='stylesheet' id='layerslider-popup-css' href='assets/plugins/LayerSlider/assets/static/layerslider/plugins/popup/layerslider.popup.css?ver=7.6.7' type='text/css' media='all'>
+
+	<!--begin::Scrolltop-->
+	<a class="scrolltop" href="#home">
+		<svg style="margin-top: 7px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" stroke="#fff" stroke-width="1.5" class="bi bi-chevron-up" viewBox="0 0 16 16">
+			<path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" fill="white"></path>
+		</svg>
+	</a>
+	<!--end::Scrolltop-->
+
 	<script type='text/javascript' id='rocket-browser-checker-js-after'>
 		"use strict";
 		var _createClass = function() {
@@ -1850,7 +1859,6 @@
 	<script type='text/javascript' src='assets/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.6.7' id='layerslider-transitions-js'></script>
 	<script type='text/javascript' src='assets/uploads/layerslider.custom.transitions.js?ver=7.6.7' id='ls-user-transitions-js'></script>
 	<script type='text/javascript' src='assets/plugins/LayerSlider/assets/static/layerslider/plugins/popup/layerslider.popup.js?ver=7.6.7' id='layerslider-popup-js'></script>
-	<!-- <script defer="" src="beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"78d13a271f06d671","token":"fe2fafe9262c4ea3865f8e731d864aab","version":"2022.11.3","si":100}' crossorigin="anonymous"></script> -->
 </body>
 
 </html>
