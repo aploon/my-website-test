@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en-US" id="layerslider6home">
+<html lang="fr-FR" id="layerslider6home">
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
