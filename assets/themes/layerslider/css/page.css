@@ -1681,6 +1681,12 @@ nav#main ul li.brand,
 nav#main ul li.brand a {
     color: #fd3b5c
 }
+.nav-main-transparent nav#main ul li.brand a svg path {
+    fill: #fff;
+}
+nav#main ul li.brand a svg path{
+    fill: #085FCE;
+}
 
 nav#main ul li.brand span {
     opacity: .7

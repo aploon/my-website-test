@@ -7,6 +7,8 @@
 	<title>Apwebstore, votre agence web</title>
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/plugins/tiny-slider/tiny-slider.css">
+
 	<link rel='stylesheet' id='layerslider-css' href='assets/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.6.7' type='text/css' media='all'>
 	<link rel='stylesheet' id='ls-user-css' href='assets/uploads/layerslider.custom.css?ver=7.6.7' type='text/css' media='all'>
 	<link rel='stylesheet' id='classic-theme-styles-css' href='assets/scripts/css/classic-themes.min.css?ver=1' type='text/css' media='all'>
@@ -368,7 +370,9 @@
 	<link rel='stylesheet' id='theme-css-css' href='assets/themes/layerslider/css/font.css?ver=121' type='text/css' media='all'>
 	<link rel='stylesheet' id='fontawesome-css' href='assets/themes/layerslider/css/fontawesome.all.min.css?ver=121' type='text/css' media='all'>
 	<link rel='stylesheet' id='kmw-css' href='assets/themes/layerslider/css/kmw.css?ver=121' type='text/css' media='all'>
+	
 	<link rel="icon" href="assets/medias/logos/favicon-apwebstore.png"/>
+
 	<script type='text/javascript' src='assets/scripts/js/jquery/jquery.min.js'></script>
 	<meta name="generator" content="Powered by Apwebstore">
 	<script>
@@ -392,7 +396,7 @@
 				<ul class="main">
 					<li class="brand">
 						<a href="#">
-							<img style="height: 45px;" src="assets/medias/logos/logo-apwebstore-white.svg" alt="logo">
+							<svg style="height: 45px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" viewBox="0 0 375 236.249991" height="236.24998474121094" preserveAspectRatio="xMidYMid meet" version="1.0"><defs><filter x="0%" y="0%" width="100%" height="100%" id="7fbbee4841"><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" color-interpolation-filters="sRGB"/></filter><clipPath id="b038f97812"><path d="M 1 125 L 118 125 L 118 227 L 1 227 Z M 1 125 " clip-rule="nonzero"/></clipPath><clipPath id="df569c527a"><path d="M 45.40625 100.828125 L 131.851562 150.691406 L 73.828125 251.28125 L -12.617188 201.417969 Z M 45.40625 100.828125 " clip-rule="nonzero"/></clipPath><clipPath id="26da355f67"><path d="M 88.628906 125.757812 L 117.34375 175.839844 L 88.332031 226.132812 L 30.605469 226.347656 L 1.886719 176.269531 L 30.898438 125.972656 L 88.628906 125.757812 " clip-rule="nonzero"/></clipPath><clipPath id="2dd2a222d3"><path d="M 34 0 L 253 0 L 253 235.503906 L 34 235.503906 Z M 34 0 " clip-rule="nonzero"/></clipPath><mask id="bc7ff3a132"><g filter="url(#7fbbee4841)"><rect x="-37.5" width="450" fill="#000000" y="-23.624999" height="283.499989" fill-opacity="0.749"/></g></mask><clipPath id="8a0b5c175e"><path d="M 16 10 L 202 10 L 202 225 L 16 225 Z M 16 10 " clip-rule="nonzero"/></clipPath><clipPath id="7cc0aa2f3e"><path d="M 0.199219 37.671875 L 92.324219 -16.734375 L 218.941406 197.667969 L 126.816406 252.074219 Z M 0.199219 37.671875 " clip-rule="nonzero"/></clipPath><clipPath id="7af8afae26"><path d="M 45.457031 10.945312 L 106.542969 11.019531 L 201.035156 171.023438 L 171.601562 224.550781 L 110.519531 224.476562 L 16.027344 64.472656 L 45.457031 10.945312 " clip-rule="nonzero"/></clipPath><clipPath id="d716b8252b"><rect x="0" width="219" y="0" height="236"/></clipPath><clipPath id="a85e6d1a1a"><path d="M 257 9 L 374 9 L 374 110 L 257 110 Z M 257 9 " clip-rule="nonzero"/></clipPath><clipPath id="34105f19e1"><path d="M 301.160156 -15.777344 L 387.605469 34.085938 L 329.582031 134.675781 L 243.136719 84.8125 Z M 301.160156 -15.777344 " clip-rule="nonzero"/></clipPath><clipPath id="a0d602aa27"><path d="M 344.382812 9.152344 L 373.101562 59.234375 L 344.089844 109.527344 L 286.359375 109.742188 L 257.644531 59.664062 L 286.65625 9.367188 L 344.382812 9.152344 " clip-rule="nonzero"/></clipPath><clipPath id="01697f7f17"><path d="M 125 0 L 345 0 L 345 235.503906 L 125 235.503906 Z M 125 0 " clip-rule="nonzero"/></clipPath><mask id="46cb78aa70"><g filter="url(#7fbbee4841)"><rect x="-37.5" width="450" fill="#000000" y="-23.624999" height="283.499989" fill-opacity="0.749"/></g></mask><clipPath id="d769d0acd3"><path d="M 16 10 L 202 10 L 202 225 L 16 225 Z M 16 10 " clip-rule="nonzero"/></clipPath><clipPath id="23d19fc12d"><path d="M 0.613281 37.671875 L 92.738281 -16.734375 L 219.355469 197.667969 L 127.226562 252.074219 Z M 0.613281 37.671875 " clip-rule="nonzero"/></clipPath><clipPath id="203f6830ad"><path d="M 45.871094 10.945312 L 106.957031 11.019531 L 201.445312 171.023438 L 172.015625 224.550781 L 110.933594 224.476562 L 16.441406 64.472656 L 45.871094 10.945312 " clip-rule="nonzero"/></clipPath><clipPath id="0027ff16ee"><rect x="0" width="220" y="0" height="236"/></clipPath></defs><g clip-path="url(#b038f97812)"><g clip-path="url(#df569c527a)"><g clip-path="url(#26da355f67)"><path fill="#ffffff" d="M 45.40625 100.828125 L 131.851562 150.691406 L 73.828125 251.28125 L -12.617188 201.417969 Z M 45.40625 100.828125 " fill-opacity="1" fill-rule="nonzero"/></g></g></g><g clip-path="url(#2dd2a222d3)"><g mask="url(#bc7ff3a132)"><g transform="matrix(1, 0, 0, 1, 34, 0)"><g clip-path="url(#d716b8252b)"><g clip-path="url(#8a0b5c175e)"><g clip-path="url(#7cc0aa2f3e)"><g clip-path="url(#7af8afae26)"><path fill="#ffffff" d="M 0.199219 37.671875 L 90.648438 -15.742188 L 217.265625 198.65625 L 126.816406 252.074219 Z M 0.199219 37.671875 " fill-opacity="1" fill-rule="nonzero"/></g></g></g></g></g></g></g><g clip-path="url(#a85e6d1a1a)"><g clip-path="url(#34105f19e1)"><g clip-path="url(#a0d602aa27)"><path fill="#ffffff" d="M 301.160156 -15.777344 L 387.605469 34.085938 L 329.582031 134.675781 L 243.136719 84.8125 Z M 301.160156 -15.777344 " fill-opacity="1" fill-rule="nonzero"/></g></g></g><g clip-path="url(#01697f7f17)"><g mask="url(#46cb78aa70)"><g transform="matrix(1, 0, 0, 1, 125, 0)"><g clip-path="url(#0027ff16ee)"><g clip-path="url(#d769d0acd3)"><g clip-path="url(#23d19fc12d)"><g clip-path="url(#203f6830ad)"><path fill="#ffffff" d="M 0.613281 37.671875 L 91.0625 -15.742188 L 217.679688 198.65625 L 127.226562 252.074219 Z M 0.613281 37.671875 " fill-opacity="1" fill-rule="nonzero"/></g></g></g></g></g></g></g></svg>
 						</a>
 					</li>
 					<li>
@@ -766,7 +770,7 @@
 					<a class="size-medium" target="_blank" href="https://www.sitepoint.com/15-easy-to-use-tools-services-to-improve-your-workflow/">
 						<img src="assets/uploads/media/press/sitepoint.png" alt="sitepoint.com">
 					</a>
-					<!-- <a class="size-medium" target="_blank" href="https://www.templatemonster.com/blog/useful-web-development-design-resources/">
+					<a class="size-medium" target="_blank" href="https://www.templatemonster.com/blog/useful-web-development-design-resources/">
 						<img src="assets/uploads/media/press/templatemonster.png" alt="templatemonster.com">
 					</a>
 					<a class="size-small" target="_blank" href="https://www.creativebloq.com/features/27-time-saving-web-design-resources">
@@ -775,18 +779,18 @@
 					<a class="size-tiny" target="_blank" href="https://www.hongkiat.com/blog/15-tools-services-you-need-and-their-services/">
 						<img src="assets/uploads/media/press/hongkiat.png" alt="hongkiat.com">
 					</a>
-					<a class="size-small" target="_blank" href="https://designmodo.com/wordpress-plugins-improve-websites/">
+					<!-- <a class="size-small" target="_blank" href="https://designmodo.com/wordpress-plugins-improve-websites/">
 						<img src="assets/uploads/media/press/designmodo.png" alt="designmodo.com">
 					</a>
 					<a class="size-medium" target="_blank" href="https://speckyboy.com/great-tools-resources-designers/">
 						<img src="assets/uploads/media/press/speckyboy.png" alt="speckyboy.com">
 					</a> -->
 				</ls-block>
-				<ls-block>
+				<!-- <ls-block>
 					<p class="text-center pt-3">
 						<a class="button" href="press-media/index.htm">See More</a>
 					</p>
-				</ls-block>
+				</ls-block> -->
 			</ls-sizer>
 		</ls-section>
 
@@ -1461,13 +1465,39 @@
 
 	<!--begin::Scrolltop-->
 	<div class="scrolltop">
-		<svg style="margin-top: 7px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" stroke="#fff" stroke-width="1.5" class="bi bi-chevron-up" viewBox="0 0 16 16">
+		<svg style="margin-top: 3px; color: red;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" stroke="#fff" stroke-width="1.5" class="bi bi-chevron-up" viewBox="0 0 16 16">
 			<path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" fill="white"></path>
 		</svg>
 	</div>
 	<!--end::Scrolltop-->
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+	<script src="assets/plugins/tiny-slider/tiny-slider.js"></script>
+	<script>
+		var slider = tns({
+			"container": '#ls-press-logos',
+			"controls": false,
+			"responsive": {
+				"350": {
+				"items": 2
+				},
+				"500": {
+				"items": 3
+				},
+				"750": {
+				"items": 4
+				},
+			},
+			"autoplay": true,
+			"autoplayButtonOutput": false,
+			"autoplayTimeout": 3000,
+			"slideBy": "page",
+			"mouseDrag": true,
+			"swipeAngle": false,
+			"speed": 400
+		});
+	</script>
+
 	<script>
 		// For the sticky nav
 
