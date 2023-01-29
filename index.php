@@ -6,6 +6,7 @@
 	<meta charset="UTF-8">
 	<title>Apwebstore, votre agence web</title>
 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 	<link rel='stylesheet' id='layerslider-css' href='assets/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.6.7' type='text/css' media='all'>
 	<link rel='stylesheet' id='ls-user-css' href='assets/uploads/layerslider.custom.css?ver=7.6.7' type='text/css' media='all'>
 	<link rel='stylesheet' id='classic-theme-styles-css' href='assets/scripts/css/classic-themes.min.css?ver=1' type='text/css' media='all'>
@@ -367,6 +368,7 @@
 	<link rel='stylesheet' id='theme-css-css' href='assets/themes/layerslider/css/font.css?ver=121' type='text/css' media='all'>
 	<link rel='stylesheet' id='fontawesome-css' href='assets/themes/layerslider/css/fontawesome.all.min.css?ver=121' type='text/css' media='all'>
 	<link rel='stylesheet' id='kmw-css' href='assets/themes/layerslider/css/kmw.css?ver=121' type='text/css' media='all'>
+	<link rel="icon" href="assets/medias/logos/favicon-apwebstore.png"/>
 	<script type='text/javascript' src='assets/scripts/js/jquery/jquery.min.js'></script>
 	<meta name="generator" content="Powered by Apwebstore">
 	<script>
@@ -389,28 +391,27 @@
 			<div class="sizer-wrapper">
 				<ul class="main">
 					<li class="brand">
-						<a href="index.htm">Apwebstore</a>
+						<a href="#">
+							<img style="height: 45px;" src="assets/medias/logos/logo-apwebstore-white.svg" alt="logo">
+						</a>
 					</li>
 					<li>
 						<ul class="menuitems">
 							<li class="active">
-								<a href="index.htm">Home</a>
+								<a href="#">Accueil</a>
 							</li>
 							<li class="">
-								<a href="features/index.htm">Features</a>
+								<a href="#">Services</a>
 							</li>
 							<li class="">
+								<a href="#">Réalisations</a>
+							</li>
+							<li class="">
+								<a href="#">Contactez-nous</a>
+							</li>
+							<!-- <li class="">
 								<a href="sliders/index.htm" data-dropdown="nav-templates">Templates</a>
-							</li>
-							<li class="">
-								<a data-dropdown="nav-premium" href="premium/index.htm">Premium</a>
-							</li>
-							<li class="">
-								<a data-dropdown="nav-help" href="help/index.htm">Help</a>
-							</li>
-							<li class="mobile">
-								<a href="pricing/index.htm">Get It Now</a>
-							</li>
+							</li> -->
 						</ul>
 						<ul class="mobile">
 							<li>
@@ -419,12 +420,6 @@
 								</button>
 							</li>
 						</ul>
-					</li>
-					<li class="buynow desktop">
-						<span class="hover-effect-container">
-							<span class="hover-effect"></span>
-						</span>
-						<a href="pricing/index.htm">Get It Now</a>
 					</li>
 				</ul>
 				<ul class="template">
@@ -695,14 +690,21 @@
 							</video>
 						</ls-layer>
 						<ls-layer style='font-size:36px;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:50% 50%;background-repeat:no-repeat;background-clip:border-box;overflow:hidden;width:427px;height:237px;border-radius:6px 6px 6px 6px;top:205px;left:206px;background-size:cover;background-image:url("assets/uploads/layerslider/projects/LayerSlider-7.6-Hero/t6.jpg");-webkit-background-clip:border-box;' class="ls-l ls-hide-desktop ls-hide-tablet ls-html-layer" data-ls="autoplay:enabled;showinfo:disabled;controls:disabled;muted:enabled;loopmedia:enabled;offsetyin:100;durationin:2000;delayin:375;easingin:easeOutQuint;rotatein:=;skewxin:=;loop:true;loopduration:1500;loopstartat:transitioninend + 0;loopeasing:easeOutExpo;looptransformorigin:slidercenter slidermiddle;loopcount:1;rotation:25;skewX:-15;position:fixedy;pinned:true;"></ls-layer><ls-layer style='font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:50% 50%;background-repeat:no-repeat;background-clip:border-box;overflow:hidden;width:427px;height:237px;border-radius:6px 6px 6px 6px;top:15px;left:-198px;background-size:cover;background-image:url("assets/uploads/layerslider/projects/LayerSlider-7.6-Hero/t5.jpg");-webkit-background-clip:border-box;' class="ls-l ls-hide-desktop ls-hide-tablet ls-html-layer" data-ls="autoplay:enabled;showinfo:disabled;controls:disabled;muted:enabled;loopmedia:enabled;offsetyin:100;durationin:2000;delayin:300;easingin:easeOutQuint;rotatein:=;skewxin:=;loop:true;loopduration:1500;loopstartat:transitioninend + 0;loopeasing:easeOutExpo;looptransformorigin:slidercenter slidermiddle;loopcount:1;rotation:25;skewX:-15;position:fixedy;pinned:true;"></ls-layer><ls-layer style='font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:50% 50%;background-repeat:no-repeat;background-clip:border-box;overflow:hidden;width:427px;height:237px;border-radius:6px 6px 6px 6px;top:193px;left:775px;background-size:cover;background-image:url("assets/uploads/layerslider/projects/LayerSlider-7.6-Hero/t3.jpg");-webkit-background-clip:border-box;' class="ls-l ls-hide-desktop ls-hide-tablet ls-html-layer" data-ls="autoplay:enabled;showinfo:disabled;controls:disabled;muted:enabled;loopmedia:enabled;offsetyin:100;durationin:2000;delayin:150;easingin:easeOutQuint;rotatein:=;skewxin:=;loop:true;loopduration:1500;loopstartat:transitioninend + 0;loopeasing:easeOutExpo;looptransformorigin:slidercenter slidermiddle;loopcount:1;rotation:25;skewX:-15;position:fixedy;pinned:true;"></ls-layer><ls-layer style='font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:50% 50%;background-repeat:no-repeat;background-clip:border-box;overflow:hidden;width:427px;height:237px;border-radius:6px 6px 6px 6px;top:3px;left:372px;background-size:cover;background-image:url("assets/uploads/layerslider/projects/LayerSlider-7.6-Hero/t2.jpg");-webkit-background-clip:border-box;' class="ls-l ls-hide-desktop ls-hide-tablet ls-html-layer" data-ls="autoplay:enabled;showinfo:disabled;controls:disabled;muted:enabled;loopmedia:enabled;offsetyin:100;durationin:2000;delayin:75;easingin:easeOutQuint;rotatein:=;skewxin:=;loop:true;loopduration:1500;loopstartat:transitioninend + 0;loopeasing:easeOutExpo;looptransformorigin:slidercenter slidermiddle;loopcount:1;rotation:25;skewX:-15;position:fixedy;pinned:true;"></ls-layer><ls-layer style='font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:50% 50%;background-repeat:no-repeat;background-clip:border-box;overflow:hidden;width:427px;height:237px;border-radius:6px 6px 6px 6px;top:-187px;left:-32px;background-size:cover;background-image:url("assets/uploads/layerslider/projects/LayerSlider-7.6-Hero/t1.jpg");-webkit-background-clip:border-box;' class="ls-l ls-hide-desktop ls-hide-tablet ls-html-layer" data-ls="autoplay:enabled;showinfo:disabled;controls:disabled;muted:enabled;loopmedia:enabled;offsetyin:100;durationin:2000;easingin:easeOutQuint;rotatein:=;skewxin:=;loop:true;loopduration:1500;loopstartat:transitioninend + 0;loopeasing:easeOutExpo;looptransformorigin:slidercenter slidermiddle;loopcount:1;rotation:25;skewX:-15;position:fixedy;pinned:true;"></ls-layer><ls-layer style='font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:50% 50%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;width:100%;height:100%;left:0px;top:0px;background-size:100% 100%;background-image:url("assets/uploads/layerslider/projects/LayerSlider-7.6-Hero/hero-gradient-cover-new.png");-webkit-background-clip:border-box;' class="ls-l ls-html-layer" data-ls="durationin:0;easingin:linear;skipViewport:opening;position:fixed;"></ls-layer><ls-layer style="font-size:500px;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:300;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:overlay;overflow:visible;font-family:Lato;left:50%;top:30%;color:#ffffff;-webkit-background-clip:border-box;" class="ls-l ls-hide-desktop ls-hide-tablet ls-html-layer" data-ls="offsetyin:100;durationin:2000;easingin:easeOutQuint;transitionout:false;skipViewport:opening;pinned:true;">
-							7.6
+							A.P
 						</ls-layer>
-						<ls-layer style="font-size:30px;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;font-family:Montserrat;left:50px;top:725px;color:#ffd4fc;-webkit-background-clip:border-box;" class="ls-l ls-hide-phone ls-text-layer" data-ls="offsetyin:200;durationin:2000;easingin:easeOutQuint;skipViewport:opening;pinned:true;">The ultimate WorldPress plugin for creating<br>
-							beautifully designed and animated web content.</ls-layer><ls-layer style="font-size:50px;text-align:center;font-style:normal;text-decoration:none;text-transform:none;font-weight:500;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;font-family:Montserrat;left:50%;top:80%;color:#ffd4fc;-webkit-background-clip:border-box;" class="ls-l ls-hide-desktop ls-hide-tablet ls-text-layer" data-ls="offsetyin:200;durationin:2000;easingin:easeOutQuint;skipViewport:opening;pinned:true;">The ultimate WorldPress plugin<br>
-							for creating beautifully designed<br>
-							and animated web content.</ls-layer><ls-layer style="font-size:80px;font-style:normal;text-decoration:none;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:normal;overflow:visible;font-family:Montserrat;top:603px;left:44px;font-weight:600;text-transform:uppercase;color:#ffd4fc;-webkit-background-clip:border-box;" class="ls-l ls-hide-phone ls-html-layer" data-ls="offsetyin:150;durationin:2000;easingin:easeOutQuint;skipViewport:opening;pinned:true;">Apwebstore</ls-layer><ls-layer style="font-size:130px;text-align:left;font-style:normal;text-decoration:none;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:normal;overflow:visible;font-family:Montserrat;top:58%;left:49.97%;font-weight:500;text-transform:uppercase;color:#ffd4fc;-webkit-background-clip:border-box;" class="ls-l ls-hide-desktop ls-hide-tablet ls-html-layer" data-ls="offsetyin:150;durationin:2000;easingin:easeOutQuint;skipViewport:opening;pinned:true;">Apwebstore</ls-layer><ls-layer style="font-size:40px;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:normal;overflow:visible;top:742px;left:910px;cursor:pointer;color:#8022b2;-webkit-background-clip:border-box;" class="ls-l ls-hide-phone ls-icon-layer" data-ls="offsetyin:-100lh;durationin:1500;delayin:1500;easingin:linear;loop:true;loopoffsety:16;loopduration:1500;loopstartat:transitioninstart + 0;loopeasing:easeInQuint;loopcount:-1;loopyoyo:true;hover:true;hoverdurationin:200;hovereasingin:easeOutQuint;hoverscalex:1.1;hoverscaley:1.1;scroll:true;scrollduration:100;scrollscalex:-20;scrollscalexmin:0;scrollscaley:-20;scrollscaleymin:0;skipViewport:opening;pinned:true;" data-ls-actions='[{"action":"scrollBelowProject","trigger":"click","delay":0,"duration":1000,"easing":"easeInOutQuart","offset":0}]'><svg data-name="arrow-down" viewbox="0 0 384 512">
+						<ls-layer style="font-size:30px;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;line-height:1.5;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;font-family:Montserrat;left:50px;top:725px;color:#ffd4fc;-webkit-background-clip:border-box;" class="ls-l ls-hide-phone ls-text-layer" data-ls="offsetyin:200;durationin:2000;easingin:easeOutQuint;skipViewport:opening;pinned:true;">
+							Nous concrétisons vos projets web<br>
+							Faites-nous confiance, pour plus de Qualité.
+						</ls-layer>
+						<ls-layer style="font-size:50px;text-align:center;font-style:normal;text-decoration:none;text-transform:none;font-weight:500;letter-spacing:0px;line-height:1.5;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;font-family:Montserrat;left:50%;top:80%;color:#ffd4fc;-webkit-background-clip:border-box;" class="ls-l ls-hide-desktop ls-hide-tablet ls-text-layer" data-ls="offsetyin:200;durationin:2000;easingin:easeOutQuint;skipViewport:opening;pinned:true;">
+							Nous concrétisons vos projets web<br>
+							Faites-nous confiance,<br>
+							pour plus de Qualité.
+						</ls-layer>
+						<ls-layer style="font-size:80px;font-style:normal;text-decoration:none;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:normal;overflow:visible;font-family:Montserrat;top:603px;left:44px;font-weight:600;text-transform:uppercase;color:#ffd4fc;-webkit-background-clip:border-box;" class="ls-l ls-hide-phone ls-html-layer" data-ls="offsetyin:150;durationin:2000;easingin:easeOutQuint;skipViewport:opening;pinned:true;">webstore</ls-layer><ls-layer style="font-size:130px;text-align:left;font-style:normal;text-decoration:none;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:normal;overflow:visible;font-family:Montserrat;top:58%;left:49.97%;font-weight:500;text-transform:uppercase;color:#ffd4fc;-webkit-background-clip:border-box;" class="ls-l ls-hide-desktop ls-hide-tablet ls-html-layer" data-ls="offsetyin:150;durationin:2000;easingin:easeOutQuint;skipViewport:opening;pinned:true;">webstore</ls-layer><ls-layer style="font-size:40px;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:normal;overflow:visible;top:742px;left:910px;cursor:pointer;color:#8022b2;-webkit-background-clip:border-box;" class="ls-l ls-hide-phone ls-icon-layer" data-ls="offsetyin:-100lh;durationin:1500;delayin:1500;easingin:linear;loop:true;loopoffsety:16;loopduration:1500;loopstartat:transitioninstart + 0;loopeasing:easeInQuint;loopcount:-1;loopyoyo:true;hover:true;hoverdurationin:200;hovereasingin:easeOutQuint;hoverscalex:1.1;hoverscaley:1.1;scroll:true;scrollduration:100;scrollscalex:-20;scrollscalexmin:0;scrollscaley:-20;scrollscaleymin:0;skipViewport:opening;pinned:true;" data-ls-actions='[{"action":"scrollBelowProject","trigger":"click","delay":0,"duration":1000,"easing":"easeInOutQuart","offset":0}]'><svg data-name="arrow-down" viewbox="0 0 384 512">
 								<path xmlns="http://www.w3.org/2000/svg" d="m374.6 310.6-160 160c-6.2 6.3-14.4 9.4-22.6 9.4s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l105.37 105.425v-306.8c0-17.69 14.33-31.1 31.1-31.1s32.9 13.41 32.9 31.1v306.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.45 32.7-.05 45.2z"></path>
-							</svg></ls-layer><a class="ls-l ls-hide-phone" href="pricing/index.htm" target="_self" data-ls="offsetyin:bottom;durationin:2000;delayin:100;easingin:easeOutQuint;hover:true;hoverdurationin:300;hovereasingin:easeOutQuint;hoverbgcolor:#7700ff;position:fixedy;minresponsiveratio:1;"><ls-layer style="font-size:18px;text-align:center;text-transform:uppercase;font-weight:600;mix-blend-mode:normal;padding-top:1em;padding-bottom:1em;padding-right:1.85em;padding-left:1.85em;font-family:Montserrat;border-radius:10em;cursor:pointer;left:50%;top:90%;background-color:#ff006a;color:#ffffff;" class="ls-button-layer">Let&rsquo;s Make Your Dream Website a Reality</ls-layer></a>
+							</svg>
+						</ls-layer>
 					</div>
 				</div>
 			</ls-block>
@@ -716,9 +718,17 @@
 						<ls-col>
 							<ls-block>
 								<ls-content class="text-center">
-									<h1>The Only App You Need</h1>
-									<h3 class="mt-0">To Bring Your Creative Ideas to Life</h3>
-									<p class="text-left"><b>Apwebstore is a visual web content editor, a graphic design software, and a digital visual effects application all in one.</b><br>Many of our customers call Apwebstore the best WordPress slider or the best slider plugin, but Apwebstore is much more than a simple slider maker.</p>
+									<h2>L'Agence web dont vous avez besoin</h2>
+									<h3 class="mt-0">Pour donner vie à vos idées créatives</h3>
+									<p class="text-left">
+										<b>Apwebstore est une agence web spécialisée dans la création et la conception de solution digitale.</b>
+										Nous mettons à votre disposition, toute notre expertise pour la réalisation de vos projets web.
+									</p>
+									<p class="text-left">
+									Apwebstore met en place une stratégie unique qui combine à la fois vos besoins et 
+									les nouvelles technologies disponibles sur le web. 
+									Ce qui permet à nos réalisations de se démarquer en termes de présence digitale.
+									</p>
 								</ls-content>
 							</ls-block>
 						</ls-col>
@@ -727,7 +737,7 @@
 			</ls-sizer>
 		</ls-section>
 
-		<ls-section id="ls--project-editor-slices" class="bg--white pb-12">
+		<!-- <ls-section id="ls--project-editor-slices" class="bg--white pb-12">
 			<ls-sizer class="normal">
 				<ls-slider-wrapper>
 					<div id="layerslider_512_a71q6ni5r2qn" class="ls-wp-container fitvidsignore" style="width:1650px;height:1032px;max-width:100%;margin:0 auto;">
@@ -741,11 +751,11 @@
 					</div>
 				</ls-slider-wrapper>
 			</ls-sizer>
-		</ls-section>
+		</ls-section> -->
 
-		<ls-section id="ls--featured" class="bg--light pt-12 pb-0">
+		<ls-section id="ls--featured" class="bg--light pt-10 pb-0">
 			<ls-sizer class="normal">
-				<h3 class="text-center mt-0">Featured On</h3>
+				<h3 class="text-center mt-0">Ils nous font confiance</h3>
 				<ls-block id="ls-press-logos">
 					<a class="size-large" target="_blank" href="https://medium.com/@web_design_articles/best-top-10-black-friday-deals-for-web-designers-in-2019-e524002e07c1">
 						<img src="assets/uploads/media/press/medium.png?v=2" alt="medium.com">
@@ -1457,6 +1467,7 @@
 	</div>
 	<!--end::Scrolltop-->
 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 	<script>
 		// For the sticky nav
 
