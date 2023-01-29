@@ -757,8 +757,8 @@
 			<ls-sizer class="normal">
 				<h3 class="text-center mt-0">Ils nous font confiance</h3>
 				<ls-block id="ls-press-logos">
-					<a class="size-large" target="_blank" href="https://medium.com/@web_design_articles/best-top-10-black-friday-deals-for-web-designers-in-2019-e524002e07c1">
-						<img src="assets/uploads/media/press/medium.png?v=2" alt="medium.com">
+					<a class="size-large" target="_blank" href="https://apwebstore.com">
+						<img src="assets/medias/logos/full-logo-apwebstore.png" alt="apwebstore.com">
 					</a>
 					<a class="size-small" target="_blank" href="https://envato.com/">
 						<img src="assets/uploads/media/press/envato.png" alt="envato.com">
@@ -766,7 +766,7 @@
 					<a class="size-medium" target="_blank" href="https://www.sitepoint.com/15-easy-to-use-tools-services-to-improve-your-workflow/">
 						<img src="assets/uploads/media/press/sitepoint.png" alt="sitepoint.com">
 					</a>
-					<a class="size-medium" target="_blank" href="https://www.templatemonster.com/blog/useful-web-development-design-resources/">
+					<!-- <a class="size-medium" target="_blank" href="https://www.templatemonster.com/blog/useful-web-development-design-resources/">
 						<img src="assets/uploads/media/press/templatemonster.png" alt="templatemonster.com">
 					</a>
 					<a class="size-small" target="_blank" href="https://www.creativebloq.com/features/27-time-saving-web-design-resources">
@@ -780,7 +780,7 @@
 					</a>
 					<a class="size-medium" target="_blank" href="https://speckyboy.com/great-tools-resources-designers/">
 						<img src="assets/uploads/media/press/speckyboy.png" alt="speckyboy.com">
-					</a>
+					</a> -->
 				</ls-block>
 				<ls-block>
 					<p class="text-center pt-3">
