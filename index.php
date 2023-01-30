@@ -757,7 +757,7 @@
 			</ls-sizer>
 		</ls-section> -->
 
-		<ls-section id="ls--featured" class="bg--light pt-10 pb-0">
+		<ls-section id="ls--featured" class="bg--light pt-10 pb-10">
 			<ls-sizer class="normal">
 				<h3 class="text-center mt-0">Ils nous font confiance</h3>
 				<ls-block id="ls-press-logos">
@@ -794,7 +794,133 @@
 			</ls-sizer>
 		</ls-section>
 
-		<ls-section id="ls--what-can-you-create" class="bg--light pt-12 pb-8 change-nav-scheme" data-nav-scheme="light">
+		<!-- <ls-section class="bg--white change-nav-scheme" data-nav-scheme="light">
+			<ls-sizer class="normal">
+				<div class="services">
+					<div class="row justify-content-around">
+						<div class="col-md-5">
+							<div class="">
+								<div class="">
+									<i class=""></i>
+								</div>
+								<div class="">
+									<h2 class="">Conception de sites internet</h2>
+									<div class="">Appropriately reconceptualize timely convergence through
+										resource maximizing collaboration and idea-sharing. Globally coordinate cross-platform products
+										via interoperable models.</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="">
+								<div class="">
+									<i class=""></i>
+								</div>
+								<div class="">
+									<h2 class="">Conception de sites internet</h2>
+									<div class=""> Rapidiously actualize wireless benefits before
+										resource-leveling quality vectors. Dramatically innovate progressive convergence without
+										tactical schemas. Competently unleash distributed users whereas.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-around">
+						<div class="col-md-5">
+							<div class="">
+								<div class="">
+									<i class=""></i>
+								</div>
+								<div class="">
+									<h2 class="">Conception de sites internet</h2>
+									<div class="">Appropriately redefine market positioning leadership
+										skills whereas client-based "outside the box" thinking. Monotonectally engage next-generation
+										leadership skills without one-to-one testing procedures.</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="">
+								<div class="">
+									<i class=""></i>
+								</div>
+								<div class="">
+									<h2 class="">Conception de sites internet</h2>
+									<div class="">Compellingly evisculate impactful e-services for
+										extensible resources. Interactively grow timely e-commerce rather than optimal expertise.
+										Uniquely optimize impactful experiences rather than cooperative.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</ls-sizer>
+		</ls-section> -->
+
+		<ls-section id="services" class="bg--white pb-10 change-nav-scheme" data-nav-scheme="light">
+			<ls-sizer class="normal">
+				<ls-grid>
+					<h2 class="text-center pb-5">Nos services</h2>
+					<ls-row class="row justify-content-around">
+						<ls-col class="col-md-5">
+							<ls-block>
+								<ls-content class="m-4">
+									<img style="height: 75px;" src="assets/medias/icons/services/site-web.svg" alt="">
+									<h4 class="text-left">Conception de sites internet</h4>
+									<p class="text-left mt-3">
+										Nous créons des sites web professionnels et fonctionnels pour les entreprises, 
+										en utilisant les dernières technologies et en veillant à ce qu'ils soient 
+										faciles à utiliser et à naviguer.
+									</p>
+								</ls-content>
+							</ls-block>
+						</ls-col>
+						<ls-col class="col-md-5">
+							<ls-block>
+								<ls-content class="m-4">
+									<img style="height: 75px;" src="assets/medias/icons/services/application-mobile.svg" alt="">
+									<h4 class="text-left">Conception d'applications mobiles</h4>
+									<p class="text-left mt-3">
+										Nous concevons des applications mobiles personnalisées pour les entreprises, 
+										permettant à leurs clients d'interagir avec eux facilement et efficacement 
+										sur leurs appareils mobiles.
+									</p>
+								</ls-content>
+							</ls-block>
+						</ls-col>
+					</ls-row>
+					<ls-row class="row justify-content-around">
+						<ls-col class="col-md-5">
+							<ls-block>
+								<ls-content class="m-4">
+									<img style="height: 75px;" src="assets/medias/icons/services/application-web.svg" alt="">
+									<h4 class="text-left">Conception d'applications web</h4>
+									<p class="text-left mt-3">
+										Nous développons des applications web riches en fonctionnalités pour les entreprises, 
+										leur permettant de mieux interagir avec leurs clients et de gérer leur activité en ligne.
+									</p>
+								</ls-content>
+							</ls-block>
+						</ls-col>
+						<ls-col class="col-md-5">
+							<ls-block>
+								<ls-content class="m-4">
+									<img style="height: 75px;" src="assets/medias/icons/services/conception-graphique.svg" alt="">
+									<h4 class="text-left">Conception graphique (logo, etc)</h4>
+									<p class="text-left mt-3">
+										Nous offrons une variété de services de conception graphique pour renforcer la présence 
+										de marque de nos clients, y compris la conception de logos, de chartes graphiques 
+										et de supports de marketing.
+									</p>
+								</ls-content>
+							</ls-block>
+						</ls-col>
+					</ls-row>
+				</ls-grid>
+			</ls-sizer>
+		</ls-section>
+
+		<!-- <ls-section id="ls--what-can-you-create" class="bg--light pt-12 pb-8 change-nav-scheme" data-nav-scheme="light">
 			<ls-sizer class="normal">
 				<ls-grid class="bg--white has-light-shadow normal-radius">
 					<ls-row class="flex-stretch text-center">
@@ -1332,7 +1458,7 @@
 					</ls-row>
 				</ls-grid>
 			</ls-sizer>
-		</ls-section>
+		</ls-section> -->
 	</div>
 	<footer>
 		<div class="sizer-wrapper">
@@ -1465,7 +1591,7 @@
 
 	<!--begin::Scrolltop-->
 	<div class="scrolltop">
-		<svg style="margin-top: 3px; color: red;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" stroke="#fff" stroke-width="1.5" class="bi bi-chevron-up" viewBox="0 0 16 16">
+		<svg style="margin-top: 5px; color: red;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" stroke="#fff" stroke-width="1.5" class="bi bi-chevron-up" viewBox="0 0 16 16">
 			<path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" fill="white"></path>
 		</svg>
 	</div>

@@ -3712,7 +3712,7 @@ ls-sizer.wider {
 }
 
 ls-block {
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
     overflow: hidden
 }
 
