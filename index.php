@@ -786,7 +786,7 @@
 
 								</style>
 								<ls-content class="mx-2 max-height-lg max-height-md max-height-sm max-height-xs">
-									<div style="position: relative; z-index: 103; max-width: 815px; margin: auto;">
+									<div style="position: relative; z-index: 103; max-width: 815px; margin: auto;" data-show="apwebstore">
 										<h2>L'Agence web dont vous avez besoin</h2>
 										<h3 class="mt-0">Pour donner vie à vos idées créatives</h3>
 										<p class="text-justify mt-2">
@@ -1071,7 +1071,10 @@
 					</div>
 				</div>
 
-				<div class="btn" style="font-weight:400;padding: 5px 15px;font-size:15px;color:#fff;border-radius:35px;font-family:montserrat, poppins, arial, 'sans-serif';background-color:#085FCE;">
+				<div class="btn d-block d-sm-none" style="width: fit-content;font-weight:400;padding: 5px 15px;font-size:15px;color:#fff;border-radius:35px;font-family:montserrat, poppins, arial, 'sans-serif';background-color:#085FCE;">
+					<i class="fa fa-angle-right"></i> Comment ça marche ?
+				</div>
+				<div class="btn d-none d-sm-block" style="width: fit-content;margin-left: 45px;font-weight:400;padding: 5px 15px;font-size:19px;color:#fff;border-radius:35px;font-family:montserrat, poppins, arial, 'sans-serif';background-color:#085FCE;">
 					<i class="fa fa-angle-right"></i> Comment ça marche ?
 				</div>
 			</ls-sizer>
@@ -2146,7 +2149,6 @@
 			});
 		});
 	</script>
-
 	<script>
 		// For the sticky nav
 
@@ -2196,6 +2198,12 @@
 			}
 		})
 	</script>
+	<!-- Animate on scroll js -->
+	<script src="assets/scripts/js/helpers.js"></script>
+    <script src="assets/scripts/js/controllers/show-on-scroll.js"></script>
+
+
+
 	<script type='text/javascript' id='rocket-browser-checker-js-after'>
 		"use strict";
 		var _createClass = function() {
