@@ -4980,9 +4980,9 @@ html#layerslider6home body #main-wrapper #welcome-hero {
 }
 
 #ls--the-only-app h3 {
-    background: -webkit-linear-gradient(90deg, #960eab, #f33782, #960eab);
-    background: -moz-linear-gradient(90deg, #960eab, #f33782, #960eab);
-    background: linear-gradient(90deg, #960eab, #f33782, #960eab);
+    background: -webkit-linear-gradient(90deg, #085FCE, #960eab, #085FCE);
+    background: -moz-linear-gradient(90deg, #085FCE, #960eab, #085FCE);
+    background: linear-gradient(90deg, #085FCE, #960eab, #085FCE);
     display: inline-block;
     background-clip: text !important;
     text-fill-color: transparent !important;

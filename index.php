@@ -355,7 +355,7 @@
 			height: 36px;
 			bottom: 15px;
 			right: 15px;
-			background-color: #260236;
+			background-color: #6158d6;
 			transition: opacity .5s ease;
 			border-radius: 0.475rem;
 			text-align: center;
@@ -396,7 +396,7 @@
 				<ul class="main">
 					<li class="brand">
 						<a href="#">
-							<svg style="height: 45px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" viewBox="0 0 375 236.249991" height="236.24998474121094" preserveAspectRatio="xMidYMid meet" version="1.0"><defs><filter x="0%" y="0%" width="100%" height="100%" id="7fbbee4841"><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" color-interpolation-filters="sRGB"/></filter><clipPath id="b038f97812"><path d="M 1 125 L 118 125 L 118 227 L 1 227 Z M 1 125 " clip-rule="nonzero"/></clipPath><clipPath id="df569c527a"><path d="M 45.40625 100.828125 L 131.851562 150.691406 L 73.828125 251.28125 L -12.617188 201.417969 Z M 45.40625 100.828125 " clip-rule="nonzero"/></clipPath><clipPath id="26da355f67"><path d="M 88.628906 125.757812 L 117.34375 175.839844 L 88.332031 226.132812 L 30.605469 226.347656 L 1.886719 176.269531 L 30.898438 125.972656 L 88.628906 125.757812 " clip-rule="nonzero"/></clipPath><clipPath id="2dd2a222d3"><path d="M 34 0 L 253 0 L 253 235.503906 L 34 235.503906 Z M 34 0 " clip-rule="nonzero"/></clipPath><mask id="bc7ff3a132"><g filter="url(#7fbbee4841)"><rect x="-37.5" width="450" fill="#000000" y="-23.624999" height="283.499989" fill-opacity="0.749"/></g></mask><clipPath id="8a0b5c175e"><path d="M 16 10 L 202 10 L 202 225 L 16 225 Z M 16 10 " clip-rule="nonzero"/></clipPath><clipPath id="7cc0aa2f3e"><path d="M 0.199219 37.671875 L 92.324219 -16.734375 L 218.941406 197.667969 L 126.816406 252.074219 Z M 0.199219 37.671875 " clip-rule="nonzero"/></clipPath><clipPath id="7af8afae26"><path d="M 45.457031 10.945312 L 106.542969 11.019531 L 201.035156 171.023438 L 171.601562 224.550781 L 110.519531 224.476562 L 16.027344 64.472656 L 45.457031 10.945312 " clip-rule="nonzero"/></clipPath><clipPath id="d716b8252b"><rect x="0" width="219" y="0" height="236"/></clipPath><clipPath id="a85e6d1a1a"><path d="M 257 9 L 374 9 L 374 110 L 257 110 Z M 257 9 " clip-rule="nonzero"/></clipPath><clipPath id="34105f19e1"><path d="M 301.160156 -15.777344 L 387.605469 34.085938 L 329.582031 134.675781 L 243.136719 84.8125 Z M 301.160156 -15.777344 " clip-rule="nonzero"/></clipPath><clipPath id="a0d602aa27"><path d="M 344.382812 9.152344 L 373.101562 59.234375 L 344.089844 109.527344 L 286.359375 109.742188 L 257.644531 59.664062 L 286.65625 9.367188 L 344.382812 9.152344 " clip-rule="nonzero"/></clipPath><clipPath id="01697f7f17"><path d="M 125 0 L 345 0 L 345 235.503906 L 125 235.503906 Z M 125 0 " clip-rule="nonzero"/></clipPath><mask id="46cb78aa70"><g filter="url(#7fbbee4841)"><rect x="-37.5" width="450" fill="#000000" y="-23.624999" height="283.499989" fill-opacity="0.749"/></g></mask><clipPath id="d769d0acd3"><path d="M 16 10 L 202 10 L 202 225 L 16 225 Z M 16 10 " clip-rule="nonzero"/></clipPath><clipPath id="23d19fc12d"><path d="M 0.613281 37.671875 L 92.738281 -16.734375 L 219.355469 197.667969 L 127.226562 252.074219 Z M 0.613281 37.671875 " clip-rule="nonzero"/></clipPath><clipPath id="203f6830ad"><path d="M 45.871094 10.945312 L 106.957031 11.019531 L 201.445312 171.023438 L 172.015625 224.550781 L 110.933594 224.476562 L 16.441406 64.472656 L 45.871094 10.945312 " clip-rule="nonzero"/></clipPath><clipPath id="0027ff16ee"><rect x="0" width="220" y="0" height="236"/></clipPath></defs><g clip-path="url(#b038f97812)"><g clip-path="url(#df569c527a)"><g clip-path="url(#26da355f67)"><path fill="#ffffff" d="M 45.40625 100.828125 L 131.851562 150.691406 L 73.828125 251.28125 L -12.617188 201.417969 Z M 45.40625 100.828125 " fill-opacity="1" fill-rule="nonzero"/></g></g></g><g clip-path="url(#2dd2a222d3)"><g mask="url(#bc7ff3a132)"><g transform="matrix(1, 0, 0, 1, 34, 0)"><g clip-path="url(#d716b8252b)"><g clip-path="url(#8a0b5c175e)"><g clip-path="url(#7cc0aa2f3e)"><g clip-path="url(#7af8afae26)"><path fill="#ffffff" d="M 0.199219 37.671875 L 90.648438 -15.742188 L 217.265625 198.65625 L 126.816406 252.074219 Z M 0.199219 37.671875 " fill-opacity="1" fill-rule="nonzero"/></g></g></g></g></g></g></g><g clip-path="url(#a85e6d1a1a)"><g clip-path="url(#34105f19e1)"><g clip-path="url(#a0d602aa27)"><path fill="#ffffff" d="M 301.160156 -15.777344 L 387.605469 34.085938 L 329.582031 134.675781 L 243.136719 84.8125 Z M 301.160156 -15.777344 " fill-opacity="1" fill-rule="nonzero"/></g></g></g><g clip-path="url(#01697f7f17)"><g mask="url(#46cb78aa70)"><g transform="matrix(1, 0, 0, 1, 125, 0)"><g clip-path="url(#0027ff16ee)"><g clip-path="url(#d769d0acd3)"><g clip-path="url(#23d19fc12d)"><g clip-path="url(#203f6830ad)"><path fill="#ffffff" d="M 0.613281 37.671875 L 91.0625 -15.742188 L 217.679688 198.65625 L 127.226562 252.074219 Z M 0.613281 37.671875 " fill-opacity="1" fill-rule="nonzero"/></g></g></g></g></g></g></g></svg>
+							<svg style="height: 30px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" viewBox="0 0 375 236.249991" height="236.24998474121094" preserveAspectRatio="xMidYMid meet" version="1.0"><defs><filter x="0%" y="0%" width="100%" height="100%" id="7fbbee4841"><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" color-interpolation-filters="sRGB"/></filter><clipPath id="b038f97812"><path d="M 1 125 L 118 125 L 118 227 L 1 227 Z M 1 125 " clip-rule="nonzero"/></clipPath><clipPath id="df569c527a"><path d="M 45.40625 100.828125 L 131.851562 150.691406 L 73.828125 251.28125 L -12.617188 201.417969 Z M 45.40625 100.828125 " clip-rule="nonzero"/></clipPath><clipPath id="26da355f67"><path d="M 88.628906 125.757812 L 117.34375 175.839844 L 88.332031 226.132812 L 30.605469 226.347656 L 1.886719 176.269531 L 30.898438 125.972656 L 88.628906 125.757812 " clip-rule="nonzero"/></clipPath><clipPath id="2dd2a222d3"><path d="M 34 0 L 253 0 L 253 235.503906 L 34 235.503906 Z M 34 0 " clip-rule="nonzero"/></clipPath><mask id="bc7ff3a132"><g filter="url(#7fbbee4841)"><rect x="-37.5" width="450" fill="#000000" y="-23.624999" height="283.499989" fill-opacity="0.749"/></g></mask><clipPath id="8a0b5c175e"><path d="M 16 10 L 202 10 L 202 225 L 16 225 Z M 16 10 " clip-rule="nonzero"/></clipPath><clipPath id="7cc0aa2f3e"><path d="M 0.199219 37.671875 L 92.324219 -16.734375 L 218.941406 197.667969 L 126.816406 252.074219 Z M 0.199219 37.671875 " clip-rule="nonzero"/></clipPath><clipPath id="7af8afae26"><path d="M 45.457031 10.945312 L 106.542969 11.019531 L 201.035156 171.023438 L 171.601562 224.550781 L 110.519531 224.476562 L 16.027344 64.472656 L 45.457031 10.945312 " clip-rule="nonzero"/></clipPath><clipPath id="d716b8252b"><rect x="0" width="219" y="0" height="236"/></clipPath><clipPath id="a85e6d1a1a"><path d="M 257 9 L 374 9 L 374 110 L 257 110 Z M 257 9 " clip-rule="nonzero"/></clipPath><clipPath id="34105f19e1"><path d="M 301.160156 -15.777344 L 387.605469 34.085938 L 329.582031 134.675781 L 243.136719 84.8125 Z M 301.160156 -15.777344 " clip-rule="nonzero"/></clipPath><clipPath id="a0d602aa27"><path d="M 344.382812 9.152344 L 373.101562 59.234375 L 344.089844 109.527344 L 286.359375 109.742188 L 257.644531 59.664062 L 286.65625 9.367188 L 344.382812 9.152344 " clip-rule="nonzero"/></clipPath><clipPath id="01697f7f17"><path d="M 125 0 L 345 0 L 345 235.503906 L 125 235.503906 Z M 125 0 " clip-rule="nonzero"/></clipPath><mask id="46cb78aa70"><g filter="url(#7fbbee4841)"><rect x="-37.5" width="450" fill="#000000" y="-23.624999" height="283.499989" fill-opacity="0.749"/></g></mask><clipPath id="d769d0acd3"><path d="M 16 10 L 202 10 L 202 225 L 16 225 Z M 16 10 " clip-rule="nonzero"/></clipPath><clipPath id="23d19fc12d"><path d="M 0.613281 37.671875 L 92.738281 -16.734375 L 219.355469 197.667969 L 127.226562 252.074219 Z M 0.613281 37.671875 " clip-rule="nonzero"/></clipPath><clipPath id="203f6830ad"><path d="M 45.871094 10.945312 L 106.957031 11.019531 L 201.445312 171.023438 L 172.015625 224.550781 L 110.933594 224.476562 L 16.441406 64.472656 L 45.871094 10.945312 " clip-rule="nonzero"/></clipPath><clipPath id="0027ff16ee"><rect x="0" width="220" y="0" height="236"/></clipPath></defs><g clip-path="url(#b038f97812)"><g clip-path="url(#df569c527a)"><g clip-path="url(#26da355f67)"><path fill="#ffffff" d="M 45.40625 100.828125 L 131.851562 150.691406 L 73.828125 251.28125 L -12.617188 201.417969 Z M 45.40625 100.828125 " fill-opacity="1" fill-rule="nonzero"/></g></g></g><g clip-path="url(#2dd2a222d3)"><g mask="url(#bc7ff3a132)"><g transform="matrix(1, 0, 0, 1, 34, 0)"><g clip-path="url(#d716b8252b)"><g clip-path="url(#8a0b5c175e)"><g clip-path="url(#7cc0aa2f3e)"><g clip-path="url(#7af8afae26)"><path fill="#ffffff" d="M 0.199219 37.671875 L 90.648438 -15.742188 L 217.265625 198.65625 L 126.816406 252.074219 Z M 0.199219 37.671875 " fill-opacity="1" fill-rule="nonzero"/></g></g></g></g></g></g></g><g clip-path="url(#a85e6d1a1a)"><g clip-path="url(#34105f19e1)"><g clip-path="url(#a0d602aa27)"><path fill="#ffffff" d="M 301.160156 -15.777344 L 387.605469 34.085938 L 329.582031 134.675781 L 243.136719 84.8125 Z M 301.160156 -15.777344 " fill-opacity="1" fill-rule="nonzero"/></g></g></g><g clip-path="url(#01697f7f17)"><g mask="url(#46cb78aa70)"><g transform="matrix(1, 0, 0, 1, 125, 0)"><g clip-path="url(#0027ff16ee)"><g clip-path="url(#d769d0acd3)"><g clip-path="url(#23d19fc12d)"><g clip-path="url(#203f6830ad)"><path fill="#ffffff" d="M 0.613281 37.671875 L 91.0625 -15.742188 L 217.679688 198.65625 L 127.226562 252.074219 Z M 0.613281 37.671875 " fill-opacity="1" fill-rule="nonzero"/></g></g></g></g></g></g></g></svg>
 						</a>
 					</li>
 					<li>
@@ -685,7 +685,11 @@
 		<ls-section id="welcome-hero">
 			<ls-block id="main-block">
 				<div id="layerslider_519_1ldlm4471kcvw" class="ls-wp-container fitvidsignore" style="width:1000px;height:100vh;margin:0 auto;">
-					<div class="ls-slide" data-ls="duration:750;kenburnsscale:1.2;"><ls-layer style='font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:50% 50%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;width:100%;height:100%;left:0px;top:0px;background-size:100% 100%;background-image:url("assets/uploads/layerslider/projects/LayerSlider-7.6-Hero/hero-gradient.png");-webkit-background-clip:border-box;' class="ls-l ls-html-layer" data-ls="durationin:0;easingin:linear;skipViewport:opening;position:fixed;"></ls-layer><ls-layer style="font-size:300px;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:overlay;overflow:visible;font-family:Lato;left:31px;top:324px;font-weight:300;color:#ffffff;-webkit-background-clip:border-box;" class="ls-l ls-hide-phone ls-html-layer" data-ls="offsetyin:100;durationin:2000;easingin:easeOutQuint;transitionout:false;scroll:true;scrollduration:100;scrolloffsety:6;scrolloffsetyresponsive:false;scrollscalex:3;scrollscaley:3;skipViewport:opening;pinned:true;">
+					<div class="ls-slide" data-ls="duration:750;kenburnsscale:1.2;">
+						<ls-layer style='font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:50% 50%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;width:100%;height:100%;left:0px;top:0px;background-size:100% 100%;background-image:url("assets/uploads/layerslider/projects/LayerSlider-7.6-Hero/hero-gradient.png");-webkit-background-clip:border-box;' 
+							class="ls-l ls-html-layer" data-ls="durationin:0;easingin:linear;skipViewport:opening;position:fixed;">
+						</ls-layer>
+						<ls-layer style="font-size:300px;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:overlay;overflow:visible;font-family:Lato;left:31px;top:324px;font-weight:300;color:#ffffff;-webkit-background-clip:border-box;" class="ls-l ls-hide-phone ls-html-layer" data-ls="offsetyin:100;durationin:2000;easingin:easeOutQuint;transitionout:false;scroll:true;scrollduration:100;scrolloffsety:6;scrolloffsetyresponsive:false;scrollscalex:3;scrollscaley:3;skipViewport:opening;pinned:true;">
 							A.P</ls-layer>
 						<ls-layer style='font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:50% 50%;background-repeat:no-repeat;background-clip:border-box;overflow:hidden;width:360px;height:200px;border-radius:6px 6px 6px 6px;top:491px;left:879px;background-size:cover;background-image:url("assets/uploads/layerslider/projects/LayerSlider-7.6-Hero/t7.jpg");-webkit-background-clip:border-box;' class="ls-l ls-hide-phone ls-html-layer" data-ls="autoplay:enabled;showinfo:disabled;controls:disabled;muted:enabled;loopmedia:enabled;offsetyin:100;durationin:2000;delayin:525;easingin:easeOutQuint;rotatein:=;skewxin:=;loop:true;loopduration:1500;loopstartat:transitioninend + 0;loopeasing:easeOutExpo;looptransformorigin:slidercenter slidermiddle;loopcount:1;rotation:25;skewX:-15;pinned:true;"></ls-layer><ls-layer style='font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:50% 50%;background-repeat:no-repeat;background-clip:border-box;overflow:hidden;width:360px;height:200px;border-radius:6px 6px 6px 6px;top:331px;left:539px;background-size:cover;mix-blend-mode:screen;background-image:url("assets/uploads/layerslider/projects/LayerSlider-7.6-Hero/template-candies.jpg");-webkit-background-clip:border-box;' class="ls-l ls-hide-phone ls-media-layer" data-ls="autoplay:enabled;showinfo:disabled;controls:disabled;muted:enabled;loopmedia:enabled;offsetyin:100;durationin:2000;delayin:450;easingin:easeOutQuint;rotatein:=;skewxin:=;loop:true;loopduration:1500;loopstartat:transitioninend + 0;loopeasing:easeOutExpo;looptransformorigin:slidercenter slidermiddle;loopcount:1;rotation:25;skewX:-15;pinned:true;"><video width="640" height="360" preload="metadata" controls="">
 								<source src="assets/uploads/2022/11/layerslider-template-sweet-candies.mp4" type="video/mp4">
@@ -705,34 +709,179 @@
 							Faites-nous confiance,<br>
 							pour plus de Qualité.
 						</ls-layer>
-						<ls-layer style="font-size:80px;font-style:normal;text-decoration:none;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:normal;overflow:visible;font-family:Montserrat;top:603px;left:44px;font-weight:600;text-transform:uppercase;color:#ffd4fc;-webkit-background-clip:border-box;" class="ls-l ls-hide-phone ls-html-layer" data-ls="offsetyin:150;durationin:2000;easingin:easeOutQuint;skipViewport:opening;pinned:true;">webstore</ls-layer><ls-layer style="font-size:130px;text-align:left;font-style:normal;text-decoration:none;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:normal;overflow:visible;font-family:Montserrat;top:58%;left:49.97%;font-weight:500;text-transform:uppercase;color:#ffd4fc;-webkit-background-clip:border-box;" class="ls-l ls-hide-desktop ls-hide-tablet ls-html-layer" data-ls="offsetyin:150;durationin:2000;easingin:easeOutQuint;skipViewport:opening;pinned:true;">webstore</ls-layer><ls-layer style="font-size:40px;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:normal;overflow:visible;top:742px;left:910px;cursor:pointer;color:#8022b2;-webkit-background-clip:border-box;" class="ls-l ls-hide-phone ls-icon-layer" data-ls="offsetyin:-100lh;durationin:1500;delayin:1500;easingin:linear;loop:true;loopoffsety:16;loopduration:1500;loopstartat:transitioninstart + 0;loopeasing:easeInQuint;loopcount:-1;loopyoyo:true;hover:true;hoverdurationin:200;hovereasingin:easeOutQuint;hoverscalex:1.1;hoverscaley:1.1;scroll:true;scrollduration:100;scrollscalex:-20;scrollscalexmin:0;scrollscaley:-20;scrollscaleymin:0;skipViewport:opening;pinned:true;" data-ls-actions='[{"action":"scrollBelowProject","trigger":"click","delay":0,"duration":1000,"easing":"easeInOutQuart","offset":0}]'><svg data-name="arrow-down" viewbox="0 0 384 512">
+						<ls-layer style="font-size:80px;font-style:normal;text-decoration:none;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:normal;overflow:visible;font-family:Montserrat;top:603px;left:44px;font-weight:600;text-transform:uppercase;color:#ffd4fc;-webkit-background-clip:border-box;" class="ls-l ls-hide-phone ls-html-layer" 
+						data-ls="offsetyin:150;durationin:2000;easingin:easeOutQuint;skipViewport:opening;pinned:true;">
+							webstore
+						</ls-layer>
+						<ls-layer style="font-size:130px;text-align:left;font-style:normal;text-decoration:none;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:normal;overflow:visible;font-family:Montserrat;top:58%;left:49.97%;font-weight:500;text-transform:uppercase;color:#ffd4fc;-webkit-background-clip:border-box;" class="ls-l ls-hide-desktop ls-hide-tablet ls-html-layer" 
+							data-ls="offsetyin:150;durationin:2000;easingin:easeOutQuint;skipViewport:opening;pinned:true;">
+							webstore
+						</ls-layer>
+						<ls-layer style="font-size:40px;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:normal;overflow:visible;top:742px;left:910px;cursor:pointer;color:#8022b2;-webkit-background-clip:border-box;" class="ls-l ls-hide-phone ls-icon-layer" 
+							data-ls="offsetyin:-100lh;durationin:1500;delayin:1500;easingin:linear;loop:true;loopoffsety:16;loopduration:1500;loopstartat:transitioninstart + 0;loopeasing:easeInQuint;loopcount:-1;loopyoyo:true;hover:true;hoverdurationin:200;hovereasingin:easeOutQuint;hoverscalex:1.1;hoverscaley:1.1;scroll:true;scrollduration:100;scrollscalex:-20;scrollscalexmin:0;scrollscaley:-20;scrollscaleymin:0;skipViewport:opening;pinned:true;" 
+							data-ls-actions='[{"action":"scrollBelowProject","trigger":"click","delay":0,"duration":1000,"easing":"easeInOutQuart","offset":0}]'>
+							<svg data-name="arrow-down" viewbox="0 0 384 512">
+								<path xmlns="http://www.w3.org/2000/svg" d="m374.6 310.6-160 160c-6.2 6.3-14.4 9.4-22.6 9.4s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l105.37 105.425v-306.8c0-17.69 14.33-31.1 31.1-31.1s32.9 13.41 32.9 31.1v306.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.45 32.7-.05 45.2z"></path>
+							</svg>
+						</ls-layer>
+						<ls-layer style="font-size:70px;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;mix-blend-mode:normal;overflow:visible;top:1100px;left:50%;cursor:pointer;color:#8022b2;-webkit-background-clip:border-box;" class="ls-l ls-hide-desktop ls-icon-layer" 
+							data-ls="offsetyin:-100lh;durationin:1500;delayin:1500;easingin:linear;loop:true;loopoffsety:16;loopduration:1500;loopstartat:transitioninstart + 0;loopeasing:easeInQuint;loopcount:-1;loopyoyo:true;hover:true;hoverdurationin:200;hovereasingin:easeOutQuint;hoverscalex:1.1;hoverscaley:1.1;scroll:true;scrollduration:100;scrollscalex:-20;scrollscalexmin:0;scrollscaley:-20;scrollscaleymin:0;skipViewport:opening;pinned:true;" 
+							data-ls-actions='[{"action":"scrollBelowProject","trigger":"click","delay":0,"duration":1000,"easing":"easeInOutQuart","offset":0}]'>
+							<svg data-name="arrow-down" viewbox="0 0 384 512">
 								<path xmlns="http://www.w3.org/2000/svg" d="m374.6 310.6-160 160c-6.2 6.3-14.4 9.4-22.6 9.4s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l105.37 105.425v-306.8c0-17.69 14.33-31.1 31.1-31.1s32.9 13.41 32.9 31.1v306.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.45 32.7-.05 45.2z"></path>
 							</svg>
 						</ls-layer>
 					</div>
 				</div>
 			</ls-block>
-
 		</ls-section>
 
 		<ls-section id="ls--the-only-app" class="bg--white pb-0 change-nav-scheme" data-nav-scheme="light">
-			<ls-sizer class="narrow">
+			<ls-sizer class="normal">
 				<ls-grid>
 					<ls-row>
 						<ls-col>
 							<ls-block>
-								<ls-content class="text-center">
-									<h2>L'Agence web dont vous avez besoin</h2>
-									<h3 class="mt-0">Pour donner vie à vos idées créatives</h3>
-									<p class="text-left">
-										<b>Apwebstore est une agence web spécialisée dans la création et la conception de solution digitale.</b>
-										Nous mettons à votre disposition, toute notre expertise pour la réalisation de vos projets web.
-									</p>
-									<p class="text-left">
-									Apwebstore met en place une stratégie unique qui combine à la fois vos besoins et 
-									les nouvelles technologies disponibles sur le web. 
-									Ce qui permet à nos réalisations de se démarquer en termes de présence digitale.
-									</p>
+								<style>
+									/* Pour les ecrans de type (xs) */
+									@media (max-width: 300px) {
+										.max-height-xs {
+											max-height: 775px;
+										}
+									}
+
+									@media (min-width: 300px) and (max-width: 425px) {
+										.max-height-xs {
+											max-height: 820px;
+										}
+									}
+
+									@media (min-width: 425px) and (max-width: 576px) {
+										.max-height-xs {
+											max-height: 1000px;
+										}
+									}
+									
+
+									/* Pour les ecrans de type (sm) */
+									@media (min-width: 576px) and (max-width: 767.98px) {
+										.max-height-sm {
+											max-height: 1300px;
+										}
+									}
+
+									/* Pour les ecrans de type (md) */
+									@media (min-width: 768px) and (max-width: 991.98px) {
+										.max-height-md {
+											max-height: 600px;
+										}
+									}
+
+									/* Pour les ecrans > (lg) */
+									@media (min-width: 992px) {
+										.max-height-lg {
+											max-height: 775px;
+										}
+									}
+
+								</style>
+								<ls-content class="mx-2 max-height-lg max-height-md max-height-sm max-height-xs">
+									<div style="position: relative; z-index: 103; max-width: 815px; margin: auto;">
+										<h2>L'Agence web dont vous avez besoin</h2>
+										<h3 class="mt-0">Pour donner vie à vos idées créatives</h3>
+										<p class="text-justify mt-2">
+											<b>Apwebstore est une agence web spécialisée dans la création et la conception de solutions digitales.</b>
+											Nous mettons à votre disposition toute notre expertise pour la réalisation de vos projets web.
+										</p>
+									</div>
+									<div id="layerslider_345_b72feqoxudk6" class="ls-wp-container fitvidsignore ls-about-us"
+										style="top: -15px; width:800px;height:100vh;min-height:1900px;margin:0 auto;margin-bottom: 0px;">
+										<div class="ls-slide" data-ls="bgcolor:#ffffff;kenburnsscale:1.2;"><img width="800" height="1000"
+												data-src="https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency--Your-Agency-Mobile/ls-slider-12-slide-1-2.jpg"
+												class="ls-tn" alt="" decoding="async"
+												data-srcset="https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency--Your-Agency-Mobile/ls-slider-12-slide-1-2.jpg 800w, https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency-–-Your-Agency-Mobile/ls-slider-12-slide-1-2-240x300.jpg 240w, https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency-–-Your-Agency-Mobile/ls-slider-12-slide-1-2-768x960.jpg 768w"
+												sizes="(max-width: 800px) 100vw, 800px">
+											<div style="background-size:inherit;background-position:inherit;font-size:19px;background-color:#fff;width:100%;height:100%;"
+												class="ls-l ls-html-layer"
+												data-ls="durationin:2000;delayin:200;easingin:easeOutQuint;fadein:false;scalexin:0;position:relative;">
+											</div>
+											<div style="top:70px;left:75px;background-size:inherit;background-position:inherit;font-size:18px;width:666px;height:500px;background-color:#4686DA;"
+												class="ls-l ls-html-layer"
+												data-ls="offsetyin:50;durationin:1400;delayin:400;easingin:easeOutQuint;fadein:false;scalexin:0;position:relative;">
+											</div><img width="1200" height="800"
+												data-src="https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency-&ndash;-Your-Agency-Mobile/agency-desk.jpg"
+												class="ls-l ls-img-layer" alt="" decoding="async"
+												data-srcset="https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency-&ndash;-Your-Agency-Mobile/agency-desk.jpg 1200w, https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency-&ndash;-Your-Agency-Mobile/agency-desk-300x200.jpg 300w, https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency-&ndash;-Your-Agency-Mobile/agency-desk-1024x683.jpg 1024w, https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency-&ndash;-Your-Agency-Mobile/agency-desk-768x512.jpg 768w"
+												sizes="(max-width: 1200px) 100vw, 1200px"
+												style="top:100px;left:25px;background-size:inherit;background-position:inherit;width:785px;height:475px;"
+												data-ls="offsetyin:50;durationin:1400;delayin:500;easingin:easeOutQuint;clipin:0 50% 0 50%;position:relative;">
+											<p style="top:625px;left:50%;font-weight:600;background-size:inherit;background-position:inherit;font-size:60px;font-family:Lato;color:#2b2b2b;"
+												class="ls-l ls-text-layer"
+												data-ls="offsetxin:-50;durationin:1400;delayin:500;easingin:easeOutQuint;clipin:0 0 0 0;texttransitionin:true;texttypein:words_asc;textshiftin:125;textoffsetyin:100lh;texteasingin:easeOutQuint;textstartatin:transitioninstart + 200;textrotatein:90;texttransformoriginin:0% 100% 0;position:relative;">
+												Votre agence</p>
+											<div style="top:715px;left:50%;background-size:inherit;background-position:inherit;font-size:2px;width:66px;height:4px;background-color:#4686DA;"
+												class="ls-l ls-html-layer"
+												data-ls="durationin:1400;delayin:1000;easingin:easeOutQuint;scalexin:0;transformoriginin:0% 50% 0;position:relative;">
+											</div>
+											<p style="top:750px;left:50%;text-align:center;font-weight:400;background-size:inherit;background-position:inherit;font-size:40px;font-family:montserrat, poppins, arial, 'sans-serif';color:#2b2b2b;width:650px;line-height:50px;white-space:normal;"
+												class="ls-l ls-text-layer"
+												data-ls="durationin:1400;delayin:1200;easingin:easeOutQuint;texttransitionin:true;texttypein:lines_asc;textshiftin:125;textoffsetyin:10;texteasingin:easeOutQuint;textstartatin:transitioninstart + 200;texttransformoriginin:0% 100% 0;position:relative;">
+												Apwebstore met en place une stratégie unique qui combine à la fois vos besoins et 
+												les nouvelles technologies disponibles sur le web. 
+												Ce qui permet à nos réalisations de se démarquer en termes de présence digitale.
+												</p>
+												<a class="ls-l" href="#" target="ls-scroll" data-ls="showinfo:disabled;controls:disabled;offsetyin:10;durationin:1400;delayin:2100;easingin:easeOutQuint;position:relative;">
+													<span
+														style="top:1185px;left:50%;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;mix-blend-mode:normal;padding-right:60px;padding-left:60px;font-size:35px;color:#fff;border-radius:38px;line-height:64px;font-family:montserrat, poppins, arial, 'sans-serif';letter-spacing:1px;background-color:#085FCE;"
+														class="ls-button-layer">
+														<i class="fa fa-angle-right"></i> Nos services
+													</span>
+												</a>
+										</div>
+									</div>
+									<div id="layerslider_344_1amcsvwgswmtq" class="ls-wp-container fitvidsignore ls-about-us"
+										style="top: -115px;width:1280px;height:100vh;margin:0 auto;margin-bottom: 0px;">
+										<div class="ls-slide" data-ls="bgcolor:#ffffff;kenburnsscale:1.2;"><img width="1739" height="938"
+												data-src="https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency--Your-Agency/your-agency-snapshot.jpg"
+												class="ls-tn" alt="" decoding="async"
+												data-srcset="https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency--Your-Agency/your-agency-snapshot.jpg 1739w, https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency-–-Your-Agency/your-agency-snapshot-300x162.jpg 300w, https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency-–-Your-Agency/your-agency-snapshot-1024x552.jpg 1024w, https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency-–-Your-Agency/your-agency-snapshot-768x414.jpg 768w, https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency-–-Your-Agency/your-agency-snapshot-1536x829.jpg 1536w"
+												sizes="(max-width: 1739px) 100vw, 1739px">
+											<div style="background-size:inherit;background-position:inherit;font-size:18px;background-color:#fff;width:1600px;height:800px;"
+												class="ls-l ls-html-layer"
+												data-ls="durationin:2000;delayin:200;easingin:easeOutQuint;fadein:false;scalexin:0;position:relative;">
+											</div>
+											<div style="top:232px;left:0px;background-size:inherit;background-position:inherit;font-size:18px;width:750px;height:500px;background-color:#4686DA;"
+												class="ls-l ls-html-layer"
+												data-ls="offsetxin:100;durationin:1400;delayin:400;easingin:easeOutQuint;fadein:false;scalexin:0;transformoriginin:100% 50% 0;position:relative;">
+											</div><img width="1200" height="800"
+												data-src="https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency-&ndash;-Your-Agency/agency-desk.jpg"
+												class="ls-l ls-img-layer" alt="" decoding="async"
+												data-srcset="https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency-&ndash;-Your-Agency/agency-desk.jpg 1200w, https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency-&ndash;-Your-Agency/agency-desk-300x200.jpg 300w, https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency-&ndash;-Your-Agency/agency-desk-1024x683.jpg 1024w, https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency-&ndash;-Your-Agency/agency-desk-768x512.jpg 768w"
+												sizes="(max-width: 1200px) 100vw, 1200px"
+												style="top:272px;left:40px;background-size:inherit;background-position:inherit;width:750px;height:500px;"
+												data-ls="offsetxin:100;durationin:1400;delayin:500;easingin:easeOutQuint;clipin:0 0 0 100%;position:relative;">
+											<p style="top:321px;left:838px;font-weight:600;background-size:inherit;background-position:inherit;font-size:45px;font-family:montserrat, poppins, arial, 'sans-serif';color:#2b2b2b;"
+												class="ls-l ls-text-layer"
+												data-ls="offsetxin:-50;durationin:1400;delayin:500;easingin:easeOutQuint;clipin:0 0 0 0;texttransitionin:true;texttypein:words_asc;textshiftin:125;textoffsetyin:100lh;texteasingin:easeOutQuint;textstartatin:transitioninstart + 200;textrotatein:90;texttransformoriginin:0% 100% 0;position:relative;">
+												Votre Agence</p>
+											<div style="top:390px;left:838px;background-size:inherit;background-position:inherit;font-size:2px;width:66px;height:3px;background-color:#4686DA;"
+												class="ls-l ls-html-layer"
+												data-ls="durationin:1400;delayin:1000;easingin:easeOutQuint;scalexin:0;transformoriginin:0% 50% 0;position:relative;">
+											</div>
+											<p style="top:426px;left:838px;font-weight:400;background-size:inherit;background-position:inherit;font-size:25px;font-family:montserrat, poppins, arial, 'sans-serif';color:#2b2b2b;width:450px;line-height:40px;white-space:normal;"
+												class="ls-l ls-text-layer"
+												data-ls="durationin:1400;delayin:1200;easingin:easeOutQuint;texttransitionin:true;texttypein:lines_asc;textshiftin:125;textoffsetyin:10;texteasingin:easeOutQuint;textstartatin:transitioninstart + 200;texttransformoriginin:0% 100% 0;position:relative;">
+												Apwebstore met en place une stratégie unique qui combine à la fois vos besoins et 
+												les nouvelles technologies disponibles sur le web. 
+												Ce qui permet à nos réalisations de se démarquer en termes de présence digitale.
+												</p>
+												<a  class="ls-l" href="#" target="ls-scroll" data-ls="showinfo:disabled;controls:disabled;offsetyin:10;durationin:1400;delayin:2100;easingin:easeOutQuint;position:relative;">
+													<span style="top:735px;left:838px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;mix-blend-mode:normal;padding-right:30px;padding-left:30px;font-size:25px;color:#fff;border-radius:30px;line-height:48px;font-family:montserrat, poppins, arial, 'sans-serif';background-color:#085FCE;" class="ls-button-layer">
+														<i class="fa fa-angle-right"></i> Nos services
+													</span>
+												</a>
+										</div>
+									</div>
 								</ls-content>
 							</ls-block>
 						</ls-col>
@@ -757,7 +906,7 @@
 			</ls-sizer>
 		</ls-section> -->
 
-		<ls-section id="ls--featured" class="bg--light pt-10 pb-10">
+		<ls-section id="clients" class="bg--light pt-10 pb-10">
 			<ls-sizer class="normal">
 				<h3 class="text-center mt-0">Ils nous font confiance</h3>
 				<ls-block id="ls-press-logos">
@@ -859,64 +1008,72 @@
 
 		<ls-section id="services" class="bg--white pb-10 change-nav-scheme" data-nav-scheme="light">
 			<ls-sizer class="normal">
-				<ls-grid>
-					<h2 class="text-center pb-5">Nos services</h2>
-					<ls-row class="row justify-content-around">
-						<ls-col class="col-md-5">
-							<ls-block>
-								<ls-content class="m-4">
-									<img style="height: 75px;" src="assets/medias/icons/services/site-web.svg" alt="">
-									<h4 class="text-left">Conception de sites internet</h4>
-									<p class="text-left mt-3">
-										Nous créons des sites web professionnels et fonctionnels pour les entreprises, 
-										en utilisant les dernières technologies et en veillant à ce qu'ils soient 
-										faciles à utiliser et à naviguer.
-									</p>
-								</ls-content>
-							</ls-block>
-						</ls-col>
-						<ls-col class="col-md-5">
-							<ls-block>
-								<ls-content class="m-4">
-									<img style="height: 75px;" src="assets/medias/icons/services/application-mobile.svg" alt="">
-									<h4 class="text-left">Conception d'applications mobiles</h4>
-									<p class="text-left mt-3">
-										Nous concevons des applications mobiles personnalisées pour les entreprises, 
-										permettant à leurs clients d'interagir avec eux facilement et efficacement 
-										sur leurs appareils mobiles.
-									</p>
-								</ls-content>
-							</ls-block>
-						</ls-col>
-					</ls-row>
-					<ls-row class="row justify-content-around">
-						<ls-col class="col-md-5">
-							<ls-block>
-								<ls-content class="m-4">
-									<img style="height: 75px;" src="assets/medias/icons/services/application-web.svg" alt="">
-									<h4 class="text-left">Conception d'applications web</h4>
-									<p class="text-left mt-3">
-										Nous développons des applications web riches en fonctionnalités pour les entreprises, 
-										leur permettant de mieux interagir avec leurs clients et de gérer leur activité en ligne.
-									</p>
-								</ls-content>
-							</ls-block>
-						</ls-col>
-						<ls-col class="col-md-5">
-							<ls-block>
-								<ls-content class="m-4">
-									<img style="height: 75px;" src="assets/medias/icons/services/conception-graphique.svg" alt="">
-									<h4 class="text-left">Conception graphique (logo, etc)</h4>
-									<p class="text-left mt-3">
-										Nous offrons une variété de services de conception graphique pour renforcer la présence 
-										de marque de nos clients, y compris la conception de logos, de chartes graphiques 
-										et de supports de marketing.
-									</p>
-								</ls-content>
-							</ls-block>
-						</ls-col>
-					</ls-row>
-				</ls-grid>
+				<div>
+					<h2 class="text-center pb-5 mb-5">
+						Nos services
+						<div class="d-none d-sm-block" style="position:relative;top: 10px;left:47%;background-size:inherit;background-position:inherit;font-size:2px;width:66px;height:3px;background-color:#4686DA;"></div>
+						<div class="d-block d-sm-none" style="position:relative;top: 10px;left:40%;background-size:inherit;background-position:inherit;font-size:2px;width:66px;height:3px;background-color:#4686DA;"></div>
+					</h2>
+					<div class="row justify-content-around pb-2 mb-5 px-5">
+						<div class="col-md-5">
+							<div class="row align-items-center">
+								<img class="col-2" style="height: 75px;" src="assets/medias/icons/services/site-web.svg" alt="">
+								<h4 class="col-10">Conception de sites internet</h4>
+							</div>
+							<div class="row text-left mt-3">
+								<p>
+								Nous créons des sites web professionnels et fonctionnels pour les entreprises, 
+								en utilisant les dernières technologies et en veillant à ce qu'ils soient 
+								faciles à utiliser et à naviguer.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="row align-items-center">
+								<img class="col-2" style="height: 75px;" src="assets/medias/icons/services/application-mobile.svg" alt="">
+								<h4 class="col-10">Conception d'app mobiles</h4>
+							</div>
+							<div class="row text-left mt-3">
+								<p>
+								Nous concevons des applications mobiles personnalisées pour les entreprises, 
+								permettant à leurs clients d'interagir avec eux facilement et efficacement 
+								sur leurs appareils mobiles.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-around pb-2 mb-5 px-5">
+						<div class="col-md-5">
+							<div class="row align-items-center">
+								<img class="col-2" style="height: 75px;" src="assets/medias/icons/services/application-web.svg" alt="">
+								<h4 class="col-10">Conception d'applications web</h4>
+							</div>
+							<div class="row text-left mt-3">
+								<p>
+								Nous développons des applications web riches en fonctionnalités pour les entreprises, 
+								leur permettant de mieux interagir avec leurs clients et de gérer leur activité en ligne.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="row align-items-center">
+								<img class="col-2" style="height: 75px;" src="assets/medias/icons/services/conception-graphique.svg" alt="">
+								<h4 class="col-10">Conception graphique (logo, etc)</h4>
+							</div>
+							<div class="row text-left mt-3">
+								<p>
+								Nous offrons une variété de services de conception graphique pour renforcer la présence 
+								de marque de nos clients, y compris la conception de logos, de chartes graphiques 
+								et de supports de marketing.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="btn" style="font-weight:400;padding: 5px 15px;font-size:15px;color:#fff;border-radius:35px;font-family:montserrat, poppins, arial, 'sans-serif';background-color:#085FCE;">
+					<i class="fa fa-angle-right"></i> Comment ça marche ?
+				</div>
 			</ls-sizer>
 		</ls-section>
 
@@ -1621,6 +1778,372 @@
 			"mouseDrag": true,
 			"swipeAngle": false,
 			"speed": 400
+		});
+	</script>
+	<script type='text/javascript' id='layerslider-js-after'>
+		// empêcher le changement de width et height de #layerslider_344_1amcsvwgswmtq lorsqu'on redimensionne la fenêtre
+
+		jQuery(function () {
+			_initLayerSlider('#layerslider_437_tswo1e49zg13', {
+				createdWith: '1.6.4',
+				sliderVersion: '6.11.8',
+				type: 'popup',
+				allowFullscreen: true,
+				maxRatio: 1,
+				pauseOnHover: 'enabled',
+				skin: 'noskin',
+				navPrevNext: false,
+				hoverPrevNext: false,
+				navStartStop: false,
+				navButtons: false,
+				showCircleTimer: false,
+				popupShowOnClick: '.api-open-popup',
+				popupShowOnce: false,
+				popupShowCloseButton: false,
+				popupStartSliderImmediately: true,
+				popupDistanceLeft: 0,
+				popupDistanceRight: 0,
+				popupDistanceTop: 0,
+				popupDistanceBottom: 0,
+				popupDelayIn: 400,
+				popupTransitionIn: 'scale',
+				popupTransitionOut: 'scale',
+				popupOverlayBackground: 'rgba(255, 255, 255, 0.9)',
+				popupOverlayDurationIn: 500,
+				useSrcset: true,
+				skinsPath: 'https://layerslider.com/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/',
+				performanceMode: true,
+				plugins: ["popup"]
+			});
+		});
+		jQuery(function () {
+			_initLayerSlider('#layerslider_337_1o0daf0jsk4b1', {
+				createdWith: '6.6.8.1',
+				sliderVersion: '6.11.1',
+				type: 'fullsize',
+				maxRatio: 1,
+				hideOver: 767,
+				pauseOnHover: 'enabled',
+				keybNav: false,
+				touchNav: false,
+				skin: 'v6',
+				sliderFadeInDuration: 350,
+				navPrevNext: false,
+				hoverPrevNext: false,
+				navStartStop: false,
+				navButtons: false,
+				showCircleTimer: false,
+				useSrcset: true,
+				skinsPath: 'https://layerslider.com/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/',
+				performanceMode: true,
+				height: 800
+			});
+		});
+		jQuery(function () {
+			_initLayerSlider('#layerslider_336_pf29c27pckgx', {
+				createdWith: '6.6.8.1',
+				sliderVersion: '6.11.1',
+				type: 'fullsize',
+				maxRatio: 1,
+				hideUnder: 768,
+				pauseOnHover: 'enabled',
+				keybNav: false,
+				touchNav: false,
+				skin: 'v6',
+				sliderFadeInDuration: 350,
+				navPrevNext: false,
+				hoverPrevNext: false,
+				navStartStop: false,
+				navButtons: false,
+				showCircleTimer: false,
+				useSrcset: true,
+				skinsPath: 'https://layerslider.com/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/',
+				performanceMode: true,
+				height: 800
+			});
+		});
+		jQuery(function () {
+			_initLayerSlider('#layerslider_345_b72feqoxudk6', {
+				createdWith: '6.10.2',
+				sliderVersion: '6.11.1',
+				// type: 'fullsize',
+				maxRatio: 1,
+				hideOver: 767,
+				pauseOnHover: 'enabled',
+				skin: 'v6',
+				sliderFadeInDuration: 350,
+				navPrevNext: false,
+				hoverPrevNext: false,
+				navStartStop: false,
+				navButtons: false,
+				showCircleTimer: false,
+				useSrcset: true,
+				skinsPath: 'https://layerslider.com/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/',
+				performanceMode: true,
+				height: 1000
+			});
+		});
+		jQuery(function () {
+			_initLayerSlider('#layerslider_344_1amcsvwgswmtq', {
+				createdWith: '6.10.2',
+				sliderVersion: '6.11.1',
+				// type: 'fullsize',
+				maxRatio: 1,
+				hideUnder: 768,
+				pauseOnHover: 'enabled',
+				skin: 'v6',
+				sliderFadeInDuration: 350,
+				navPrevNext: false,
+				hoverPrevNext: false,
+				navStartStop: false,
+				navButtons: false,
+				showCircleTimer: false,
+				useSrcset: true,
+				skinsPath: 'https://layerslider.com/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/',
+				performanceMode: true,
+				height: 900
+			});
+		});
+		jQuery(function () {
+			_initLayerSlider('#layerslider_343_1xjd2ld6k5j4a', {
+				createdWith: '6.10.2',
+				sliderVersion: '6.11.1',
+				maxRatio: 1,
+				hideOver: 767,
+				autoStart: false,
+				pauseOnHover: 'enabled',
+				skin: 'v6',
+				sliderFadeInDuration: 350,
+				useSrcset: true,
+				skinsPath: 'https://layerslider.com/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/',
+				performanceMode: true
+			});
+		});
+		jQuery(function () {
+			_initLayerSlider('#layerslider_342_ity51w3y858d', {
+				createdWith: '6.10.2',
+				sliderVersion: '6.11.1',
+				type: 'fullwidth',
+				maxRatio: 1,
+				hideUnder: 768,
+				pauseOnHover: 'enabled',
+				skin: 'v6',
+				sliderFadeInDuration: 350,
+				useSrcset: true,
+				skinsPath: 'https://layerslider.com/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/',
+				performanceMode: true
+			});
+		});
+		jQuery(function () {
+			_initLayerSlider('#layerslider_339_9ism7eo4kddt', {
+				createdWith: '6.10.2',
+				sliderVersion: '6.10.2',
+				type: 'fullwidth',
+				allowFullscreen: true,
+				hideOver: 767,
+				pauseOnHover: 'enabled',
+				keybNav: false,
+				touchNav: false,
+				skin: 'v6',
+				sliderFadeInDuration: 350,
+				globalBGImage: 'https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency-–-Partners-Mobile/brands-bg.jpg',
+				globalBGAttachment: 'fixed',
+				globalBGSize: 'cover',
+				navPrevNext: false,
+				hoverPrevNext: false,
+				navStartStop: false,
+				navButtons: false,
+				showCircleTimer: false,
+				useSrcset: true,
+				skinsPath: 'https://layerslider.com/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/',
+				performanceMode: true
+			});
+		});
+		jQuery(function () {
+			_initLayerSlider('#layerslider_338_15ml25y45kzzy', {
+				createdWith: '6.10.2',
+				sliderVersion: '6.11.1',
+				type: 'fullwidth',
+				allowFullscreen: true,
+				hideUnder: 768,
+				pauseOnHover: 'enabled',
+				keybNav: false,
+				touchNav: false,
+				skin: 'v6',
+				sliderFadeInDuration: 350,
+				globalBGImage: 'https://layerslider.com/wp-content/uploads/layerslider/PIXEL-Agency-–-Partners/brands-bg.jpg',
+				globalBGAttachment: 'fixed',
+				globalBGSize: 'cover',
+				navPrevNext: false,
+				hoverPrevNext: false,
+				navStartStop: false,
+				navButtons: false,
+				showCircleTimer: false,
+				useSrcset: true,
+				skinsPath: 'https://layerslider.com/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/',
+				performanceMode: true
+			});
+		});
+		jQuery(function () {
+			_initLayerSlider('#layerslider_334_d2pwqq2yxqjn', {
+				createdWith: '6.10.2',
+				sliderVersion: '6.10.2',
+				type: 'fullsize',
+				allowFullscreen: true,
+				maxRatio: 1,
+				hideOver: 767,
+				pauseOnHover: 'enabled',
+				skin: 'v6',
+				sliderFadeInDuration: 350,
+				useSrcset: true,
+				skinsPath: 'https://layerslider.com/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/',
+				performanceMode: true,
+				height: 1100
+			});
+		});
+		jQuery(function () {
+			_initLayerSlider('#layerslider_333_14kw2bior692y', {
+				createdWith: '6.10.2',
+				sliderVersion: '6.11.1',
+				type: 'fullsize',
+				allowFullscreen: true,
+				maxRatio: 1,
+				hideUnder: 768,
+				pauseOnHover: 'enabled',
+				skin: 'v6',
+				sliderFadeInDuration: 350,
+				useSrcset: true,
+				skinsPath: 'https://layerslider.com/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/',
+				performanceMode: true,
+				height: 900
+			});
+		});
+		jQuery(function () {
+			_initLayerSlider('#layerslider_341_gd6z07td44df', {
+				createdWith: '6.10.2',
+				sliderVersion: '6.11.6',
+				type: 'fixedsize',
+				allowFullscreen: true,
+				insertMethod: 'appendTo',
+				insertSelector: '#slider-template',
+				pauseOnHover: 'enabled',
+				skin: 'v6',
+				sliderFadeInDuration: 350,
+				navPrevNext: false,
+				hoverPrevNext: false,
+				navStartStop: false,
+				navButtons: false,
+				showCircleTimer: false,
+				popupShowOnTimeout: 1,
+				popupDisableOverlay: true,
+				popupShowCloseButton: false,
+				popupOverlayClickToClose: false,
+				popupPositionHorizontal: 'right',
+				popupPositionVertical: 'top',
+				popupDistanceLeft: 20,
+				popupDistanceRight: 20,
+				popupDistanceTop: 20,
+				popupDistanceBottom: 20,
+				useSrcset: true,
+				skinsPath: 'https://layerslider.com/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/',
+				performanceMode: true
+			});
+		});
+		jQuery(function () {
+			_initLayerSlider('#layerslider_340_dlyp613vjt7l', {
+				createdWith: '6.10.2',
+				sliderVersion: '6.10.2',
+				type: 'popup',
+				allowFullscreen: true,
+				pauseOnHover: 'enabled',
+				keybNav: false,
+				touchNav: false,
+				skin: 'v6',
+				sliderFadeInDuration: 350,
+				navPrevNext: false,
+				hoverPrevNext: false,
+				navStartStop: false,
+				navButtons: false,
+				showCircleTimer: false,
+				popupShowOnClick: '.ls-menu-open',
+				popupShowOnce: false,
+				popupCloseButtonStyle: 'border-radius:0;',
+				popupStartSliderImmediately: true,
+				popupFitHeight: true,
+				popupPositionHorizontal: 'right',
+				popupDistanceLeft: 0,
+				popupDistanceRight: 0,
+				popupDistanceTop: 0,
+				popupDistanceBottom: 0,
+				popupDelayIn: 0,
+				popupTransitionIn: 'slidefromright',
+				popupTransitionOut: 'slidetoright',
+				popupOverlayBackground: 'rgba(255, 255, 255, 0.6)',
+				useSrcset: true,
+				skinsPath: 'https://layerslider.com/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/',
+				performanceMode: true,
+				plugins: ["popup"]
+			});
+		});
+		jQuery(function () {
+			_initLayerSlider('#layerslider_335_1j6olul4na3wt', {
+				createdWith: '6.10.2',
+				sliderVersion: '6.10.2',
+				type: 'fullwidth',
+				allowFullscreen: true,
+				maxRatio: 1,
+				pauseOnHover: 'enabled',
+				skin: 'v6',
+				sliderFadeInDuration: 350,
+				useSrcset: true,
+				skinsPath: 'https://layerslider.com/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/',
+				performanceMode: true
+			});
+		});
+		jQuery(function () {
+			_initLayerSlider('#layerslider_433_1dqugl7fhxazq', {
+				createdWith: '6.11.2.0',
+				sliderVersion: '6.11.5',
+				allowFullscreen: true,
+				slideOnSwipe: false,
+				keybNav: false,
+				touchNav: false,
+				skin: 'noskin',
+				sliderFadeInDuration: 350,
+				navPrevNext: false,
+				hoverPrevNext: false,
+				navStartStop: false,
+				navButtons: false,
+				showCircleTimer: false,
+				useSrcset: true,
+				skinsPath: 'https://layerslider.com/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/',
+				performanceMode: true
+			});
+		});
+		jQuery(function () {
+			_initLayerSlider('#layerslider_438_1l8hm13w817o6', {
+				createdWith: '6.11.2.0',
+				sliderVersion: '6.11.5',
+				pauseOnHover: 'enabled',
+				keybNav: false,
+				touchNav: false,
+				skin: 'v6',
+				sliderFadeInDuration: 350,
+				navPrevNext: false,
+				hoverPrevNext: false,
+				navStartStop: false,
+				navButtons: false,
+				showCircleTimer: false,
+				useSrcset: true,
+				skinsPath: 'https://layerslider.com/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/',
+				performanceMode: true
+			}, {
+				sliderDidLoad: function (event, slider) {
+					slider.slider.on('click', '[data-ww-id]', function () {
+						loadPopupTemplate(jQuery(this), jQuery(this).data('wwId'));
+					});
+				}
+			});
 		});
 	</script>
 
