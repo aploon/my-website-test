@@ -345,6 +345,360 @@
 			line-height: 1.6;
 		}
 
+		:root,
+		[data-theme=light] {
+			--kt-xs: 0;
+			--kt-sm: 576px;
+			--kt-md: 768px;
+			--kt-lg: 992px;
+			--kt-xl: 1200px;
+			--kt-xxl: 1400px;
+			--kt-white: #ffffff;
+			--kt-white-bg-rgb: 255, 255, 255;
+			--kt-black: #000000;
+			--kt-black-bg-rgb: 0, 0, 0;
+			--kt-text-muted: #A1A5B7;
+			--kt-gray-100: #f5f8fa;
+			--kt-gray-200: #eff2f5;
+			--kt-gray-300: #E4E6EF;
+			--kt-gray-400: #B5B5C3;
+			--kt-gray-500: #A1A5B7;
+			--kt-gray-600: #7E8299;
+			--kt-gray-700: #5E6278;
+			--kt-gray-800: #3F4254;
+			--kt-gray-900: #181C32;
+			--kt-gray-100-rgb: 245, 248, 250;
+			--kt-gray-200-rgb: 239, 242, 245;
+			--kt-gray-300-rgb: 228, 230, 239;
+			--kt-gray-400-rgb: 181, 181, 195;
+			--kt-gray-500-rgb: 161, 165, 183;
+			--kt-gray-600-rgb: 126, 130, 153;
+			--kt-gray-700-rgb: 94, 98, 120;
+			--kt-gray-800-rgb: 63, 66, 84;
+			--kt-gray-900-rgb: 24, 28, 50;
+			--kt-white: #ffffff;
+			--kt-light: #f5f8fa;
+			--kt-primary: #009ef7;
+			--kt-secondary: #E4E6EF;
+			--kt-success: #50cd89;
+			--kt-info: #7239ea;
+			--kt-warning: #ffc700;
+			--kt-danger: #f1416c;
+			--kt-dark: #181C32;
+			--kt-primary-active: #0095e8;
+			--kt-secondary-active: #B5B5C3;
+			--kt-light-active: #eff2f5;
+			--kt-success-active: #47be7d;
+			--kt-info-active: #5014d0;
+			--kt-warning-active: #f1bc00;
+			--kt-danger-active: #d9214e;
+			--kt-dark-active: #131628;
+			--kt-primary-light: #f1faff;
+			--kt-secondary-light: #f5f8fa;
+			--kt-success-light: #e8fff3;
+			--kt-info-light: #f8f5ff;
+			--kt-warning-light: #fff8dd;
+			--kt-danger-light: #fff5f8;
+			--kt-dark-light: #eff2f5;
+			--kt-primary-inverse: #ffffff;
+			--kt-secondary-inverse: #3F4254;
+			--kt-light-inverse: #7E8299;
+			--kt-success-inverse: #ffffff;
+			--kt-info-inverse: #ffffff;
+			--kt-warning-inverse: #ffffff;
+			--kt-danger-inverse: #ffffff;
+			--kt-dark-inverse: #ffffff;
+			--kt-white-rgb: 255, 255, 255;
+			--kt-light-rgb: 245, 248, 250;
+			--kt-primary-rgb: 0, 158, 247;
+			--kt-secondary-rgb: 228, 230, 239;
+			--kt-success-rgb: 80, 205, 137;
+			--kt-info-rgb: 114, 57, 234;
+			--kt-warning-rgb: 255, 199, 0;
+			--kt-danger-rgb: 241, 65, 108;
+			--kt-dark-rgb: 24, 28, 50;
+			--kt-text-white: #ffffff;
+			--kt-text-primary: #009ef7;
+			--kt-text-secondary: #E4E6EF;
+			--kt-text-light: #f5f8fa;
+			--kt-text-success: #50cd89;
+			--kt-text-info: #7239ea;
+			--kt-text-warning: #ffc700;
+			--kt-text-danger: #f1416c;
+			--kt-text-dark: #181C32;
+			--kt-text-muted: #A1A5B7;
+			--kt-text-gray-100: #f5f8fa;
+			--kt-text-gray-200: #eff2f5;
+			--kt-text-gray-300: #E4E6EF;
+			--kt-text-gray-400: #B5B5C3;
+			--kt-text-gray-500: #A1A5B7;
+			--kt-text-gray-600: #7E8299;
+			--kt-text-gray-700: #5E6278;
+			--kt-text-gray-800: #3F4254;
+			--kt-text-gray-900: #181C32;
+			--kt-body-bg: #ffffff;
+			--kt-body-bg-rgb: 255, 255, 255;
+			--kt-body-color: #181C32;
+			--kt-link-color: #009ef7;
+			--kt-link-hover-color: shift-color(#009ef7, 20%);
+			--kt-border-color: #eff2f5;
+			--kt-border-dashed-color: #E4E6EF;
+			--kt-component-active-color: #ffffff;
+			--kt-component-active-bg: #009ef7;
+			--kt-component-hover-color: #009ef7;
+			--kt-component-hover-bg: #F4F6FA;
+			--kt-component-checked-color: #ffffff;
+			--kt-component-checked-bg: #009ef7;
+			--kt-box-shadow-xs: 0 0.1rem 0.75rem 0.25rem rgba(0, 0, 0, 0.05);
+			--kt-box-shadow-sm: 0 0.1rem 1rem 0.25rem rgba(0, 0, 0, 0.05);
+			--kt-box-shadow: 0 0.5rem 1.5rem 0.5rem rgba(0, 0, 0, 0.075);
+			--kt-box-shadow-lg: 0 1rem 2rem 1rem rgba(0, 0, 0, 0.1);
+			--kt-headings-color: #181C32;
+			--kt-table-color: #181C32;
+			--kt-table-bg: transparent;
+			--kt-table-striped-color: #181C32;
+			--kt-table-striped-bg: rgba(245, 248, 250, 0.75);
+			--kt-table-accent-bg: transparent;
+			--kt-table-active-color: #181C32;
+			--kt-table-active-bg: #f5f8fa;
+			--kt-table-hover-colorr: #181C32;
+			--kt-table-hover-bg: #f5f8fa;
+			--kt-table-border-color: #eff2f5;
+			--kt-table-caption-color: #A1A5B7;
+			--kt-table-loading-message-box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
+			--kt-table-loading-message-bg: #ffffff;
+			--kt-table-loading-message-color: #5E6278;
+			--kt-input-btn-focus-color: rgba(0, 158, 247, 0.25);
+			--kt-input-btn-focus-box-shadow: 0 0 0 0.25rem rgba(0, 158, 247, 0.25);
+			--kt-input-btn-focus-color-opacity: 0.25;
+			--kt-input-color: #5E6278;
+			--kt-input-placeholder-color: #A1A5B7;
+			--kt-input-plaintext-color: #5E6278;
+			--kt-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+			--kt-btn-focus-box-shadow: 0 0 0 0.25rem rgba(0, 158, 247, 0.25);
+			--kt-btn-active-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+			--kt-btn-disabled-opacity: 0.65;
+			--kt-btn-link-color: #009ef7;
+			--kt-btn-link-hover-color: shift-color(#009ef7, 20%);
+			--kt-btn-link-disabled-color: #7E8299;
+			--kt-form-label-color: #3F4254;
+			--kt-form-text-color: #A1A5B7;
+			--kt-input-bg: #ffffff;
+			--kt-input-disabled-bg: #eff2f5;
+			--kt-input-disabled-border-color: #E4E6EF;
+			--kt-input-color: #5E6278;
+			--kt-input-border-color: #E4E6EF;
+			--kt-input-focus-bg: #ffffff;
+			--kt-input-focus-border-color: #B5B5C3;
+			--kt-input-focus-color: #5E6278;
+			--kt-input-solid-bg: #f5f8fa;
+			--kt-input-solid-bg-focus: #eef3f7;
+			--kt-input-solid-placeholder-color: #A1A5B7;
+			--kt-input-solid-color: #5E6278;
+			--kt-form-check-input-active-filter: brightness(90%);
+			--kt-form-check-input-bg: transparent;
+			--kt-form-check-input-bg-solid: #eff2f5;
+			--kt-form-check-input-border: 1px solid #E4E6EF;
+			--kt-form-check-input-focus-border: #B5B5C3;
+			--kt-form-check-input-focus-box-shadow: none;
+			--kt-form-check-input-checked-color: #ffffff;
+			--kt-form-check-input-checked-bg-color: #009ef7;
+			--kt-form-check-input-checked-bg-color-solid: #009ef7;
+			--kt-form-check-input-checked-border-color: #009ef7;
+			--kt-form-check-input-checked-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 13 11' width='13' height='11' fill='none'%3e%3cpath d='M11.0426 1.02893C11.3258 0.695792 11.8254 0.655283 12.1585 0.938451C12.4917 1.22162 12.5322 1.72124 12.249 2.05437L5.51985 9.97104C5.23224 10.3094 4.72261 10.3451 4.3907 10.05L0.828197 6.88335C0.50141 6.59288 0.471975 6.09249 0.762452 5.7657C1.05293 5.43891 1.55332 5.40948 1.88011 5.69995L4.83765 8.32889L11.0426 1.02893Z' fill='%23ffffff'/%3e%3c/svg%3e");
+			--kt-form-check-radio-checked-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23ffffff'/%3e%3c/svg%3e");
+			--kt-form-check-input-indeterminate-color: #ffffff;
+			--kt-form-check-input-indeterminate-bg-color: #009ef7;
+			--kt-form-check-input-indeterminate-border-color: #009ef7;
+			--kt-form-check-input-indeterminate-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
+			--kt-form-check-input-disabled-opacity: 0.5;
+			--kt-form-check-label-disabled-opacity: 0.5;
+			--kt-form-check-btn-check-disabled-opacity: 0.65;
+			--kt-form-switch-color: rgba(0, 0, 0, 0.25);
+			--kt-form-switch-color-solid: #ffffff;
+			--kt-form-switch-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");
+			--kt-form-switch-bg-image-solid: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23ffffff'/%3e%3c/svg%3e");
+			--kt-form-switch-focus-color: #B5B5C3;
+			--kt-form-switch-focus-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23B5B5C3'/%3e%3c/svg%3e");
+			--kt-form-switch-checked-color: #ffffff;
+			--kt-form-switch-checked-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23ffffff'/%3e%3c/svg%3e");
+			--kt-input-group-addon-color: #5E6278;
+			--kt-input-group-addon-bg: #f5f8fa;
+			--kt-input-group-addon-border-color: #E4E6EF;
+			--kt-form-select-color: #5E6278;
+			--kt-form-select-bg: #ffffff;
+			--kt-form-select-disabled-bg: #eff2f5;
+			--kt-form-select-disabled-border-color: #E4E6EF;
+			--kt-form-select-indicator-color: #7E8299;
+			--kt-form-select-indicator: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%237E8299' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+			--kt-form-select-border-color: #E4E6EF;
+			--kt-form-select-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+			--kt-form-select-focus-border-color: #B5B5C3;
+			--kt-form-select-focus-box-shadow: 0 0 0 0.25rem rgba(0, 158, 247, 0.25);
+			--kt-form-file-button-color: #5E6278;
+			--kt-form-file-button-bg: #f5f8fa;
+			--kt-form-file-button-hover-bg: shade-color(#f5f8fa, 5%);
+			--kt-nav-tabs-border-color: #eff2f5;
+			--kt-nav-tabs-link-hover-border-color: #eff2f5 #eff2f5 #eff2f5;
+			--kt-nav-tabs-link-active-color: #5E6278;
+			--kt-nav-tabs-link-active-bg: #ffffff;
+			--kt-nav-tabs-link-active-border-color: #E4E6EF #E4E6EF #ffffff;
+			--kt-nav-pills-link-active-color: #ffffff;
+			--kt-nav-pills-link-active-bg: #009ef7;
+			--kt-dropdown-color: #181C32;
+			--kt-dropdown-bg: #ffffff;
+			--kt-dropdown-divider-bg: #f5f8fa;
+			--kt-dropdown-box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
+			--kt-dropdown-link-color: #181C32;
+			--kt-dropdown-link-hover-color: shade-color(#181C32, 10%);
+			--kt-dropdown-link-hover-bg: #eff2f5;
+			--kt-dropdown-link-active-color: #ffffff;
+			--kt-dropdown-link-active-bg: #009ef7;
+			--kt-dropdown-link-disabled-color: #A1A5B7;
+			--kt-dropdown-header-color: #7E8299;
+			--kt-pagination-item-bg: #ffffff;
+			--kt-pagination-color: #5E6278;
+			--kt-pagination-bg: transparent;
+			--kt-pagination-border-color: transparent;
+			--kt-pagination-focus-color: #009ef7;
+			--kt-pagination-focus-bg: #F4F6FA;
+			--kt-pagination-focus-box-shadow: none;
+			--kt-pagination-focus-outline: 0;
+			--kt-pagination-hover-color: #009ef7;
+			--kt-pagination-hover-bg: #F4F6FA;
+			--kt-pagination-hover-border-color: transparent;
+			--kt-pagination-active-color: #ffffff;
+			--kt-pagination-active-bg: #009ef7;
+			--kt-pagination-active-border-color: transparent;
+			--kt-pagination-disabled-color: #B5B5C3;
+			--kt-pagination-disabled-bg: transparent;
+			--kt-card-bg: #ffffff;
+			--kt-card-box-shadow: 0px 0px 20px 0px rgba(76, 87, 125, 0.02);
+			--kt-card-border-color: #eff2f5;
+			--kt-card-border-dashed-color: #E4E6EF;
+			--kt-card-cap-bg: transparent;
+			--kt-accordion-color: #181C32;
+			--kt-accordion-bg: #ffffff;
+			--kt-accordion-border-color: #eff2f5;
+			--kt-accordion-button-bg: #ffffff;
+			--kt-accordion-button-color: #181C32;
+			--kt-accordion-button-active-bg: #f5f8fa;
+			--kt-accordion-button-active-color: #009ef7;
+			--kt-accordion-button-focus-border-color: #eff2f5;
+			--kt-accordion-button-focus-box-shadow: none;
+			--kt-accordion-icon-color: #181C32;
+			--kt-accordion-icon-active-color: #009ef7;
+			--kt-accordion-button-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23181C32'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+			--kt-accordion-button-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23009ef7'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+			--kt-tooltip-color: #3F4254;
+			--kt-tooltip-bg: #ffffff;
+			--kt-tooltip-opacity: 1;
+			--kt-tooltip-box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
+			--kt-popover-bg: #ffffff;
+			--kt-popover-border-color: #ffffff;
+			--kt-popover-box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
+			--kt-popover-header-bg: #ffffff;
+			--kt-popover-header-color: #3F4254;
+			--kt-popover-header-border-color: #eff2f5;
+			--kt-popover-body-color: #3F4254;
+			--kt-dropdown-box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
+			--kt-dropdown-bg: #ffffff;
+			--kt-toast-background-color: rgba(255, 255, 255, 0.85);
+			--kt-toast-box-shadow: 0 0.5rem 1.5rem 0.5rem rgba(0, 0, 0, 0.075);
+			--kt-toast-header-color: #7E8299;
+			--kt-toast-header-background-color: rgba(255, 255, 255, 0.85);
+			--kt-toast-header-border-color: rgba(0, 0, 0, 0.05);
+			--kt-badge-color: #ffffff;
+			--kt-modal-bg: #ffffff;
+			--kt-modal-border-color: var(--bs-border-color-translucent);
+			--kt-modal-box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+			--kt-modal-content-bg: #ffffff;
+			--kt-modal-content-border-color: var(--bs-border-color-translucent);
+			--kt-modal-content-box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+			--kt-modal-content-box-shadow-xs: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+			--kt-modal-content-box-shadow-sm-up: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+			--kt-modal-header-border-color: #eff2f5;
+			--kt-modal-footer-border-color: #eff2f5;
+			--kt-modal-backdrop-bg: #000000;
+			--kt-modal-backdrop-opacity: 0.3;
+			--kt-progress-bg: #f5f8fa;
+			--kt-progress-box-shadow: none;
+			--kt-list-group-color: #181C32;
+			--kt-list-group-bg: #ffffff;
+			--kt-list-group-border-color: rgba(0, 0, 0, 0.125);
+			--kt-list-group-hover-bg: #f5f8fa;
+			--kt-list-group-active-color: #ffffff;
+			--kt-list-group-active-bg: #009ef7;
+			--kt-list-group-active-border-colorg: #009ef7;
+			--kt-list-group-disabled-color: #7E8299;
+			--kt-list-group-disabled-bg: #ffffff;
+			--kt-list-group-action-colorg: #5E6278;
+			--kt-list-group-action-hover-color: #5E6278;
+			--kt-list-group-action-active-color: #181C32;
+			--kt-list-group-action-active-bg: #eff2f5;
+			--kt-thumbnail-bg: #ffffff;
+			--kt-thumbnail-border-color: #eff2f5;
+			--kt-thumbnail-box-shadow: 0 0.1rem 1rem 0.25rem rgba(0, 0, 0, 0.05);
+			--kt-figure-caption-color: #7E8299;
+			--kt-breadcrumb-divider-color: #7E8299;
+			--kt-breadcrumb-active-color: #009ef7;
+			--kt-carousel-custom-indicator-default-bg-color: #eff2f5;
+			--kt-carousel-custom-indicator-active-bg-color: #B5B5C3;
+			--kt-carousel-custom-bullet-indicator-default-bg-color: #B5B5C3;
+			--kt-carousel-custom-bullet-indicator-active-bg-color: #7E8299;
+			--kt-code-bg: #F1F3F8;
+			--kt-code-box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.08);
+			--kt-code-color: #b93993;
+			--kt-btn-close-color: #000000;
+			--kt-btn-close-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e");
+			--kt-offcanvas-border-color: var(--bs-border-color-translucent);
+			--kt-offcanvas-bg-color: #ffffff;
+			--kt-offcanvas-box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+			--kt-offcanvas-backdrop-bg: #000000;
+			--kt-offcanvas-backdrop-opacity: 0.3;
+			--kt-symbol-label-color: #3F4254;
+			--kt-symbol-label-bg: #f5f8fa;
+			--kt-symbol-border-color: rgba(255, 255, 255, 0.5);
+			--kt-bullet-bg-color: #B5B5C3;
+			--kt-scrolltop-opacity: 0;
+			--kt-scrolltop-opacity-on: 0.3;
+			--kt-scrolltop-opacity-hover: 1;
+			--kt-scrolltop-box-shadow: 0 0.5rem 1.5rem 0.5rem rgba(0, 0, 0, 0.075);
+			--kt-scrolltop-bg-color: #009ef7;
+			--kt-scrolltop-bg-color-hover: #009ef7;
+			--kt-scrolltop-icon-color: #ffffff;
+			--kt-scrolltop-icon-color-hover: #ffffff;
+			--kt-drawer-box-shadow: 0px 1px 9px -3px rgba(0, 0, 0, 0.05);
+			--kt-drawer-bg-color: #ffffff;
+			--kt-drawer-overlay-bg-color: rgba(0, 0, 0, 0.2);
+			--kt-menu-dropdown-box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
+			--kt-menu-dropdown-bg-color: #ffffff;
+			--kt-menu-heading-color: #A1A5B7;
+			--kt-menu-link-color-hover: #009ef7;
+			--kt-menu-link-color-show: #009ef7;
+			--kt-menu-link-color-here: #009ef7;
+			--kt-menu-link-color-active: #009ef7;
+			--kt-menu-link-bg-color-hover: #F4F6FA;
+			--kt-menu-link-bg-color-show: #F4F6FA;
+			--kt-menu-link-bg-color-here: #F4F6FA;
+			--kt-menu-link-bg-color-active: #F4F6FA;
+			--kt-feedback-popup-box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
+			--kt-feedback-popup-background-color: #ffffff;
+			--kt-scrollbar-color: #eff2f5;
+			--kt-scrollbar-hover-color: #e9edf1;
+			--kt-scrollbar-width: 0.4rem;
+			--kt-scrollbar-height: 0.4rem;
+			--kt-scrollbar-space: 0.5rem;
+			--kt-overlay-bg: rgba(0, 0, 0, 0.05);
+			--kt-blockui-overlay-bg: rgba(0, 0, 0, 0.05);
+			--kt-rating-color-default: #B5B5C3;
+			--kt-rating-color-active: #FFAD0F;
+			--kt-ribbon-label-box-shadow: 0px -1px 5px 0px rgba(24, 28, 50, 0.1);
+			--kt-ribbon-label-bg: #009ef7;
+			--kt-ribbon-label-border-color: #005d91;
+			--kt-ribbon-clip-bg: #181C32
+		}
+
 		.scrolltop {
 			position: fixed;
 			cursor: pointer;
@@ -379,6 +733,948 @@
 
 		.bg--apcolor {
 			background-color: #4686DA;
+		}
+
+		#realisations img {
+			max-width: 100%;
+			height: auto;
+			vertical-align: middle;
+		}
+
+		.svg-icon {
+			line-height: 1;
+			color: var(--kt-text-muted)
+		}
+
+		.svg-icon svg {
+			height: 1.15rem;
+			width: 1.15rem
+		}
+
+		.svg-icon.svg-icon-white {
+			color: var(--kt-text-white)
+		}
+
+		.svg-icon.svg-icon-primary {
+			color: var(--kt-text-primary)
+		}
+
+		.svg-icon.svg-icon-secondary {
+			color: var(--kt-text-secondary)
+		}
+
+		.svg-icon.svg-icon-light {
+			color: var(--kt-text-light)
+		}
+
+		.svg-icon.svg-icon-success {
+			color: var(--kt-text-success)
+		}
+
+		.svg-icon.svg-icon-info {
+			color: var(--kt-text-info)
+		}
+
+		.svg-icon.svg-icon-warning {
+			color: var(--kt-text-warning)
+		}
+
+		.svg-icon.svg-icon-danger {
+			color: var(--kt-text-danger)
+		}
+
+		.svg-icon.svg-icon-dark {
+			color: var(--kt-text-dark)
+		}
+
+		.svg-icon.svg-icon-muted {
+			color: var(--kt-text-muted)
+		}
+
+		.svg-icon.svg-icon-gray-100 {
+			color: var(--kt-text-gray-100)
+		}
+
+		.svg-icon.svg-icon-gray-200 {
+			color: var(--kt-text-gray-200)
+		}
+
+		.svg-icon.svg-icon-gray-300 {
+			color: var(--kt-text-gray-300)
+		}
+
+		.svg-icon.svg-icon-gray-400 {
+			color: var(--kt-text-gray-400)
+		}
+
+		.svg-icon.svg-icon-gray-500 {
+			color: var(--kt-text-gray-500)
+		}
+
+		.svg-icon.svg-icon-gray-600 {
+			color: var(--kt-text-gray-600)
+		}
+
+		.svg-icon.svg-icon-gray-700 {
+			color: var(--kt-text-gray-700)
+		}
+
+		.svg-icon.svg-icon-gray-800 {
+			color: var(--kt-text-gray-800)
+		}
+
+		.svg-icon.svg-icon-gray-900 {
+			color: var(--kt-text-gray-900)
+		}
+
+		.svg-icon.svg-icon-1 svg {
+			height: 1.75rem !important;
+			width: 1.75rem !important
+		}
+
+		.svg-icon.svg-icon-2 svg {
+			height: 1.5rem !important;
+			width: 1.5rem !important
+		}
+
+		.svg-icon.svg-icon-3 svg {
+			height: 1.35rem !important;
+			width: 1.35rem !important
+		}
+
+		.svg-icon.svg-icon-4 svg {
+			height: 1.25rem !important;
+			width: 1.25rem !important
+		}
+
+		.svg-icon.svg-icon-5 svg {
+			height: 1.15rem !important;
+			width: 1.15rem !important
+		}
+
+		.svg-icon.svg-icon-6 svg {
+			height: 1.075rem !important;
+			width: 1.075rem !important
+		}
+
+		.svg-icon.svg-icon-7 svg {
+			height: .95rem !important;
+			width: .95rem !important
+		}
+
+		.svg-icon.svg-icon-8 svg {
+			height: .85rem !important;
+			width: .85rem !important
+		}
+
+		.svg-icon.svg-icon-9 svg {
+			height: .75rem !important;
+			width: .75rem !important
+		}
+
+		.svg-icon.svg-icon-10 svg {
+			height: .5rem !important;
+			width: .5rem !important
+		}
+
+		.svg-icon.svg-icon-base svg {
+			height: 1rem !important;
+			width: 1rem !important
+		}
+
+		.svg-icon.svg-icon-fluid svg {
+			height: 100% !important;
+			width: 100% !important
+		}
+
+		.svg-icon.svg-icon-2x svg {
+			height: 2rem !important;
+			width: 2rem !important
+		}
+
+		.svg-icon.svg-icon-2qx svg {
+			height: 2.25rem !important;
+			width: 2.25rem !important
+		}
+
+		.svg-icon.svg-icon-2hx svg {
+			height: 2.5rem !important;
+			width: 2.5rem !important
+		}
+
+		.svg-icon.svg-icon-2tx svg {
+			height: 2.75rem !important;
+			width: 2.75rem !important
+		}
+
+		.svg-icon.svg-icon-3x svg {
+			height: 3rem !important;
+			width: 3rem !important
+		}
+
+		.svg-icon.svg-icon-3qx svg {
+			height: 3.25rem !important;
+			width: 3.25rem !important
+		}
+
+		.svg-icon.svg-icon-3hx svg {
+			height: 3.5rem !important;
+			width: 3.5rem !important
+		}
+
+		.svg-icon.svg-icon-3tx svg {
+			height: 3.75rem !important;
+			width: 3.75rem !important
+		}
+
+		.svg-icon.svg-icon-4x svg {
+			height: 4rem !important;
+			width: 4rem !important
+		}
+
+		.svg-icon.svg-icon-4qx svg {
+			height: 4.25rem !important;
+			width: 4.25rem !important
+		}
+
+		.svg-icon.svg-icon-4hx svg {
+			height: 4.5rem !important;
+			width: 4.5rem !important
+		}
+
+		.svg-icon.svg-icon-4tx svg {
+			height: 4.75rem !important;
+			width: 4.75rem !important
+		}
+
+		.svg-icon.svg-icon-5x svg {
+			height: 5rem !important;
+			width: 5rem !important
+		}
+
+		.svg-icon.svg-icon-5qx svg {
+			height: 5.25rem !important;
+			width: 5.25rem !important
+		}
+
+		.svg-icon.svg-icon-5hx svg {
+			height: 5.5rem !important;
+			width: 5.5rem !important
+		}
+
+		.svg-icon.svg-icon-5tx svg {
+			height: 5.75rem !important;
+			width: 5.75rem !important
+		}
+
+		@media (min-width:576px) {
+			.svg-icon.svg-icon-sm-1 svg {
+				height: 1.75rem !important;
+				width: 1.75rem !important
+			}
+
+			.svg-icon.svg-icon-sm-2 svg {
+				height: 1.5rem !important;
+				width: 1.5rem !important
+			}
+
+			.svg-icon.svg-icon-sm-3 svg {
+				height: 1.35rem !important;
+				width: 1.35rem !important
+			}
+
+			.svg-icon.svg-icon-sm-4 svg {
+				height: 1.25rem !important;
+				width: 1.25rem !important
+			}
+
+			.svg-icon.svg-icon-sm-5 svg {
+				height: 1.15rem !important;
+				width: 1.15rem !important
+			}
+
+			.svg-icon.svg-icon-sm-6 svg {
+				height: 1.075rem !important;
+				width: 1.075rem !important
+			}
+
+			.svg-icon.svg-icon-sm-7 svg {
+				height: .95rem !important;
+				width: .95rem !important
+			}
+
+			.svg-icon.svg-icon-sm-8 svg {
+				height: .85rem !important;
+				width: .85rem !important
+			}
+
+			.svg-icon.svg-icon-sm-9 svg {
+				height: .75rem !important;
+				width: .75rem !important
+			}
+
+			.svg-icon.svg-icon-sm-10 svg {
+				height: .5rem !important;
+				width: .5rem !important
+			}
+
+			.svg-icon.svg-icon-sm-base svg {
+				height: 1rem !important;
+				width: 1rem !important
+			}
+
+			.svg-icon.svg-icon-sm-fluid svg {
+				height: 100% !important;
+				width: 100% !important
+			}
+
+			.svg-icon.svg-icon-sm-2x svg {
+				height: 2rem !important;
+				width: 2rem !important
+			}
+
+			.svg-icon.svg-icon-sm-2qx svg {
+				height: 2.25rem !important;
+				width: 2.25rem !important
+			}
+
+			.svg-icon.svg-icon-sm-2hx svg {
+				height: 2.5rem !important;
+				width: 2.5rem !important
+			}
+
+			.svg-icon.svg-icon-sm-2tx svg {
+				height: 2.75rem !important;
+				width: 2.75rem !important
+			}
+
+			.svg-icon.svg-icon-sm-3x svg {
+				height: 3rem !important;
+				width: 3rem !important
+			}
+
+			.svg-icon.svg-icon-sm-3qx svg {
+				height: 3.25rem !important;
+				width: 3.25rem !important
+			}
+
+			.svg-icon.svg-icon-sm-3hx svg {
+				height: 3.5rem !important;
+				width: 3.5rem !important
+			}
+
+			.svg-icon.svg-icon-sm-3tx svg {
+				height: 3.75rem !important;
+				width: 3.75rem !important
+			}
+
+			.svg-icon.svg-icon-sm-4x svg {
+				height: 4rem !important;
+				width: 4rem !important
+			}
+
+			.svg-icon.svg-icon-sm-4qx svg {
+				height: 4.25rem !important;
+				width: 4.25rem !important
+			}
+
+			.svg-icon.svg-icon-sm-4hx svg {
+				height: 4.5rem !important;
+				width: 4.5rem !important
+			}
+
+			.svg-icon.svg-icon-sm-4tx svg {
+				height: 4.75rem !important;
+				width: 4.75rem !important
+			}
+
+			.svg-icon.svg-icon-sm-5x svg {
+				height: 5rem !important;
+				width: 5rem !important
+			}
+
+			.svg-icon.svg-icon-sm-5qx svg {
+				height: 5.25rem !important;
+				width: 5.25rem !important
+			}
+
+			.svg-icon.svg-icon-sm-5hx svg {
+				height: 5.5rem !important;
+				width: 5.5rem !important
+			}
+
+			.svg-icon.svg-icon-sm-5tx svg {
+				height: 5.75rem !important;
+				width: 5.75rem !important
+			}
+		}
+
+		@media (min-width:768px) {
+			.svg-icon.svg-icon-md-1 svg {
+				height: 1.75rem !important;
+				width: 1.75rem !important
+			}
+
+			.svg-icon.svg-icon-md-2 svg {
+				height: 1.5rem !important;
+				width: 1.5rem !important
+			}
+
+			.svg-icon.svg-icon-md-3 svg {
+				height: 1.35rem !important;
+				width: 1.35rem !important
+			}
+
+			.svg-icon.svg-icon-md-4 svg {
+				height: 1.25rem !important;
+				width: 1.25rem !important
+			}
+
+			.svg-icon.svg-icon-md-5 svg {
+				height: 1.15rem !important;
+				width: 1.15rem !important
+			}
+
+			.svg-icon.svg-icon-md-6 svg {
+				height: 1.075rem !important;
+				width: 1.075rem !important
+			}
+
+			.svg-icon.svg-icon-md-7 svg {
+				height: .95rem !important;
+				width: .95rem !important
+			}
+
+			.svg-icon.svg-icon-md-8 svg {
+				height: .85rem !important;
+				width: .85rem !important
+			}
+
+			.svg-icon.svg-icon-md-9 svg {
+				height: .75rem !important;
+				width: .75rem !important
+			}
+
+			.svg-icon.svg-icon-md-10 svg {
+				height: .5rem !important;
+				width: .5rem !important
+			}
+
+			.svg-icon.svg-icon-md-base svg {
+				height: 1rem !important;
+				width: 1rem !important
+			}
+
+			.svg-icon.svg-icon-md-fluid svg {
+				height: 100% !important;
+				width: 100% !important
+			}
+
+			.svg-icon.svg-icon-md-2x svg {
+				height: 2rem !important;
+				width: 2rem !important
+			}
+
+			.svg-icon.svg-icon-md-2qx svg {
+				height: 2.25rem !important;
+				width: 2.25rem !important
+			}
+
+			.svg-icon.svg-icon-md-2hx svg {
+				height: 2.5rem !important;
+				width: 2.5rem !important
+			}
+
+			.svg-icon.svg-icon-md-2tx svg {
+				height: 2.75rem !important;
+				width: 2.75rem !important
+			}
+
+			.svg-icon.svg-icon-md-3x svg {
+				height: 3rem !important;
+				width: 3rem !important
+			}
+
+			.svg-icon.svg-icon-md-3qx svg {
+				height: 3.25rem !important;
+				width: 3.25rem !important
+			}
+
+			.svg-icon.svg-icon-md-3hx svg {
+				height: 3.5rem !important;
+				width: 3.5rem !important
+			}
+
+			.svg-icon.svg-icon-md-3tx svg {
+				height: 3.75rem !important;
+				width: 3.75rem !important
+			}
+
+			.svg-icon.svg-icon-md-4x svg {
+				height: 4rem !important;
+				width: 4rem !important
+			}
+
+			.svg-icon.svg-icon-md-4qx svg {
+				height: 4.25rem !important;
+				width: 4.25rem !important
+			}
+
+			.svg-icon.svg-icon-md-4hx svg {
+				height: 4.5rem !important;
+				width: 4.5rem !important
+			}
+
+			.svg-icon.svg-icon-md-4tx svg {
+				height: 4.75rem !important;
+				width: 4.75rem !important
+			}
+
+			.svg-icon.svg-icon-md-5x svg {
+				height: 5rem !important;
+				width: 5rem !important
+			}
+
+			.svg-icon.svg-icon-md-5qx svg {
+				height: 5.25rem !important;
+				width: 5.25rem !important
+			}
+
+			.svg-icon.svg-icon-md-5hx svg {
+				height: 5.5rem !important;
+				width: 5.5rem !important
+			}
+
+			.svg-icon.svg-icon-md-5tx svg {
+				height: 5.75rem !important;
+				width: 5.75rem !important
+			}
+		}
+
+		@media (min-width:992px) {
+			.svg-icon.svg-icon-lg-1 svg {
+				height: 1.75rem !important;
+				width: 1.75rem !important
+			}
+
+			.svg-icon.svg-icon-lg-2 svg {
+				height: 1.5rem !important;
+				width: 1.5rem !important
+			}
+
+			.svg-icon.svg-icon-lg-3 svg {
+				height: 1.35rem !important;
+				width: 1.35rem !important
+			}
+
+			.svg-icon.svg-icon-lg-4 svg {
+				height: 1.25rem !important;
+				width: 1.25rem !important
+			}
+
+			.svg-icon.svg-icon-lg-5 svg {
+				height: 1.15rem !important;
+				width: 1.15rem !important
+			}
+
+			.svg-icon.svg-icon-lg-6 svg {
+				height: 1.075rem !important;
+				width: 1.075rem !important
+			}
+
+			.svg-icon.svg-icon-lg-7 svg {
+				height: .95rem !important;
+				width: .95rem !important
+			}
+
+			.svg-icon.svg-icon-lg-8 svg {
+				height: .85rem !important;
+				width: .85rem !important
+			}
+
+			.svg-icon.svg-icon-lg-9 svg {
+				height: .75rem !important;
+				width: .75rem !important
+			}
+
+			.svg-icon.svg-icon-lg-10 svg {
+				height: .5rem !important;
+				width: .5rem !important
+			}
+
+			.svg-icon.svg-icon-lg-base svg {
+				height: 1rem !important;
+				width: 1rem !important
+			}
+
+			.svg-icon.svg-icon-lg-fluid svg {
+				height: 100% !important;
+				width: 100% !important
+			}
+
+			.svg-icon.svg-icon-lg-2x svg {
+				height: 2rem !important;
+				width: 2rem !important
+			}
+
+			.svg-icon.svg-icon-lg-2qx svg {
+				height: 2.25rem !important;
+				width: 2.25rem !important
+			}
+
+			.svg-icon.svg-icon-lg-2hx svg {
+				height: 2.5rem !important;
+				width: 2.5rem !important
+			}
+
+			.svg-icon.svg-icon-lg-2tx svg {
+				height: 2.75rem !important;
+				width: 2.75rem !important
+			}
+
+			.svg-icon.svg-icon-lg-3x svg {
+				height: 3rem !important;
+				width: 3rem !important
+			}
+
+			.svg-icon.svg-icon-lg-3qx svg {
+				height: 3.25rem !important;
+				width: 3.25rem !important
+			}
+
+			.svg-icon.svg-icon-lg-3hx svg {
+				height: 3.5rem !important;
+				width: 3.5rem !important
+			}
+
+			.svg-icon.svg-icon-lg-3tx svg {
+				height: 3.75rem !important;
+				width: 3.75rem !important
+			}
+
+			.svg-icon.svg-icon-lg-4x svg {
+				height: 4rem !important;
+				width: 4rem !important
+			}
+
+			.svg-icon.svg-icon-lg-4qx svg {
+				height: 4.25rem !important;
+				width: 4.25rem !important
+			}
+
+			.svg-icon.svg-icon-lg-4hx svg {
+				height: 4.5rem !important;
+				width: 4.5rem !important
+			}
+
+			.svg-icon.svg-icon-lg-4tx svg {
+				height: 4.75rem !important;
+				width: 4.75rem !important
+			}
+
+			.svg-icon.svg-icon-lg-5x svg {
+				height: 5rem !important;
+				width: 5rem !important
+			}
+
+			.svg-icon.svg-icon-lg-5qx svg {
+				height: 5.25rem !important;
+				width: 5.25rem !important
+			}
+
+			.svg-icon.svg-icon-lg-5hx svg {
+				height: 5.5rem !important;
+				width: 5.5rem !important
+			}
+
+			.svg-icon.svg-icon-lg-5tx svg {
+				height: 5.75rem !important;
+				width: 5.75rem !important
+			}
+		}
+
+		@media (min-width:1200px) {
+			.svg-icon.svg-icon-xl-1 svg {
+				height: 1.75rem !important;
+				width: 1.75rem !important
+			}
+
+			.svg-icon.svg-icon-xl-2 svg {
+				height: 1.5rem !important;
+				width: 1.5rem !important
+			}
+
+			.svg-icon.svg-icon-xl-3 svg {
+				height: 1.35rem !important;
+				width: 1.35rem !important
+			}
+
+			.svg-icon.svg-icon-xl-4 svg {
+				height: 1.25rem !important;
+				width: 1.25rem !important
+			}
+
+			.svg-icon.svg-icon-xl-5 svg {
+				height: 1.15rem !important;
+				width: 1.15rem !important
+			}
+
+			.svg-icon.svg-icon-xl-6 svg {
+				height: 1.075rem !important;
+				width: 1.075rem !important
+			}
+
+			.svg-icon.svg-icon-xl-7 svg {
+				height: .95rem !important;
+				width: .95rem !important
+			}
+
+			.svg-icon.svg-icon-xl-8 svg {
+				height: .85rem !important;
+				width: .85rem !important
+			}
+
+			.svg-icon.svg-icon-xl-9 svg {
+				height: .75rem !important;
+				width: .75rem !important
+			}
+
+			.svg-icon.svg-icon-xl-10 svg {
+				height: .5rem !important;
+				width: .5rem !important
+			}
+
+			.svg-icon.svg-icon-xl-base svg {
+				height: 1rem !important;
+				width: 1rem !important
+			}
+
+			.svg-icon.svg-icon-xl-fluid svg {
+				height: 100% !important;
+				width: 100% !important
+			}
+
+			.svg-icon.svg-icon-xl-2x svg {
+				height: 2rem !important;
+				width: 2rem !important
+			}
+
+			.svg-icon.svg-icon-xl-2qx svg {
+				height: 2.25rem !important;
+				width: 2.25rem !important
+			}
+
+			.svg-icon.svg-icon-xl-2hx svg {
+				height: 2.5rem !important;
+				width: 2.5rem !important
+			}
+
+			.svg-icon.svg-icon-xl-2tx svg {
+				height: 2.75rem !important;
+				width: 2.75rem !important
+			}
+
+			.svg-icon.svg-icon-xl-3x svg {
+				height: 3rem !important;
+				width: 3rem !important
+			}
+
+			.svg-icon.svg-icon-xl-3qx svg {
+				height: 3.25rem !important;
+				width: 3.25rem !important
+			}
+
+			.svg-icon.svg-icon-xl-3hx svg {
+				height: 3.5rem !important;
+				width: 3.5rem !important
+			}
+
+			.svg-icon.svg-icon-xl-3tx svg {
+				height: 3.75rem !important;
+				width: 3.75rem !important
+			}
+
+			.svg-icon.svg-icon-xl-4x svg {
+				height: 4rem !important;
+				width: 4rem !important
+			}
+
+			.svg-icon.svg-icon-xl-4qx svg {
+				height: 4.25rem !important;
+				width: 4.25rem !important
+			}
+
+			.svg-icon.svg-icon-xl-4hx svg {
+				height: 4.5rem !important;
+				width: 4.5rem !important
+			}
+
+			.svg-icon.svg-icon-xl-4tx svg {
+				height: 4.75rem !important;
+				width: 4.75rem !important
+			}
+
+			.svg-icon.svg-icon-xl-5x svg {
+				height: 5rem !important;
+				width: 5rem !important
+			}
+
+			.svg-icon.svg-icon-xl-5qx svg {
+				height: 5.25rem !important;
+				width: 5.25rem !important
+			}
+
+			.svg-icon.svg-icon-xl-5hx svg {
+				height: 5.5rem !important;
+				width: 5.5rem !important
+			}
+
+			.svg-icon.svg-icon-xl-5tx svg {
+				height: 5.75rem !important;
+				width: 5.75rem !important
+			}
+		}
+
+		@media (min-width:1400px) {
+			.svg-icon.svg-icon-xxl-1 svg {
+				height: 1.75rem !important;
+				width: 1.75rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-2 svg {
+				height: 1.5rem !important;
+				width: 1.5rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-3 svg {
+				height: 1.35rem !important;
+				width: 1.35rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-4 svg {
+				height: 1.25rem !important;
+				width: 1.25rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-5 svg {
+				height: 1.15rem !important;
+				width: 1.15rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-6 svg {
+				height: 1.075rem !important;
+				width: 1.075rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-7 svg {
+				height: .95rem !important;
+				width: .95rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-8 svg {
+				height: .85rem !important;
+				width: .85rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-9 svg {
+				height: .75rem !important;
+				width: .75rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-10 svg {
+				height: .5rem !important;
+				width: .5rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-base svg {
+				height: 1rem !important;
+				width: 1rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-fluid svg {
+				height: 100% !important;
+				width: 100% !important
+			}
+
+			.svg-icon.svg-icon-xxl-2x svg {
+				height: 2rem !important;
+				width: 2rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-2qx svg {
+				height: 2.25rem !important;
+				width: 2.25rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-2hx svg {
+				height: 2.5rem !important;
+				width: 2.5rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-2tx svg {
+				height: 2.75rem !important;
+				width: 2.75rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-3x svg {
+				height: 3rem !important;
+				width: 3rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-3qx svg {
+				height: 3.25rem !important;
+				width: 3.25rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-3hx svg {
+				height: 3.5rem !important;
+				width: 3.5rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-3tx svg {
+				height: 3.75rem !important;
+				width: 3.75rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-4x svg {
+				height: 4rem !important;
+				width: 4rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-4qx svg {
+				height: 4.25rem !important;
+				width: 4.25rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-4hx svg {
+				height: 4.5rem !important;
+				width: 4.5rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-4tx svg {
+				height: 4.75rem !important;
+				width: 4.75rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-5x svg {
+				height: 5rem !important;
+				width: 5rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-5qx svg {
+				height: 5.25rem !important;
+				width: 5.25rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-5hx svg {
+				height: 5.5rem !important;
+				width: 5.5rem !important
+			}
+
+			.svg-icon.svg-icon-xxl-5tx svg {
+				height: 5.75rem !important;
+				width: 5.75rem !important
+			}
 		}
 	</style>
 	<link rel='stylesheet' id='theme-css-css' href='assets/themes/layerslider/css/page.css?ver=121' type='text/css' media='all'>
@@ -801,7 +2097,7 @@
 
 								</style>
 								<ls-content class="mx-2 max-height-lg max-height-md max-height-sm max-height-xs">
-									<div data-show="apwebstore" data-show-delay="100" style="position: relative; z-index: 103; max-width: 815px; margin: auto;">
+									<div data-show="apwebstore" style="position: relative; z-index: 103; max-width: 815px; margin: auto;">
 										<h2>L'Agence web dont vous avez besoin</h2>
 										<h3 class="mt-0">Pour donner vie à vos idées créatives</h3>
 										<p class="text-justify mt-2">
@@ -1017,72 +2313,65 @@
 		</ls-section>
 
 		<ls-section id="realisations" class="bg--apcolor pb-10 change-nav-scheme" data-nav-scheme="light">
-			<style>
-				img {
-					max-width: 100%;
-					height: auto;
-					vertical-align: middle;
-				}
-			</style>
 			<h2 class="text-center pb-5 text-white">
 				Nos Réalisations
 				<div class="d-none d-sm-block" style="position:relative;top: 10px;left:47%;background-size:inherit;background-position:inherit;font-size:2px;width:66px;height:3px;background-color:#ffffff;"></div>
 				<div class="d-block d-sm-none" style="position:relative;top: 10px;left:40%;background-size:inherit;background-position:inherit;font-size:2px;width:66px;height:3px;background-color:#ffffff;"></div>
 			</h2>
 			<div id="ls-press-realisations" class="row">
-				<div class="col-md-4 p-3">
+				<div class="col-md-4 mt-2">
 					<img src="assets/medias/img/home/realisations/mobile-app-showcase-v1.jpg"
 						class="border rounded-3 shadow-sm" alt="Mobile App Showcase v.1">
 				</div>
-				<div class="col-md-4 p-3">
+				<div class="col-md-4 mt-2">
 					<img src="assets/medias/img/home/realisations/mobile-app-showcase-v2.jpg"
 						class="border rounded-3 shadow-sm" alt="Mobile App Showcase v.2">
 				</div>
-				<div class="col-md-4 p-3">
+				<div class="col-md-4 mt-2">
 					<img src="assets/medias/img/home/realisations/startup.jpg" class="border rounded-3 shadow-sm"
 						alt="Mobile App Showcase v.2">
 				</div>
-				<div class="col-md-4 p-3">
+				<div class="col-md-4 mt-2">
 					<img src="assets/medias/img/home/realisations/product-landing.jpg" class="border rounded-3 shadow-sm"
 						alt="Product Landing">
 				</div>
-				<div class="col-md-4 p-3">
+				<div class="col-md-4 mt-2">
 					<img src="assets/medias/img/home/realisations/saas-v1.jpg" class="border rounded-3 shadow-sm"
 						alt="SaaS v.1">
 				</div>
-				<div class="col-md-4 p-3">
+				<div class="col-md-4 mt-2">
 					<img src="assets/medias/img/home/realisations/saas-v2.jpg" class="border rounded-3 shadow-sm"
 						alt="SaaS v.2">
 				</div>
-				<div class="col-md-4 p-3">
+				<div class="col-md-4 mt-2">
 					<img src="assets/medias/img/home/realisations/saas-v3.jpg" class="border rounded-3 shadow-sm"
 						alt="SaaS v.3">
 				</div>
-				<div class="col-md-4 p-3">
+				<div class="col-md-4 mt-2">
 					<img src="assets/medias/img/home/realisations/financial.jpg" class="border rounded-3 shadow-sm"
 						alt="Financial Consulting">
 				</div>
-				<div class="col-md-4 p-3">
+				<div class="col-md-4 mt-2">
 					<img src="assets/medias/img/home/realisations/online-courses.jpg" class="border rounded-3 shadow-sm"
 						alt="Online Courses">
 				</div>
-				<div class="col-md-4 p-3">
+				<div class="col-md-4 mt-2">
 					<img src="assets/medias/img/home/realisations/medical.jpg" class="border rounded-3 shadow-sm"
 						alt="Medical">
 				</div>
-				<div class="col-md-4 p-3">
+				<div class="col-md-4 mt-2">
 					<img src="assets/medias/img/home/realisations/digital-agency.jpg" class="border rounded-3 shadow-sm"
 						alt="Digital Agency">
 				</div>
-				<div class="col-md-4 p-3">
+				<div class="col-md-4 mt-2">
 					<img src="assets/medias/img/home/realisations/conference.jpg" class="border rounded-3 shadow-sm"
 						alt="Conference">
 				</div>
-				<div class="col-md-4 p-3">
+				<div class="col-md-4 mt-2">
 					<img src="assets/medias/img/home/realisations/software-company.jpg" class="border rounded-3 shadow-sm"
 						alt="IT (Software) Company">
 				</div>
-				<div class="col-md-4 p-3">
+				<div class="col-md-4 mt-2">
 					<img src="assets/medias/img/home/realisations/blog-homepage.jpg" class="border rounded-3 shadow-sm"
 						alt="Blog Homepage">
 				</div>
@@ -1092,136 +2381,175 @@
 		<ls-section id="workstep" class="bg--light pt-10 pb-10">
 			<ls-sizer style="max-width: 1200px;">
 				<div class="container px-5">
+					<h2 class="text-center pb-5 mb-5">
+						Comment ça marche ?
+						<div class="d-none d-sm-block" style="position:relative;top: 10px;left:47%;background-size:inherit;background-position:inherit;font-size:2px;width:66px;height:3px;background-color:#4686DA;"></div>
+						<div class="d-block d-sm-none" style="position:relative;top: 10px;left:40%;background-size:inherit;background-position:inherit;font-size:2px;width:66px;height:3px;background-color:#4686DA;"></div>
+					</h2>
 					<div class="row">
-
 						<!-- Item -->
-						<div class="col-md-6 py-4 my-2 my-sm-3">
+						<div data-show="apwebstore" class="col-md-6 py-4 my-3 my-sm-3">
 							<a href="services-single-v1.html"
 								class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
 								<div class="card-body pt-3">
 									<div
 										class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
-										<img src="assets/img/services/icons/cms.svg" class="d-block m-1" width="40" alt="Icon">
+										<span class="svg-icon svg-icon-white svg-icon-4x">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path opacity="0.3" d="M22.9558 10.2848L21.3341 8.6398C21.221 8.52901 21.1317 8.39637 21.0715 8.24996C21.0114 8.10354 20.9816 7.94641 20.9841 7.78814V5.4548C20.9826 5.13514 20.9179 4.81893 20.7938 4.52433C20.6697 4.22973 20.4887 3.96255 20.261 3.73814C20.0333 3.51374 19.7636 3.33652 19.4672 3.21668C19.1709 3.09684 18.8538 3.03673 18.5341 3.0398H16.2008C16.0425 3.04229 15.8854 3.01255 15.739 2.95238C15.5925 2.89221 15.4599 2.80287 15.3491 2.6898L13.7158 1.0448C13.2608 0.590273 12.6439 0.334961 12.0008 0.334961C11.3576 0.334961 10.7408 0.590273 10.2858 1.0448L8.64078 2.66647C8.52999 2.77954 8.39735 2.86887 8.25094 2.92904C8.10452 2.98922 7.94739 3.01896 7.78911 3.01647H5.45578C5.13612 3.01799 4.8199 3.08266 4.5253 3.20675C4.23071 3.33085 3.96353 3.51193 3.73912 3.73959C3.51471 3.96724 3.3375 4.237 3.21766 4.53335C3.09781 4.82971 3.0377 5.14682 3.04078 5.46647V7.7998C3.04327 7.95808 3.01353 8.11521 2.95335 8.26163C2.89318 8.40804 2.80385 8.54068 2.69078 8.65147L1.04578 10.2848C0.591249 10.7398 0.335938 11.3567 0.335938 11.9998C0.335938 12.6429 0.591249 13.2598 1.04578 13.7148L2.66745 15.3598C2.78051 15.4706 2.86985 15.6032 2.93002 15.7496C2.99019 15.8961 3.01994 16.0532 3.01745 16.2115V18.5448C3.01897 18.8645 3.08363 19.1807 3.20773 19.4753C3.33182 19.7699 3.5129 20.0371 3.74056 20.2615C3.96822 20.4859 4.23798 20.6631 4.53433 20.7829C4.83068 20.9028 5.14779 20.9629 5.46745 20.9598H7.80078C7.95906 20.9573 8.11619 20.9871 8.2626 21.0472C8.40902 21.1074 8.54166 21.1967 8.65245 21.3098L10.2974 22.9548C10.7525 23.4093 11.3693 23.6646 12.0124 23.6646C12.6556 23.6646 13.2724 23.4093 13.7274 22.9548L15.3608 21.3331C15.4716 21.2201 15.6042 21.1307 15.7506 21.0706C15.897 21.0104 16.0542 20.9806 16.2124 20.9831H18.5458C19.1894 20.9831 19.8066 20.7275 20.2617 20.2724C20.7168 19.8173 20.9724 19.2001 20.9724 18.5565V16.2231C20.97 16.0649 20.9997 15.9077 21.0599 15.7613C21.12 15.6149 21.2094 15.4823 21.3224 15.3715L22.9674 13.7265C23.1935 13.5002 23.3726 13.2314 23.4944 12.9357C23.6162 12.64 23.6784 12.3231 23.6773 12.0032C23.6762 11.6834 23.6119 11.3669 23.4881 11.072C23.3643 10.7771 23.1834 10.5095 22.9558 10.2848Z" fill="currentColor"/>
+												<path d="M12.0039 15.4998C11.7012 15.4998 11.4109 15.38 11.1969 15.1668C10.9829 14.9535 10.8626 14.6643 10.8626 14.3627V13.9382C10.8467 13.2884 10.9994 12.6456 11.306 12.0718C11.6126 11.4981 12.0627 11.013 12.6126 10.6634C12.7969 10.561 12.9505 10.4114 13.0575 10.2302C13.1645 10.049 13.221 9.84266 13.2213 9.63242C13.2213 9.31073 13.0931 9.00223 12.8648 8.77476C12.6365 8.5473 12.3268 8.41951 12.0039 8.41951C11.6811 8.41951 11.3714 8.5473 11.1431 8.77476C10.9148 9.00223 10.7865 9.31073 10.7865 9.63242C10.7865 9.93399 10.6663 10.2232 10.4523 10.4365C10.2382 10.6497 9.94792 10.7695 9.64522 10.7695C9.34253 10.7695 9.05223 10.6497 8.83819 10.4365C8.62415 10.2232 8.50391 9.93399 8.50391 9.63242C8.50763 9.02196 8.67214 8.42317 8.98099 7.89592C9.28984 7.36868 9.7322 6.93145 10.2639 6.62796C10.7955 6.32447 11.3978 6.16535 12.0105 6.16651C12.6233 6.16767 13.225 6.32908 13.7554 6.63458C14.2859 6.94009 14.7266 7.37899 15.0335 7.9074C15.3403 8.43582 15.5025 9.03522 15.5039 9.64569C15.5053 10.2562 15.3458 10.8563 15.0414 11.3861C14.7369 11.9159 14.2983 12.3568 13.7692 12.6647C13.5645 12.8132 13.4003 13.0101 13.2913 13.2378C13.1824 13.4655 13.1322 13.7167 13.1453 13.9685V14.3931C13.1373 14.6894 13.0136 14.9708 12.8004 15.1776C12.5872 15.3843 12.3014 15.4999 12.0039 15.4998Z" fill="currentColor"/>
+												<path d="M12.0026 18.9998C12.6469 18.9998 13.1693 18.4775 13.1693 17.8332C13.1693 17.1888 12.6469 16.6665 12.0026 16.6665C11.3583 16.6665 10.8359 17.1888 10.8359 17.8332C10.8359 18.4775 11.3583 18.9998 12.0026 18.9998Z" fill="currentColor"/>
+											</svg>
+										</span>
 									</div>
-									<h2 class="h4 d-inline-flex align-items-center">
-										Custom Software Development
+									<h4 class="mt-2 d-inline-flex align-items-center">
+										Évaluation des besoins
 										<i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
-									</h2>
-									<p class="fs-sm text-body mb-0">Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a.
-										Semper
-										bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit.
-										Quis
-										consectetur gravida ac ac lectus cursus egestas.</p>
+									</h4>
+									<p class="text-body mb-0 pt-2" style="font-size: large;">
+										Au début de chaque projet, nous rencontrons le client pour comprendre ses objectifs 
+										et ses besoins. Nous explorons les prestations demandées, le contexte, la thématique, 
+										le public visé, le calendrier de réalisation souhaité, les contraintes, les concurrents, 
+										etc. Cette étape est cruciale pour déterminer les spécifications et les fonctionnalités 
+										du projet.
+									</p>
 								</div>
 							</a>
 						</div>
 
 						<!-- Item -->
-						<div class="col-md-6 py-4 my-2 my-sm-3">
+						<div data-show="apwebstore" class="col-md-6 py-4 my-3 my-sm-3">
 							<a href="services-single-v1.html"
 								class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
 								<div class="card-body pt-3">
 									<div
 										class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
-										<img src="assets/img/services/icons/rocket.svg" class="d-block m-1" width="40" alt="Icon">
+										<span class="svg-icon svg-icon-white svg-icon-4x">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path opacity="0.3" d="M5 8.04999L11.8 11.95V19.85L5 15.85V8.04999Z" fill="currentColor"/>
+												<path d="M20.1 6.65L12.3 2.15C12 1.95 11.6 1.95 11.3 2.15L3.5 6.65C3.2 6.85 3 7.15 3 7.45V16.45C3 16.75 3.2 17.15 3.5 17.25L11.3 21.75C11.5 21.85 11.6 21.85 11.8 21.85C12 21.85 12.1 21.85 12.3 21.75L20.1 17.25C20.4 17.05 20.6 16.75 20.6 16.45V7.45C20.6 7.15 20.4 6.75 20.1 6.65ZM5 15.85V7.95L11.8 4.05L18.6 7.95L11.8 11.95V19.85L5 15.85Z" fill="currentColor"/>
+											</svg>
+										</span>
 									</div>
-									<h2 class="h4 d-inline-flex align-items-center">
-										Software Integration
+									<h4 class="mt-2 d-inline-flex align-items-center">
+										Mise en place d'une stratégie web
 										<i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
-									</h2>
-									<p class="fs-sm text-body mb-0">Id eget blandit sapien cras massa lectus lorem placerat. Quam dolor
-										commodo
-										fermentum bibendum dictumst. Risus pretium eget at viverra eget. Sit neque adipiscing malesuada
-										blandit justo,
-										quam.</p>
+									</h4>
+									<p class="text-body mb-0 pt-2" style="font-size: large;">
+										Une fois que nous avons compris les besoins du client, nous élaborons une stratégie web 
+										adaptée à ses objectifs. Nous déterminons les fonctionnalités, la structure de la navigation, 
+										les contenus, etc. Cette stratégie sert de guide pour le développement du site internet, 
+										d'application web et autres.
+									</p>
 								</div>
 							</a>
 						</div>
 
 						<!-- Item -->
-						<div class="col-md-6 py-4 my-2 my-sm-3">
+						<div data-show="apwebstore" class="col-md-6 py-4 my-3 my-sm-3">
 							<a href="services-single-v1.html"
 								class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
 								<div class="card-body pt-3">
 									<div
 										class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
-										<img src="assets/img/services/icons/mobile-app.svg" class="d-block m-1" width="40" alt="Icon">
+										<span class="svg-icon svg-icon-white svg-icon-4x">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M3 2H10C10.6 2 11 2.4 11 3V10C11 10.6 10.6 11 10 11H3C2.4 11 2 10.6 2 10V3C2 2.4 2.4 2 3 2Z" fill="currentColor"/>
+												<path opacity="0.3" d="M14 2H21C21.6 2 22 2.4 22 3V10C22 10.6 21.6 11 21 11H14C13.4 11 13 10.6 13 10V3C13 2.4 13.4 2 14 2Z" fill="currentColor"/>
+												<path opacity="0.3" d="M3 13H10C10.6 13 11 13.4 11 14V21C11 21.6 10.6 22 10 22H3C2.4 22 2 21.6 2 21V14C2 13.4 2.4 13 3 13Z" fill="currentColor"/>
+												<path opacity="0.3" d="M14 13H21C21.6 13 22 13.4 22 14V21C22 21.6 21.6 22 21 22H14C13.4 22 13 21.6 13 21V14C13 13.4 13.4 13 14 13Z" fill="currentColor"/>
+											</svg>
+										</span>
 									</div>
-									<h2 class="h4 d-inline-flex align-items-center">
-										Mobile App Development
+									<h4 class="mt-2 d-inline-flex align-items-center">
+										Conception d'un prototype graphique
 										<i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
-									</h2>
-									<p class="fs-sm text-body mb-0">Nunc, justo, diam orci, dictum purus convallis risus. Suscipit hendrerit
-										at
-										egestas id id blandit interdum est. Integer fames placerat turpis pretium quis hac leo lacus. Orci,
-										dictum
-										nunc mus quis semper eu bibendum enim, morbi.</p>
+									</h4>
+									<p class="text-body mb-0 pt-2" style="font-size: large;">
+										Dans cette étape, nous concevons un prototype graphique de votre application ou site internet, 
+										en utilisant les meilleures pratiques en matière de design et de fonctionnalité. 
+										Cette étape prend en compte les spécifications déterminées précédemment.
+									</p>
 								</div>
 							</a>
 						</div>
 
 						<!-- Item -->
-						<div class="col-md-6 py-4 my-2 my-sm-3">
+						<div data-show="apwebstore" class="col-md-6 py-4 my-3 my-sm-3">
 							<a href="services-single-v1.html"
 								class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
 								<div class="card-body pt-3">
 									<div
 										class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
-										<img src="assets/img/services/icons/analytics.svg" class="d-block m-1" width="40" alt="Icon">
+										<span class="svg-icon svg-icon-white svg-icon-4x">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M1.34375 3.9463V15.2178C1.34375 16.119 2.08105 16.8563 2.98219 16.8563H8.65093V19.4594H6.15702C5.38853 19.4594 4.75981 19.9617 4.75981 20.5757V21.6921H19.2403V20.5757C19.2403 19.9617 18.6116 19.4594 17.8431 19.4594H15.3492V16.8563H21.0179C21.919 16.8563 22.6562 16.119 22.6562 15.2178V3.9463C22.6562 3.04516 21.9189 2.30786 21.0179 2.30786H2.98219C2.08105 2.30786 1.34375 3.04516 1.34375 3.9463ZM12.9034 9.9016C13.241 9.98792 13.5597 10.1216 13.852 10.2949L15.0393 9.4353L15.9893 10.3853L15.1297 11.5727C15.303 11.865 15.4366 12.1837 15.523 12.5212L16.97 12.7528V13.4089H13.9851C13.9766 12.3198 13.0912 11.4394 12 11.4394C10.9089 11.4394 10.0235 12.3198 10.015 13.4089H7.03006V12.7528L8.47712 12.5211C8.56345 12.1836 8.69703 11.8649 8.87037 11.5727L8.0107 10.3853L8.96078 9.4353L10.148 10.2949C10.4404 10.1215 10.759 9.98788 11.0966 9.9016L11.3282 8.45467H12.6718L12.9034 9.9016ZM16.1353 7.93758C15.6779 7.93758 15.3071 7.56681 15.3071 7.1094C15.3071 6.652 15.6779 6.28122 16.1353 6.28122C16.5926 6.28122 16.9634 6.652 16.9634 7.1094C16.9634 7.56681 16.5926 7.93758 16.1353 7.93758ZM2.71385 14.0964V3.90518C2.71385 3.78023 2.81612 3.67796 2.94107 3.67796H21.0589C21.1839 3.67796 21.2861 3.78023 21.2861 3.90518V14.0964C15.0954 14.0964 8.90462 14.0964 2.71385 14.0964Z" fill="currentColor"/>
+											</svg>
+										</span>
 									</div>
-									<h2 class="h4 d-inline-flex align-items-center">
-										Business Analytics
+									<h4 class="mt-2 d-inline-flex align-items-center">
+										Intégration du prototype
 										<i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
-									</h2>
-									<p class="fs-sm text-body mb-0">Gravida eget euismod tempus diam dignissim quam. Dignissim magnis
-										blandit
-										faucibus convallis augue nisl, etiam. Feugiat ut molestie non arcu senectus sed. Diam pellentesque
-										sit mattis
-										nec amet varius nunc a sed.</p>
+									</h4>
+									<p class="text-body mb-0 pt-2" style="font-size: large;">
+										Après l'approbation du prototype graphique, nous procédons à l'intégration de ce dernier, 
+										en ajoutant les fonctionnalités et les contenus spécifiés dans la stratégie web. 
+										Nous veillons à ce que tout fonctionne correctement, en testant le site web sur 
+										différents plateforme ou dispositifs.
+									</p>
 								</div>
 							</a>
 						</div>
 
 						<!-- Item -->
-						<div class="col-md-6 py-4 my-2 my-sm-3">
+						<div data-show="apwebstore" class="col-md-6 py-4 my-3 my-sm-3">
 							<a href="services-single-v1.html"
 								class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
 								<div class="card-body pt-3">
 									<div
 										class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
-										<img src="assets/img/services/icons/web-search.svg" class="d-block m-1" width="40" alt="Icon">
+										<span class="svg-icon svg-icon-white svg-icon-4x">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path opacity="0.3" d="M4.05424 15.1982C8.34524 7.76818 13.5782 3.26318 20.9282 2.01418C21.0729 1.98837 21.2216 1.99789 21.3618 2.04193C21.502 2.08597 21.6294 2.16323 21.7333 2.26712C21.8372 2.37101 21.9144 2.49846 21.9585 2.63863C22.0025 2.7788 22.012 2.92754 21.9862 3.07218C20.7372 10.4222 16.2322 15.6552 8.80224 19.9462L4.05424 15.1982ZM3.81924 17.3372L2.63324 20.4482C2.58427 20.5765 2.5735 20.7163 2.6022 20.8507C2.63091 20.9851 2.69788 21.1082 2.79503 21.2054C2.89218 21.3025 3.01536 21.3695 3.14972 21.3982C3.28408 21.4269 3.42387 21.4161 3.55224 21.3672L6.66524 20.1802L3.81924 17.3372ZM16.5002 5.99818C16.2036 5.99818 15.9136 6.08615 15.6669 6.25097C15.4202 6.41579 15.228 6.65006 15.1144 6.92415C15.0009 7.19824 14.9712 7.49984 15.0291 7.79081C15.0869 8.08178 15.2298 8.34906 15.4396 8.55884C15.6494 8.76862 15.9166 8.91148 16.2076 8.96935C16.4986 9.02723 16.8002 8.99753 17.0743 8.884C17.3484 8.77046 17.5826 8.5782 17.7474 8.33153C17.9123 8.08486 18.0002 7.79485 18.0002 7.49818C18.0002 7.10035 17.8422 6.71882 17.5609 6.43752C17.2796 6.15621 16.8981 5.99818 16.5002 5.99818Z" fill="currentColor"/>
+												<path d="M4.05423 15.1982L2.24723 13.3912C2.15505 13.299 2.08547 13.1867 2.04395 13.0632C2.00243 12.9396 1.9901 12.8081 2.00793 12.679C2.02575 12.5498 2.07325 12.4266 2.14669 12.3189C2.22013 12.2112 2.31752 12.1219 2.43123 12.0582L9.15323 8.28918C7.17353 10.3717 5.4607 12.6926 4.05423 15.1982ZM8.80023 19.9442L10.6072 21.7512C10.6994 21.8434 10.8117 21.9129 10.9352 21.9545C11.0588 21.996 11.1903 22.0083 11.3195 21.9905C11.4486 21.9727 11.5718 21.9252 11.6795 21.8517C11.7872 21.7783 11.8765 21.6809 11.9402 21.5672L15.7092 14.8442C13.6269 16.8245 11.3061 18.5377 8.80023 19.9442ZM7.04023 18.1832L12.5832 12.6402C12.7381 12.4759 12.8228 12.2577 12.8195 12.032C12.8161 11.8063 12.725 11.5907 12.5653 11.4311C12.4057 11.2714 12.1901 11.1803 11.9644 11.1769C11.7387 11.1736 11.5205 11.2583 11.3562 11.4132L5.81323 16.9562L7.04023 18.1832Z" fill="currentColor"/>
+											</svg>
+										</span>
 									</div>
-									<h2 class="h4 d-inline-flex align-items-center">
-										Software Testing
+									<h4 class="mt-2 d-inline-flex align-items-center">
+										Déploiement de votre solution web
 										<i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
-									</h2>
-									<p class="fs-sm text-body mb-0">Quis rhoncus quam venenatis facilisi. Risus dis libero nisl condimentum
-										quis.
-										Tincidunt ultricies vulputate ornare nunc rhoncus in. Ultrices dolor eu natoque volutpat praesent
-										curabitur
-										ultricies.</p>
+									</h4>
+									<p class="text-body mb-0 pt-2" style="font-size: large;">
+										Une fois que votre solution est prête, nous la déployons sur un serveur en production. 
+										Nous effectuons des tests supplémentaires pour nous assurer que tout fonctionne correctement.
+									</p>
 								</div>
 							</a>
 						</div>
 
 						<!-- Item -->
-						<div class="col-md-6 py-4 my-2 my-sm-3">
+						<div data-show="apwebstore" class="col-md-6 py-4 my-3 my-sm-3">
 							<a href="services-single-v1.html"
 								class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
 								<div class="card-body pt-3">
 									<div
 										class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
-										<img src="assets/img/services/icons/timer.svg" class="d-block m-1" width="40" alt="Icon">
+										<span class="svg-icon svg-icon-white svg-icon-4x">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path opacity="0.3" d="M22.1 11.5V12.6C22.1 13.2 21.7 13.6 21.2 13.7L19.9 13.9C19.7 14.7 19.4 15.5 18.9 16.2L19.7 17.2999C20 17.6999 20 18.3999 19.6 18.7999L18.8 19.6C18.4 20 17.8 20 17.3 19.7L16.2 18.9C15.5 19.3 14.7 19.7 13.9 19.9L13.7 21.2C13.6 21.7 13.1 22.1 12.6 22.1H11.5C10.9 22.1 10.5 21.7 10.4 21.2L10.2 19.9C9.4 19.7 8.6 19.4 7.9 18.9L6.8 19.7C6.4 20 5.7 20 5.3 19.6L4.5 18.7999C4.1 18.3999 4.1 17.7999 4.4 17.2999L5.2 16.2C4.8 15.5 4.4 14.7 4.2 13.9L2.9 13.7C2.4 13.6 2 13.1 2 12.6V11.5C2 10.9 2.4 10.5 2.9 10.4L4.2 10.2C4.4 9.39995 4.7 8.60002 5.2 7.90002L4.4 6.79993C4.1 6.39993 4.1 5.69993 4.5 5.29993L5.3 4.5C5.7 4.1 6.3 4.10002 6.8 4.40002L7.9 5.19995C8.6 4.79995 9.4 4.39995 10.2 4.19995L10.4 2.90002C10.5 2.40002 11 2 11.5 2H12.6C13.2 2 13.6 2.40002 13.7 2.90002L13.9 4.19995C14.7 4.39995 15.5 4.69995 16.2 5.19995L17.3 4.40002C17.7 4.10002 18.4 4.1 18.8 4.5L19.6 5.29993C20 5.69993 20 6.29993 19.7 6.79993L18.9 7.90002C19.3 8.60002 19.7 9.39995 19.9 10.2L21.2 10.4C21.7 10.5 22.1 11 22.1 11.5ZM12.1 8.59998C10.2 8.59998 8.6 10.2 8.6 12.1C8.6 14 10.2 15.6 12.1 15.6C14 15.6 15.6 14 15.6 12.1C15.6 10.2 14 8.59998 12.1 8.59998Z" fill="currentColor"/>
+												<path d="M17.1 12.1C17.1 14.9 14.9 17.1 12.1 17.1C9.30001 17.1 7.10001 14.9 7.10001 12.1C7.10001 9.29998 9.30001 7.09998 12.1 7.09998C14.9 7.09998 17.1 9.29998 17.1 12.1ZM12.1 10.1C11 10.1 10.1 11 10.1 12.1C10.1 13.2 11 14.1 12.1 14.1C13.2 14.1 14.1 13.2 14.1 12.1C14.1 11 13.2 10.1 12.1 10.1Z" fill="currentColor"/>
+											</svg>
+										</span>
 									</div>
-									<h2 class="h4 d-inline-flex align-items-center">
-										Project Management
+									<h4 class="mt-2 d-inline-flex align-items-center">
+										Maintenance et mis à jour
 										<i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
-									</h2>
-									<p class="fs-sm text-body mb-0">Massa dis morbi sagittis, tellus sit gravida. Id ut non ut in faucibus
-										eu, ac.
-										Tempus feugiat enim id pellentesque a sagittis vitae, convallis. Nunc, arcu enim orci ullamcorper
-										aenean.
-										Scelerisque eget a nibh bibendum commodo.</p>
+									</h4>
+									<p class="text-body mb-0 pt-2" style="font-size: large;">
+										Après le déploiement de votre solution web, nous vous offrons un service de maintenance 
+										continue pour veiller à ce que votre application ou site internet soit soit à jour et 
+										performant à tout moment
+									</p>
 								</div>
 							</a>
 						</div>
