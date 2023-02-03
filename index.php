@@ -365,6 +365,21 @@
 		html {
 			scroll-behavior: smooth;
 		}
+
+		[data-show=apwebstore] {
+			opacity: 0;
+			-webkit-transition-timing-function: linear;
+					transition-timing-function: linear;
+			-webkit-transition-property: opacity, -webkit-transform;
+			transition-property: opacity, -webkit-transform;
+			transition-property: transform, opacity;
+			transition-property: transform, opacity, -webkit-transform;
+			will-change: opacity, transform;
+		}
+
+		.bg--apcolor {
+			background-color: #4686DA;
+		}
 	</style>
 	<link rel='stylesheet' id='theme-css-css' href='assets/themes/layerslider/css/page.css?ver=121' type='text/css' media='all'>
 	<link rel='stylesheet' id='theme-css-css' href='assets/themes/layerslider/css/font.css?ver=121' type='text/css' media='all'>
@@ -786,7 +801,7 @@
 
 								</style>
 								<ls-content class="mx-2 max-height-lg max-height-md max-height-sm max-height-xs">
-									<div style="position: relative; z-index: 103; max-width: 815px; margin: auto;" data-show="apwebstore">
+									<div data-show="apwebstore" data-show-delay="100" style="position: relative; z-index: 103; max-width: 815px; margin: auto;">
 										<h2>L'Agence web dont vous avez besoin</h2>
 										<h3 class="mt-0">Pour donner vie à vos idées créatives</h3>
 										<p class="text-justify mt-2">
@@ -890,22 +905,6 @@
 			</ls-sizer>
 		</ls-section>
 
-		<!-- <ls-section id="ls--project-editor-slices" class="bg--white pb-12">
-			<ls-sizer class="normal">
-				<ls-slider-wrapper>
-					<div id="layerslider_512_a71q6ni5r2qn" class="ls-wp-container fitvidsignore" style="width:1650px;height:1032px;max-width:100%;margin:0 auto;">
-						<div class="ls-slide" data-ls="overflow:true;kenburnsscale:1.2;"><ls-layer style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;top:0px;left:0px;width:100%;height:100%;background-color:#5d647d;border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" class="ls-l ls-html-layer" data-ls="durationin:0;easingin:linear;fadein:false;skipViewport:opening;"></ls-layer><img width="2074" height="1296" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty.jpg 2074w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty-300x187.jpg 300w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty-1024x640.jpg 1024w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty-768x480.jpg 768w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty-1536x960.jpg 1536w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty-2048x1280.jpg 2048w" sizes="(max-width: 2074px) 100vw, 2074px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:0px;top:0px;width:1649px;height:1032px;border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="durationin:0;easingin:linear;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopopacity:0.5;loopcount:1;skipViewport:opening;">
-							<div style="background: rgb(61,217,203); background: linear-gradient(132deg, rgba(61,217,203,1) 20%, rgba(112,211,245,1) 80%);top:141px;left:451px;background-size:inherit;background-position:inherit;font-size:18px;width:749px;height:749px;box-shadow:0px 20px 20px 0px rgba(0, 0, 0, 0.2);border-radius:8px 8px 8px 8px;" class="ls-l ls-html-layer" data-ls="easingin:easeOutCubic;easingout:easeInQuint;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.1;loopscaley:1.1;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:0.5;position:fixed;"></div>
-							<div style='box-shadow: 0 20px 40px rgba(0,0,0,.35); top:96px;left:855px;background-size:cover;width:301px;font-size:25px;border-radius:8px 8px 8px 8px;background-color:#e5ebeb;height:674px;background-position:50% 50%;background-repeat:repeat;box-shadow:0px 30px 20px 0px rgba(0, 0, 0, 0.3);background-image:url("assets/uploads/layerslider/People/photo-of-woman-in-blue-denim-jacket-wearing-black-sunglasses-3766391.jpg");' class="ls-l ls-html-layer" data-ls="easingin:easeOutCubic;offsetyout:top;easingout:easeOutQuad;fadeout:false;scalexout:1.2;scaleyout:1.2;transformoriginout:50% 50%;loop:true;loopoffsetx:30;loopoffsety:-50;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:1;position:relative;"></div>
-							<div style='box-shadow: 0 50px 100px rgba(0,0,0,.5); top:261px;left:496px;background-size:cover;background-position:50% 50%;font-size:25px;border-radius:8px 8px 8px 8px;background-color:#e5ebeb;width:301px;height:674px;background-repeat:repeat;box-shadow:0px 30px 20px 0px rgba(0, 0, 0, 0.3);background-image:url("assets/uploads/layerslider/People/charles-etoroma-95UF6LXe-Lo-unsplash-scaled.jpg");' class="ls-l ls-html-layer" data-ls="easingin:easeOutCubic;offsetyout:bottom;easingout:easeOutQuad;fadeout:false;scalexout:1.2;scaleyout:1.2;transformoriginout:50% 50%;loop:true;loopoffsetx:-50;loopoffsety:30;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:2;position:relative;"></div><img width="360" height="584" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-layers-list.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-layers-list.jpg 360w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-layers-list-185x300.jpg 185w" sizes="(max-width: 360px) 100vw, 360px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:0px;top:54px;width:287px;height:466px;box-shadow:0px 30px 20px 0px rgba(0, 0, 0, 0.3);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="easingin:easeOutCubic;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:0.5;"><img width="360" height="221" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-layer-settings.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-layer-settings.jpg 360w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-layer-settings-300x184.jpg 300w" sizes="(max-width: 360px) 100vw, 360px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1363px;top:54px;width:287px;height:175px;box-shadow:0px 30px 20px 0px rgba(0, 0, 0, 0.3);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="easingin:easeOutCubic;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.1;loopscaley:1.1;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:0.5;"><img width="360" height="664" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-transformation.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-transformation.jpg 360w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-transformation-163x300.jpg 163w" sizes="(max-width: 360px) 100vw, 360px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1363px;top:229px;width:287px;height:528px;box-shadow:0px 40px 20px 0px rgba(0, 0, 0, 0.25);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="easingin:easeOutCubic;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:2;"><img width="360" height="68" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-slide-layers.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-slide-layers.jpg 360w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-slide-layers-300x57.jpg 300w" sizes="(max-width: 360px) 100vw, 360px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1363px;top:0px;width:287px;height:54px;box-shadow:0px 40px 20px 0px rgba(0, 0, 0, 0.25);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="easingin:easeOutCubic;loop:true;loopoffsety:-20;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:1;"><img width="421" height="580" data-src="https://layerslider.com/wp-content/uploads/2022/12/project-editor-smart-help-new.png" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/12/project-editor-smart-help-new.png 421w, https://layerslider.com/wp-content/uploads/2022/12/project-editor-smart-help-new-218x300.png 218w" sizes="(max-width: 421px) 100vw, 421px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1029px;top:313px;width:335px;height:463px;box-shadow:0px 40px 20px 0px rgba(0, 0, 0, 0.25);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="durationin:0;easingin:easeOutCubic;loop:true;loopoffsetx:-30;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.3;loopscaley:1.3;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:3;"><ls-layer style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1045px;top:362px;border-radius:8px 8px 8px 8px;filter:brightness(104%);height:83px;width:287px;-webkit-background-clip:border-box;" class="ls-l ls-media-layer" data-ls="autoplay:enabled;showinfo:disabled;controls:disabled;volume:0;muted:enabled;loopmedia:enabled;durationin:0;easingin:linear;loop:true;loopoffsetx:-30;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.3;loopscaley:1.3;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:3;"><video width="640" height="360" preload="metadata" controls="">
-									<source src="assets/uploads/2022/12/layerslider-smart-help-rotation.mp4" type="video/mp4">
-								</video></ls-layer>
-						</div>
-					</div>
-				</ls-slider-wrapper>
-			</ls-sizer>
-		</ls-section> -->
-
 		<ls-section id="clients" class="bg--light pt-10 pb-10">
 			<ls-sizer class="normal">
 				<h3 class="text-center mt-0">Ils nous font confiance</h3>
@@ -942,69 +941,6 @@
 				</ls-block> -->
 			</ls-sizer>
 		</ls-section>
-
-		<!-- <ls-section class="bg--white change-nav-scheme" data-nav-scheme="light">
-			<ls-sizer class="normal">
-				<div class="services">
-					<div class="row justify-content-around">
-						<div class="col-md-5">
-							<div class="">
-								<div class="">
-									<i class=""></i>
-								</div>
-								<div class="">
-									<h2 class="">Conception de sites internet</h2>
-									<div class="">Appropriately reconceptualize timely convergence through
-										resource maximizing collaboration and idea-sharing. Globally coordinate cross-platform products
-										via interoperable models.</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-5">
-							<div class="">
-								<div class="">
-									<i class=""></i>
-								</div>
-								<div class="">
-									<h2 class="">Conception de sites internet</h2>
-									<div class=""> Rapidiously actualize wireless benefits before
-										resource-leveling quality vectors. Dramatically innovate progressive convergence without
-										tactical schemas. Competently unleash distributed users whereas.</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row justify-content-around">
-						<div class="col-md-5">
-							<div class="">
-								<div class="">
-									<i class=""></i>
-								</div>
-								<div class="">
-									<h2 class="">Conception de sites internet</h2>
-									<div class="">Appropriately redefine market positioning leadership
-										skills whereas client-based "outside the box" thinking. Monotonectally engage next-generation
-										leadership skills without one-to-one testing procedures.</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-5">
-							<div class="">
-								<div class="">
-									<i class=""></i>
-								</div>
-								<div class="">
-									<h2 class="">Conception de sites internet</h2>
-									<div class="">Compellingly evisculate impactful e-services for
-										extensible resources. Interactively grow timely e-commerce rather than optimal expertise.
-										Uniquely optimize impactful experiences rather than cooperative.</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</ls-sizer>
-		</ls-section> -->
 
 		<ls-section id="services" class="bg--white pb-10 change-nav-scheme" data-nav-scheme="light">
 			<ls-sizer class="normal">
@@ -1079,6 +1015,300 @@
 				</div>
 			</ls-sizer>
 		</ls-section>
+
+		<ls-section id="realisations" class="bg--apcolor pb-10 change-nav-scheme" data-nav-scheme="light">
+			<style>
+				img {
+					max-width: 100%;
+					height: auto;
+					vertical-align: middle;
+				}
+			</style>
+			<h2 class="text-center pb-5 text-white">
+				Nos Réalisations
+				<div class="d-none d-sm-block" style="position:relative;top: 10px;left:47%;background-size:inherit;background-position:inherit;font-size:2px;width:66px;height:3px;background-color:#ffffff;"></div>
+				<div class="d-block d-sm-none" style="position:relative;top: 10px;left:40%;background-size:inherit;background-position:inherit;font-size:2px;width:66px;height:3px;background-color:#ffffff;"></div>
+			</h2>
+			<div id="ls-press-realisations" class="row">
+				<div class="col-md-4 p-3">
+					<img src="assets/medias/img/home/realisations/mobile-app-showcase-v1.jpg"
+						class="border rounded-3 shadow-sm" alt="Mobile App Showcase v.1">
+				</div>
+				<div class="col-md-4 p-3">
+					<img src="assets/medias/img/home/realisations/mobile-app-showcase-v2.jpg"
+						class="border rounded-3 shadow-sm" alt="Mobile App Showcase v.2">
+				</div>
+				<div class="col-md-4 p-3">
+					<img src="assets/medias/img/home/realisations/startup.jpg" class="border rounded-3 shadow-sm"
+						alt="Mobile App Showcase v.2">
+				</div>
+				<div class="col-md-4 p-3">
+					<img src="assets/medias/img/home/realisations/product-landing.jpg" class="border rounded-3 shadow-sm"
+						alt="Product Landing">
+				</div>
+				<div class="col-md-4 p-3">
+					<img src="assets/medias/img/home/realisations/saas-v1.jpg" class="border rounded-3 shadow-sm"
+						alt="SaaS v.1">
+				</div>
+				<div class="col-md-4 p-3">
+					<img src="assets/medias/img/home/realisations/saas-v2.jpg" class="border rounded-3 shadow-sm"
+						alt="SaaS v.2">
+				</div>
+				<div class="col-md-4 p-3">
+					<img src="assets/medias/img/home/realisations/saas-v3.jpg" class="border rounded-3 shadow-sm"
+						alt="SaaS v.3">
+				</div>
+				<div class="col-md-4 p-3">
+					<img src="assets/medias/img/home/realisations/financial.jpg" class="border rounded-3 shadow-sm"
+						alt="Financial Consulting">
+				</div>
+				<div class="col-md-4 p-3">
+					<img src="assets/medias/img/home/realisations/online-courses.jpg" class="border rounded-3 shadow-sm"
+						alt="Online Courses">
+				</div>
+				<div class="col-md-4 p-3">
+					<img src="assets/medias/img/home/realisations/medical.jpg" class="border rounded-3 shadow-sm"
+						alt="Medical">
+				</div>
+				<div class="col-md-4 p-3">
+					<img src="assets/medias/img/home/realisations/digital-agency.jpg" class="border rounded-3 shadow-sm"
+						alt="Digital Agency">
+				</div>
+				<div class="col-md-4 p-3">
+					<img src="assets/medias/img/home/realisations/conference.jpg" class="border rounded-3 shadow-sm"
+						alt="Conference">
+				</div>
+				<div class="col-md-4 p-3">
+					<img src="assets/medias/img/home/realisations/software-company.jpg" class="border rounded-3 shadow-sm"
+						alt="IT (Software) Company">
+				</div>
+				<div class="col-md-4 p-3">
+					<img src="assets/medias/img/home/realisations/blog-homepage.jpg" class="border rounded-3 shadow-sm"
+						alt="Blog Homepage">
+				</div>
+			</div>
+		</ls-section>
+
+		<ls-section id="workstep" class="bg--light pt-10 pb-10">
+			<ls-sizer style="max-width: 1200px;">
+				<div class="container px-5">
+					<div class="row">
+
+						<!-- Item -->
+						<div class="col-md-6 py-4 my-2 my-sm-3">
+							<a href="services-single-v1.html"
+								class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
+								<div class="card-body pt-3">
+									<div
+										class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
+										<img src="assets/img/services/icons/cms.svg" class="d-block m-1" width="40" alt="Icon">
+									</div>
+									<h2 class="h4 d-inline-flex align-items-center">
+										Custom Software Development
+										<i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
+									</h2>
+									<p class="fs-sm text-body mb-0">Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a.
+										Semper
+										bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit.
+										Quis
+										consectetur gravida ac ac lectus cursus egestas.</p>
+								</div>
+							</a>
+						</div>
+
+						<!-- Item -->
+						<div class="col-md-6 py-4 my-2 my-sm-3">
+							<a href="services-single-v1.html"
+								class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
+								<div class="card-body pt-3">
+									<div
+										class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
+										<img src="assets/img/services/icons/rocket.svg" class="d-block m-1" width="40" alt="Icon">
+									</div>
+									<h2 class="h4 d-inline-flex align-items-center">
+										Software Integration
+										<i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
+									</h2>
+									<p class="fs-sm text-body mb-0">Id eget blandit sapien cras massa lectus lorem placerat. Quam dolor
+										commodo
+										fermentum bibendum dictumst. Risus pretium eget at viverra eget. Sit neque adipiscing malesuada
+										blandit justo,
+										quam.</p>
+								</div>
+							</a>
+						</div>
+
+						<!-- Item -->
+						<div class="col-md-6 py-4 my-2 my-sm-3">
+							<a href="services-single-v1.html"
+								class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
+								<div class="card-body pt-3">
+									<div
+										class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
+										<img src="assets/img/services/icons/mobile-app.svg" class="d-block m-1" width="40" alt="Icon">
+									</div>
+									<h2 class="h4 d-inline-flex align-items-center">
+										Mobile App Development
+										<i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
+									</h2>
+									<p class="fs-sm text-body mb-0">Nunc, justo, diam orci, dictum purus convallis risus. Suscipit hendrerit
+										at
+										egestas id id blandit interdum est. Integer fames placerat turpis pretium quis hac leo lacus. Orci,
+										dictum
+										nunc mus quis semper eu bibendum enim, morbi.</p>
+								</div>
+							</a>
+						</div>
+
+						<!-- Item -->
+						<div class="col-md-6 py-4 my-2 my-sm-3">
+							<a href="services-single-v1.html"
+								class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
+								<div class="card-body pt-3">
+									<div
+										class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
+										<img src="assets/img/services/icons/analytics.svg" class="d-block m-1" width="40" alt="Icon">
+									</div>
+									<h2 class="h4 d-inline-flex align-items-center">
+										Business Analytics
+										<i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
+									</h2>
+									<p class="fs-sm text-body mb-0">Gravida eget euismod tempus diam dignissim quam. Dignissim magnis
+										blandit
+										faucibus convallis augue nisl, etiam. Feugiat ut molestie non arcu senectus sed. Diam pellentesque
+										sit mattis
+										nec amet varius nunc a sed.</p>
+								</div>
+							</a>
+						</div>
+
+						<!-- Item -->
+						<div class="col-md-6 py-4 my-2 my-sm-3">
+							<a href="services-single-v1.html"
+								class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
+								<div class="card-body pt-3">
+									<div
+										class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
+										<img src="assets/img/services/icons/web-search.svg" class="d-block m-1" width="40" alt="Icon">
+									</div>
+									<h2 class="h4 d-inline-flex align-items-center">
+										Software Testing
+										<i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
+									</h2>
+									<p class="fs-sm text-body mb-0">Quis rhoncus quam venenatis facilisi. Risus dis libero nisl condimentum
+										quis.
+										Tincidunt ultricies vulputate ornare nunc rhoncus in. Ultrices dolor eu natoque volutpat praesent
+										curabitur
+										ultricies.</p>
+								</div>
+							</a>
+						</div>
+
+						<!-- Item -->
+						<div class="col-md-6 py-4 my-2 my-sm-3">
+							<a href="services-single-v1.html"
+								class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
+								<div class="card-body pt-3">
+									<div
+										class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
+										<img src="assets/img/services/icons/timer.svg" class="d-block m-1" width="40" alt="Icon">
+									</div>
+									<h2 class="h4 d-inline-flex align-items-center">
+										Project Management
+										<i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
+									</h2>
+									<p class="fs-sm text-body mb-0">Massa dis morbi sagittis, tellus sit gravida. Id ut non ut in faucibus
+										eu, ac.
+										Tempus feugiat enim id pellentesque a sagittis vitae, convallis. Nunc, arcu enim orci ullamcorper
+										aenean.
+										Scelerisque eget a nibh bibendum commodo.</p>
+								</div>
+							</a>
+						</div>
+
+					</div>
+				</div>
+			</ls-sizer>
+		</ls-section>
+
+		<!-- <ls-section class="bg--white change-nav-scheme" data-nav-scheme="light">
+			<ls-sizer class="normal">
+				<div class="services">
+					<div class="row justify-content-around">
+						<div class="col-md-5">
+							<div class="">
+								<div class="">
+									<i class=""></i>
+								</div>
+								<div class="">
+									<h2 class="">Conception de sites internet</h2>
+									<div class="">Appropriately reconceptualize timely convergence through
+										resource maximizing collaboration and idea-sharing. Globally coordinate cross-platform products
+										via interoperable models.</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="">
+								<div class="">
+									<i class=""></i>
+								</div>
+								<div class="">
+									<h2 class="">Conception de sites internet</h2>
+									<div class=""> Rapidiously actualize wireless benefits before
+										resource-leveling quality vectors. Dramatically innovate progressive convergence without
+										tactical schemas. Competently unleash distributed users whereas.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-around">
+						<div class="col-md-5">
+							<div class="">
+								<div class="">
+									<i class=""></i>
+								</div>
+								<div class="">
+									<h2 class="">Conception de sites internet</h2>
+									<div class="">Appropriately redefine market positioning leadership
+										skills whereas client-based "outside the box" thinking. Monotonectally engage next-generation
+										leadership skills without one-to-one testing procedures.</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="">
+								<div class="">
+									<i class=""></i>
+								</div>
+								<div class="">
+									<h2 class="">Conception de sites internet</h2>
+									<div class="">Compellingly evisculate impactful e-services for
+										extensible resources. Interactively grow timely e-commerce rather than optimal expertise.
+										Uniquely optimize impactful experiences rather than cooperative.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</ls-sizer>
+		</ls-section> -->
+
+		<!-- <ls-section id="ls--project-editor-slices" class="bg--white pb-12">
+			<ls-sizer class="normal">
+				<ls-slider-wrapper>
+					<div id="layerslider_512_a71q6ni5r2qn" class="ls-wp-container fitvidsignore" style="width:1650px;height:1032px;max-width:100%;margin:0 auto;">
+						<div class="ls-slide" data-ls="overflow:true;kenburnsscale:1.2;"><ls-layer style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;top:0px;left:0px;width:100%;height:100%;background-color:#5d647d;border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" class="ls-l ls-html-layer" data-ls="durationin:0;easingin:linear;fadein:false;skipViewport:opening;"></ls-layer><img width="2074" height="1296" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty.jpg 2074w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty-300x187.jpg 300w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty-1024x640.jpg 1024w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty-768x480.jpg 768w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty-1536x960.jpg 1536w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-empty-2048x1280.jpg 2048w" sizes="(max-width: 2074px) 100vw, 2074px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:0px;top:0px;width:1649px;height:1032px;border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="durationin:0;easingin:linear;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopopacity:0.5;loopcount:1;skipViewport:opening;">
+							<div style="background: rgb(61,217,203); background: linear-gradient(132deg, rgba(61,217,203,1) 20%, rgba(112,211,245,1) 80%);top:141px;left:451px;background-size:inherit;background-position:inherit;font-size:18px;width:749px;height:749px;box-shadow:0px 20px 20px 0px rgba(0, 0, 0, 0.2);border-radius:8px 8px 8px 8px;" class="ls-l ls-html-layer" data-ls="easingin:easeOutCubic;easingout:easeInQuint;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.1;loopscaley:1.1;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:0.5;position:fixed;"></div>
+							<div style='box-shadow: 0 20px 40px rgba(0,0,0,.35); top:96px;left:855px;background-size:cover;width:301px;font-size:25px;border-radius:8px 8px 8px 8px;background-color:#e5ebeb;height:674px;background-position:50% 50%;background-repeat:repeat;box-shadow:0px 30px 20px 0px rgba(0, 0, 0, 0.3);background-image:url("assets/uploads/layerslider/People/photo-of-woman-in-blue-denim-jacket-wearing-black-sunglasses-3766391.jpg");' class="ls-l ls-html-layer" data-ls="easingin:easeOutCubic;offsetyout:top;easingout:easeOutQuad;fadeout:false;scalexout:1.2;scaleyout:1.2;transformoriginout:50% 50%;loop:true;loopoffsetx:30;loopoffsety:-50;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:1;position:relative;"></div>
+							<div style='box-shadow: 0 50px 100px rgba(0,0,0,.5); top:261px;left:496px;background-size:cover;background-position:50% 50%;font-size:25px;border-radius:8px 8px 8px 8px;background-color:#e5ebeb;width:301px;height:674px;background-repeat:repeat;box-shadow:0px 30px 20px 0px rgba(0, 0, 0, 0.3);background-image:url("assets/uploads/layerslider/People/charles-etoroma-95UF6LXe-Lo-unsplash-scaled.jpg");' class="ls-l ls-html-layer" data-ls="easingin:easeOutCubic;offsetyout:bottom;easingout:easeOutQuad;fadeout:false;scalexout:1.2;scaleyout:1.2;transformoriginout:50% 50%;loop:true;loopoffsetx:-50;loopoffsety:30;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:2;position:relative;"></div><img width="360" height="584" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-layers-list.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-layers-list.jpg 360w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-layers-list-185x300.jpg 185w" sizes="(max-width: 360px) 100vw, 360px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:0px;top:54px;width:287px;height:466px;box-shadow:0px 30px 20px 0px rgba(0, 0, 0, 0.3);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="easingin:easeOutCubic;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:0.5;"><img width="360" height="221" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-layer-settings.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-layer-settings.jpg 360w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-layer-settings-300x184.jpg 300w" sizes="(max-width: 360px) 100vw, 360px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1363px;top:54px;width:287px;height:175px;box-shadow:0px 30px 20px 0px rgba(0, 0, 0, 0.3);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="easingin:easeOutCubic;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.1;loopscaley:1.1;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:0.5;"><img width="360" height="664" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-transformation.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-transformation.jpg 360w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-transformation-163x300.jpg 163w" sizes="(max-width: 360px) 100vw, 360px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1363px;top:229px;width:287px;height:528px;box-shadow:0px 40px 20px 0px rgba(0, 0, 0, 0.25);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="easingin:easeOutCubic;loop:true;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:2;"><img width="360" height="68" data-src="https://layerslider.com/wp-content/uploads/2022/11/project-editor-slide-layers.jpg" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/11/project-editor-slide-layers.jpg 360w, https://layerslider.com/wp-content/uploads/2022/11/project-editor-slide-layers-300x57.jpg 300w" sizes="(max-width: 360px) 100vw, 360px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1363px;top:0px;width:287px;height:54px;box-shadow:0px 40px 20px 0px rgba(0, 0, 0, 0.25);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="easingin:easeOutCubic;loop:true;loopoffsety:-20;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.2;loopscaley:1.2;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:1;"><img width="421" height="580" data-src="https://layerslider.com/wp-content/uploads/2022/12/project-editor-smart-help-new.png" class="ls-l ls-img-layer" alt="" decoding="async" data-srcset="https://layerslider.com/wp-content/uploads/2022/12/project-editor-smart-help-new.png 421w, https://layerslider.com/wp-content/uploads/2022/12/project-editor-smart-help-new-218x300.png 218w" sizes="(max-width: 421px) 100vw, 421px" style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1029px;top:313px;width:335px;height:463px;box-shadow:0px 40px 20px 0px rgba(0, 0, 0, 0.25);border-radius:8px 8px 8px 8px;-webkit-background-clip:border-box;" data-ls="durationin:0;easingin:easeOutCubic;loop:true;loopoffsetx:-30;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.3;loopscaley:1.3;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:3;"><ls-layer style="font-size:36px;color:#000;text-align:left;font-style:normal;text-decoration:none;text-transform:none;font-weight:400;letter-spacing:0px;background-position:0% 0%;background-repeat:no-repeat;background-clip:border-box;overflow:visible;left:1045px;top:362px;border-radius:8px 8px 8px 8px;filter:brightness(104%);height:83px;width:287px;-webkit-background-clip:border-box;" class="ls-l ls-media-layer" data-ls="autoplay:enabled;showinfo:disabled;controls:disabled;volume:0;muted:enabled;loopmedia:enabled;durationin:0;easingin:linear;loop:true;loopoffsetx:-30;loopduration:2000;loopstartat:transitioninstart + 0;loopeasing:easeOutCubic;loopscalex:1.3;loopscaley:1.3;looptransformorigin:slidercenter slidertop;loopcount:1;scroll:true;scrolloffsety:3;"><video width="640" height="360" preload="metadata" controls="">
+									<source src="assets/uploads/2022/12/layerslider-smart-help-rotation.mp4" type="video/mp4">
+								</video></ls-layer>
+						</div>
+					</div>
+				</ls-slider-wrapper>
+			</ls-sizer>
+		</ls-section> -->
 
 		<!-- <ls-section id="ls--what-can-you-create" class="bg--light pt-12 pb-8 change-nav-scheme" data-nav-scheme="light">
 			<ls-sizer class="normal">
@@ -1521,7 +1751,6 @@
 			</ls-sizer>
 		</ls-section>
 
-
 		<ls-section id="ls--below-features" class="bg--light change-nav-scheme" data-nav-scheme="light">
 			<ls-sizer class="wide">
 				<ls-grid>
@@ -1760,7 +1989,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 	<script src="assets/plugins/tiny-slider/tiny-slider.js"></script>
 	<script>
-		var slider = tns({
+		var slider1 = tns({
 			"container": '#ls-press-logos',
 			"controls": false,
 			"responsive": {
@@ -1771,6 +2000,32 @@
 				"items": 3
 				},
 				"750": {
+				"items": 4
+				},
+			},
+			"autoplay": true,
+			"autoplayButtonOutput": false,
+			"autoplayTimeout": 3000,
+			"slideBy": "page",
+			"mouseDrag": true,
+			"swipeAngle": false,
+			"speed": 400
+		});
+
+		var slider2 = tns({
+			"container": '#ls-press-realisations',
+			"controls": false,
+			"responsive": {
+				"300": {
+				"items": 1
+				},
+				"500": {
+				"items": 2
+				},
+				"900": {
+				"items": 3
+				},
+				"1250": {
 				"items": 4
 				},
 			},
@@ -2199,8 +2454,9 @@
 		})
 	</script>
 	<!-- Animate on scroll js -->
-	<script src="assets/scripts/js/helpers.js"></script>
-    <script src="assets/scripts/js/controllers/show-on-scroll.js"></script>
+	<script src="assets/scripts/js/apwebstore/js/helpers.js"></script>
+	<script src="assets/scripts/js/apwebstore/js/jquery.inview.js"></script>
+    <script src="assets/scripts/js/apwebstore/js/controllers/show-on-scroll.js"></script>
 
 
 

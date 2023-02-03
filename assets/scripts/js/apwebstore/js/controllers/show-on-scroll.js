@@ -14,7 +14,7 @@
         item.classList.add('animated');
       }
 
-      $('[data-show="startbox"]').each(function () {
+      $('[data-show="apwebstore"]').each(function () {
         var self = this,
             origin = self.getAttribute('data-sos-origin') || 'bottom',
             distance = parseInt(self.getAttribute('data-sos-distance'), 10) || 30,
@@ -38,7 +38,7 @@
 
         self.style.transform = "" + translate + distance + "px)";
       });
-      $('[data-show="startbox"]:not(.animated)').each(function () {
+      $('[data-show="apwebstore"]:not(.animated)').each(function () {
         var self = this,
             $this = $(self),
             duration = parseInt(self.getAttribute('data-show-duration'), 10) || 500,
@@ -55,7 +55,7 @@
       }); // Fix when changing the filter to Isotope.
 
       VLTJS.document.on('isotopeChangeFilter', function () {
-        $('[data-show="startbox"]').each(function () {
+        $('[data-show="apwebstore"]').each(function () {
           var self = this;
 
           if (!$(self).hasClass('animated')) {
