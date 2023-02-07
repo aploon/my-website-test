@@ -6710,11 +6710,11 @@ body:not(.nomargin) #slider-template .ls-fullscreen-wrapper:first-of-type .ls-co
 }
 
 #pricing .current-price-container .currency {
-    font-size: 4rem;
+    /* font-size: 4rem;
     position: absolute;
     left: -2.4rem;
     top: 1.5rem;
-    line-height: 1
+    line-height: 1 */
 }
 
 #pricing .current-price-container .price {

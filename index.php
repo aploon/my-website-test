@@ -1676,6 +1676,12 @@
 				width: 5.75rem !important
 			}
 		}
+
+		#contact input, #contact textarea {
+			font-size: 15px;
+			padding: 10px;
+			opacity: .9;
+		}
 	</style>
 	<link rel='stylesheet' id='theme-css-css' href='assets/themes/layerslider/css/page.css?ver=121' type='text/css' media='all'>
 	<link rel='stylesheet' id='theme-css-css' href='assets/themes/layerslider/css/font.css?ver=121' type='text/css' media='all'>
@@ -2227,28 +2233,28 @@
 				<h3 class="text-center mt-0">Ils nous font confiance</h3>
 				<ls-block id="ls-press-logos">
 					<a class="size-large" target="_blank" href="https://apwebstore.com">
-						<img src="assets/medias/logos/full-logo-apwebstore.png" alt="apwebstore.com">
+						<img class="d-block m-auto" src="assets/medias/logos/full-logo-apwebstore.png" alt="apwebstore.com">
 					</a>
 					<a class="size-small" target="_blank" href="https://envato.com/">
-						<img src="assets/uploads/media/press/envato.png" alt="envato.com">
+						<img class="d-block m-auto" src="assets/uploads/media/press/envato.png" alt="envato.com">
 					</a>
 					<a class="size-medium" target="_blank" href="https://www.sitepoint.com/15-easy-to-use-tools-services-to-improve-your-workflow/">
-						<img src="assets/uploads/media/press/sitepoint.png" alt="sitepoint.com">
+						<img class="d-block m-auto" src="assets/uploads/media/press/sitepoint.png" alt="sitepoint.com">
 					</a>
 					<a class="size-medium" target="_blank" href="https://www.templatemonster.com/blog/useful-web-development-design-resources/">
-						<img src="assets/uploads/media/press/templatemonster.png" alt="templatemonster.com">
+						<img class="d-block m-auto" src="assets/uploads/media/press/templatemonster.png" alt="templatemonster.com">
 					</a>
 					<a class="size-small" target="_blank" href="https://www.creativebloq.com/features/27-time-saving-web-design-resources">
-						<img src="assets/uploads/media/press/creativebloq.png" alt="creativebloq.com">
+						<img class="d-block m-auto" src="assets/uploads/media/press/creativebloq.png" alt="creativebloq.com">
 					</a>
 					<a class="size-tiny" target="_blank" href="https://www.hongkiat.com/blog/15-tools-services-you-need-and-their-services/">
-						<img src="assets/uploads/media/press/hongkiat.png" alt="hongkiat.com">
+						<img class="d-block m-auto" src="assets/uploads/media/press/hongkiat.png" alt="hongkiat.com">
 					</a>
 					<!-- <a class="size-small" target="_blank" href="https://designmodo.com/wordpress-plugins-improve-websites/">
-						<img src="assets/uploads/media/press/designmodo.png" alt="designmodo.com">
+						<img class="d-block m-auto" src="assets/uploads/media/press/designmodo.png" alt="designmodo.com">
 					</a>
 					<a class="size-medium" target="_blank" href="https://speckyboy.com/great-tools-resources-designers/">
-						<img src="assets/uploads/media/press/speckyboy.png" alt="speckyboy.com">
+						<img class="d-block m-auto" src="assets/uploads/media/press/speckyboy.png" alt="speckyboy.com">
 					</a> -->
 				</ls-block>
 				<!-- <ls-block>
@@ -2336,8 +2342,8 @@
 		<ls-section id="realisations" class="bg--apcolor pb-10 change-nav-scheme" data-nav-scheme="light">
 			<h2 class="text-center pb-5 text-white">
 				Nos Réalisations
-				<div class="d-none d-sm-block" style="position:relative;top: 10px;left:47%;background-size:inherit;background-position:inherit;font-size:2px;width:66px;height:3px;background-color:#ffffff;"></div>
-				<div class="d-block d-sm-none" style="position:relative;top: 10px;left:40%;background-size:inherit;background-position:inherit;font-size:2px;width:66px;height:3px;background-color:#ffffff;"></div>
+				<div class="d-none d-sm-block" style="position:relative;top: 10px;left:49%;background-size:inherit;background-position:inherit;font-size:2px;width:66px;height:3px;background-color:#ffffff;"></div>
+				<div class="d-block d-sm-none" style="position:relative;top: 10px;left:42%;background-size:inherit;background-position:inherit;font-size:2px;width:66px;height:3px;background-color:#ffffff;"></div>
 			</h2>
 			<div id="ls-press-realisations" class="row">
 				<div class="col-md-4 mt-2">
@@ -2576,8 +2582,310 @@
 						</div>
 
 					</div>
+					<div data-show="apwebstore" class="btn d-block d-sm-none mt-3" style="width: fit-content;font-weight:400;padding: 5px 15px;font-size:15px;color:#fff;border-radius:35px;font-family:montserrat, poppins, arial, 'sans-serif';background-color:#085FCE;">
+						<i class="fa fa-angle-right"></i> Contactez-nous
+					</div>
+					<div data-show="apwebstore" class="btn d-none d-sm-block mt-3" style="width: fit-content;font-weight:400;padding: 5px 15px;font-size:19px;color:#fff;border-radius:35px;font-family:montserrat, poppins, arial, 'sans-serif';background-color:#085FCE;">
+						<i class="fa fa-angle-right"></i> Contactez-nous
+					</div>
 				</div>
 			</ls-sizer>
+		</ls-section>
+
+		<ls-section id="services" class="bg--white pb-5 change-nav-scheme" data-nav-scheme="light">
+			<style>
+				#pricing .box.standard .pricing-box-header {
+					background-image: linear-gradient(to right, #2a92d5, #ac4084)
+				}
+				#pricing .box.pro .pricing-box-header {
+					background-image: linear-gradient(to right, #ac4084, #ac4084, #ac4084)
+				}
+				#pricing .box.advanced .pricing-box-header {
+					background-image: linear-gradient(to right, #ac4084, #2a92d5)
+				}
+				#pricing .box.standard button {
+					border-color: #4686DA
+				}
+
+				#pricing .box.standard button:hover {
+					background: #085FCE
+				}
+
+				#pricing .box.pro button {
+					border-color: #4686DA
+				}
+
+				#pricing .box.pro button:hover {
+					background: #085FCE
+				}
+
+				#pricing .box.advanced button {
+					border-color: #4686DA
+				}
+
+				#pricing .box.advanced button:hover {
+					background: #085FCE
+				}
+
+				#pricing .box.standard .price {
+					color: #2a92d5
+				}
+
+				#pricing .box.pro .price {
+					color: #8d3bb4
+				}
+
+				#pricing .box.advanced .price {
+					color: #2a92d5
+				}
+
+				#pricing .current-price-container .currency {
+					font-size: 4rem;
+					position: relative;
+					left: 5px;
+				}
+
+				#pricing .box li {
+					line-height: 30px;
+				}
+
+				#pricing button {
+					font-size: 15px;
+				}
+			</style>
+			<section id="pricing" class="m-auto">
+				<h2 class="text-center pb-5 mb-5">
+					Combien ça coûte <br>
+					un site web ?
+					<div class="d-none d-sm-block" style="position:relative;top: 10px;left:47%;background-size:inherit;background-position:inherit;font-size:2px;width:66px;height:3px;background-color:#4686DA;"></div>
+					<div class="d-block d-sm-none" style="position:relative;top: 10px;left:40%;background-size:inherit;background-position:inherit;font-size:2px;width:66px;height:3px;background-color:#4686DA;"></div>
+				</h2>
+				<div class="grid overflow">
+					<div class="row flex-stretch">
+						<div class="col col1-3 one-time">
+							<div class="box standard">
+								<div class="pricing-box-header">
+									<h4 class="license-type">STANDARD</h4>
+								</div>
+								<div class="inner-wrapper">
+									<div class="current-price-container">
+										<span class="price">
+											500<span class="currency">€</span>
+										</span>
+									</div>
+									<div class="description mb-2">
+										Site mono-page
+									</div>
+									<div class="grid h-0 v-0">
+										<div class="row">
+											<div class="col">
+												<ul class="features">
+													<li>1 Go de stockage SSD</li>
+													<li>20 Go de bande passante</li>
+													<li>Référencement web</li>
+													<li>Maintenance : 200€/an</li>
+													<li>Livraison en 5 jours</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="box-bottom">
+									<div class="button-holder">
+										<button class="open-order-modal" data-color="personal" data-modal="modal-order"
+											data-payment="one-time" data-price="49" data-support-price="12"
+											data-quantity="1" data-name="LayerSlider for WordPress | Personal"
+											data-path="layerslider-wordpress-personal">CONTACTEZ-NOUS
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col col1-3 yearly">
+							<div class="box pro">
+								<div class="pricing-box-header">
+									<h4 class="license-type">PRO</h4>
+								</div>
+								<div class="inner-wrapper">
+									<div class="current-price-container">
+										<span class="price">
+											1000<span class="currency">€</span>
+										</span>
+									</div>
+									<div class="description mb-2">
+										5-10 pages web
+									</div>
+									<div class="grid h-0 v-0">
+										<div class="row">
+											<div class="col">
+												<ul class="features">
+													<li>20 Go de stockage SSD</li>
+													<li>50 Go de bande passante</li>
+													<li>Référencement web</li>
+													<li>Maintenance : 250€/an</li>
+													<li>Livraison en 10 jours</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="box-bottom">
+									<div class="button-holder">
+										<button class="open-order-modal" data-color="personal" data-modal="modal-order"
+											data-payment="yearly" data-price="23" data-support-price=""
+											data-quantity="1" data-name="LayerSlider for WordPress | Personal"
+											data-path="layerslider-wordpress-yearly">CONTACTEZ-NOUS
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col col1-3 one-time">
+							<div class="box advanced">
+								<div class="pricing-box-header">
+									<h4 class="license-type">ADVANCED</h4>
+								</div>
+								<div class="inner-wrapper">
+									<div class="current-price-container">
+										<span class="price">
+											1500<span class="currency">€</span>
+										</span>
+									</div>
+									<div class="description mb-2">
+										Pages illimitées
+									</div>
+									<div class="grid h-0 v-0">
+										<div class="row">
+											<div class="col">
+												<ul class="features">
+													<li>100 Go de stockage SSD</li>
+													<li>150 Go de bande passante</li>
+													<li>Référencement web</li>
+													<li>Maintenance : 300€/an</li>
+													<li>Livraison en 15 jours</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="box-bottom">
+									<div class="button-holder">
+										<button class="open-order-modal volume-license-button" data-color="professional"
+											data-modal="modal-order" data-payment="one-time" data-price="129"
+											data-support-price="12" data-quantity="3"
+											data-name="LayerSlider for WordPress | Professional"
+											data-path="layerslider-wordpress-professional">
+											CONTACTEZ-NOUS
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="nb-section mt-3">
+						<p>Toutes nos formules pour la création de site internet incluent :</p>
+						<ul>
+							<li>Un hébergement et un nom de domaine</li>
+							<li>Des comptes mails professionnel illimités</li>
+							<li>Un certificat SSL pour plus de confiance</li>
+							<li>Un design responsive sur tout écran</li>
+							<li>Un Référencement naturel optimisé</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</ls-section>
+
+		<ls-section id="contact" class="bg--white py-5 px-5">
+			<h2 class="text-center">
+				Contactez-nous
+				<div class="d-none d-sm-block" style="position:relative;top: 10px;left:47%;background-size:inherit;background-position:inherit;font-size:2px;width:66px;height:3px;background-color:#4686DA;"></div>
+				<div class="d-block d-sm-none" style="position:relative;top: 10px;left:40%;background-size:inherit;background-position:inherit;font-size:2px;width:66px;height:3px;background-color:#4686DA;"></div>
+			</h2>
+			<div class="box bg-light text-light" style="position: relative; top: 85px;">
+				<div class="full-size-wrapper">
+					<div id="layerslider_430_11sftuxuj6anj" class="ls-wp-container fitvidsignore"
+						style="width:1280px;height:400px;margin:0 auto;z-index: 1; position: absolute; left: 0; top: 0;">
+						<div class="ls-slide" data-ls="kenburnsscale:1.2;"><img width="1600" height="1065"
+								data-src="https://layerslider.com/wp-content/uploads/layerslider/LS-2020-Create-Something-Wonderful/waves2.jpg"
+								class="ls-tn" alt="" decoding="async"
+								data-srcset="https://layerslider.com/wp-content/uploads/layerslider/LS-2020-Create-Something-Wonderful/waves2.jpg 1600w, https://layerslider.com/wp-content/uploads/layerslider/LS-2020-Create-Something-Wonderful/waves2-300x200.jpg 300w, https://layerslider.com/wp-content/uploads/layerslider/LS-2020-Create-Something-Wonderful/waves2-1024x682.jpg 1024w, https://layerslider.com/wp-content/uploads/layerslider/LS-2020-Create-Something-Wonderful/waves2-768x511.jpg 768w, https://layerslider.com/wp-content/uploads/layerslider/LS-2020-Create-Something-Wonderful/waves2-1536x1022.jpg 1536w"
+								sizes="(max-width: 1600px) 100vw, 1600px">
+							<div style="top:50%;left:0px;background-size:cover;mix-blend-mode:normal;font-size:18px;background-color:#f14b4d;height:100%;width:100%;"
+								class="ls-l ls-html-layer"
+								data-ls="offsetyin:-200sh;durationin:500;easingin:linear;fadein:false;position:fixed;">
+							</div>
+							<div style="top:150%;left:0px;background-size:cover;mix-blend-mode:normal;font-size:18px;height:100%;width:100%;"
+								class="ls-l ls-html-layer"
+								data-ls="offsetyin:-200sh;durationin:500;easingin:linear;fadein:false;position:fixed;">
+								<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
+									<path fill="#f14b4d" fill-opacity="1"
+										d="M0,64L24,74.7C48,85,96,107,144,133.3C192,160,240,192,288,224C336,256,384,288,432,261.3C480,235,528,149,576,138.7C624,128,672,192,720,192C768,192,816,128,864,101.3C912,75,960,85,1008,80C1056,75,1104,53,1152,85.3C1200,117,1248,203,1296,197.3C1344,192,1392,96,1416,48L1440,0L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z">
+									</path>
+								</svg></div>
+							<div style='top:0px;left:50%;background-size:cover;mix-blend-mode:normal;font-size:18px;width:100%;height:200%;background-position:50% 50%;opacity:.8;background-repeat:repeat;background-image:url("assets/uploads/layerslider/LS-2020-Create-Something-Wonderful/waves2.jpg");'
+								class="ls-l ls-html-layer"
+								data-ls="durationin:3000;delayin:350;easingin:easeOutExpo;scalexin:1.3;scaleyin:.5;transformoriginin:50% 0% 0;loop:true;loopduration:7500;loopeasing:easeInOutSine;loopskewy:-10;loopscalex:1.4;loopscaley:1.2;looptransformorigin:50% 100% 0;loopcount:1;position:fixed;">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="inner-wrapper">
+					<div class="row g-4" style="max-width: 1024px; margin: auto;">
+						<div class="col-sm-6">
+							<label class="form-label fs-base" for="name">Nom</label>
+							<input class="form-control form-control-lg" type="text" placeholder="Entrez votre nom" required="" id="name">
+						</div>
+						<div class="col-sm-6">
+							<label class="form-label fs-base" for="company">Entreprise</label>
+							<input class="form-control form-control-lg" type="text" placeholder="Le nom de votre entreprise" id="company">
+						</div>
+						<div class="col-sm-6">
+							<label class="form-label fs-base" for="email">Email</label>
+							<input class="form-control form-control-lg" type="email" placeholder="Votre adresse mail" required="" id="email">
+						</div>
+						<div class="col-sm-6">
+							<label class="form-label fs-base" for="phone">Téléphone</label>
+							<input class="form-control form-control-lg" type="text" placeholder="Numéro de téléphone" id="phone">
+						</div>
+						<div class="col-sm-12">
+							<label class="form-label fs-base" for="message">Que désirez-vous ?</label>
+							<textarea class="form-control form-control-lg" rows="6" placeholder="Entrez votre message ici..." id="message"></textarea>
+
+							</div>
+						<div class="col-sm-12">
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="checkbox" id="site-internet" checked>
+								<label class="form-check-label fs-base ms-2" for="site-internet">Site internet</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="checkbox" id="apps-mobile">
+								<label class="form-check-label fs-base ms-2" for="apps-mobile">Applications mobiles</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="checkbox" id="apps-web">
+								<label class="form-check-label fs-base ms-2" for="apps-web">Applications web</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="checkbox" id="conception-graphique">
+								<label class="form-check-label fs-base ms-2" for="conception-graphique">Conception graphique</label>
+							</div>
+						</div>
+						<div class="col-sm-12 m-auto pt-4">
+							<div class="btn btn-lg d-block d-sm-none mt-3" style="width: fit-content;font-weight:400;padding: 5px 15px;font-size:15px;color:#fff;border-radius:35px;font-family:montserrat, poppins, arial, 'sans-serif';background-color:#b4365c;">
+								Envoyer
+							</div>
+							<div class="btn btn-lg d-none d-sm-block mt-3" style="width: fit-content;font-weight:400;padding: 5px 15px;font-size:19px;color:#fff;border-radius:35px;font-family:montserrat, poppins, arial, 'sans-serif';background-color:#b4365c;">
+								Envoyer
+							</div>
+						</div>
+
+						
+					</div>
+				</div>
+				<div class="image-wrapper">
+				</div>
+			</div>
 		</ls-section>
 
 		<!-- <ls-section class="bg--white change-nav-scheme" data-nav-scheme="light">
@@ -3198,8 +3506,13 @@
 			</ls-sizer>
 		</ls-section> -->
 	</div>
-	<footer>
+	<footer class="pt-5">
 		<div class="sizer-wrapper">
+			<style>
+				footer nav ul li {
+					line-height: 35px;
+				}
+			</style>
 			<nav class="grid">
 				<div class="row">
 					<div class="col col1-3 flex-start">
@@ -3207,72 +3520,60 @@
 							<h5>Apwebstore</h5>
 							<ul>
 								<li>
-									<a href="sliders/index.htm">Slider Templates</a>
+									<a href="sliders/index.htm">Accueil</a>
 								</li>
 								<li>
-									<a href="popups/index.htm">Popup Templates</a>
+									<a href="popups/index.htm">Services</a>
 								</li>
 								<li>
-									<a href="popups/webshopworks/index.htm">Popup Add-On</a>
+									<a href="popups/webshopworks/index.htm">Réalisations</a>
 								</li>
 								<li>
-									<a href="premium/index.htm">Premium Benefits</a>
+									<a href="premium/index.htm">À propos</a>
 								</li>
 								<li>
-									<a href="release-log/index.htm">Release Log</a>
-								</li>
-								<li>
-									<a href="blog/index.htm">Blog</a>
+									<a href="release-log/index.htm">Contactez-nous</a>
 								</li>
 							</ul>
 						</div>
 					</div>
 					<div class="col col1-3 flex-center">
 						<div class="column-wrapper">
-							<h5>Support</h5>
+							<h5>Nos services</h5>
 							<ul>
 								<li>
-									<a href="faq/index.htm">Frequent Questions</a>
+									<a href="faq/index.htm">Développement web</a>
 								</li>
 								<li>
-									<a href="https://kreatura.ticksy.com/" target="_blank">Open Support Ticket</a>
+									<a href="https://kreatura.ticksy.com/">Développement mobile</a>
 								</li>
 								<li>
-									<a href="documentation/index.htm">End-User Documentation</a>
+									<a href="documentation/index.htm">Conception graphique</a>
 								</li>
 								<li>
-									<a href="developers/index.htm">Developer Documentation</a>
+									<a href="developers/index.htm">Hébergement web</a>
 								</li>
 								<li>
-									<a href="https://account.kreaturamedia.com" target="_blank">Your Account</a>
-								</li>
-								<li>
-									<a href="contact/index.htm">Contact Us</a>
+									<a href="https://account.kreaturamedia.com">Nom de domaine</a>
 								</li>
 							</ul>
 						</div>
 					</div>
 					<div class="col col1-3 flex-end">
 						<div class="column-wrapper">
-							<h5>Resources</h5>
+							<h5>Services clients</h5>
 							<ul>
 								<li>
-									<a href="pricing/index.htm">Pricing</a>
+									<a href="pricing/index.htm">Comment ça marche ?</a>
 								</li>
 								<li>
-									<a href="licensing/index.htm">Licensing</a>
+									<a href="licensing/index.htm">Combien ça coûte ?</a>
 								</li>
 								<li>
-									<a href="terms-of-use/index.htm">Terms of Use</a>
+									<a href="terms-of-use/index.htm">Politique de confidentialité</a>
 								</li>
 								<li>
-									<a href="legal/index.htm">Legal Documents</a>
-								</li>
-								<li>
-									<a href="marketing/index.htm">Marketing</a>
-								</li>
-								<li>
-									<a target="_blank" href="https://kreaturamedia.com/newsletter/">Newsletter</a>
+									<a href="legal/index.htm">Conditions d'utilisation</a>
 								</li>
 							</ul>
 						</div>
@@ -3285,13 +3586,13 @@
 				<div class="grid">
 					<div class="row flex-center">
 						<div class="col col1-3">
-							Subscribe to our mailing list!
+							Souscrivez à notre newsletter !
 						</div>
 						<div class="col col2-3">
 							<form class="subscribe-form h-2" method="post" action="https://kreaturamedia.com/newsletter/" target="_blank">
 								<div class="row flex-center">
 									<div class="col col5-7">
-										<input type="text" name="email" placeholder="Enter your email address">
+										<input type="text" name="email" placeholder="Entrez votre adresse email">
 									</div>
 									<div class="col col2-7">
 										<button class="button">Subscribe</button>
@@ -3321,7 +3622,7 @@
 							</svg></km-icon> </a>
 				</div>
 				<div class="copyright">
-					<span class="nowrap"><a href="release-log/index.htm">Apwebstore <span class="current-version">7.6.6</span></a> | © Copyright 2023 Kreatura.</span> <span class="nowrap">All rights reserved.</span>
+					<span class="nowrap"><a href="release-log/index.htm">Apwebstore</a> | © Copyright <?= date("Y") ?></span> <span class="nowrap">Tous droits réservés.</span>
 				</div>
 			</div>
 		</nav>
@@ -3342,7 +3643,10 @@
 			"container": '#ls-press-logos',
 			"controls": false,
 			"responsive": {
-				"350": {
+				"300": {
+				"items": 1
+				},
+				"450": {
 				"items": 2
 				},
 				"500": {
@@ -3750,6 +4054,26 @@
 						loadPopupTemplate(jQuery(this), jQuery(this).data('wwId'));
 					});
 				}
+			});
+		});
+		jQuery(function () {
+			_initLayerSlider('#layerslider_430_11sftuxuj6anj', {
+				createdWith: '6.11.2.0',
+				sliderVersion: '6.11.5',
+				type: 'fullsize',
+				fullSizeMode: 'fitheight',
+				insertSelector: '#what-makes .elementor-column-wrap',
+				keybNav: false,
+				skin: 'noskin',
+				sliderFadeInDuration: 350,
+				navPrevNext: false,
+				hoverPrevNext: false,
+				navStartStop: false,
+				navButtons: false,
+				showCircleTimer: false,
+				useSrcset: true,
+				skinsPath: 'https://layerslider.com/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/',
+				performanceMode: true
 			});
 		});
 	</script>
